@@ -11,9 +11,21 @@ app.configure('production', function() {
   app.use(express.logger());
 });
 app.configure('all', function() {
+
   app.enable('trust proxy');
   app.set('view engine', 'jade');
+  app.locals({title: 'Morgan Ney'});
+
   app.use(express.compress());
+  app.use(app.router);
+  app.use(function(req, res, next) {
+    // TODO: 404 view
+    res.send(404);
+  });
+  app.use(function(err, req, res, next) {
+    console.error(err.stack);
+    res.send(500);
+  });
 });
 
 // Routing
