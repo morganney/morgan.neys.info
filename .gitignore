@@ -21,3 +21,4 @@ bower_components
 /.idea_modules
 /.settings
 /.project
+/.sass-cache
