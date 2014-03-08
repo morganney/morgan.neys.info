@@ -13,13 +13,36 @@ html(lang='en')
     link(rel='stylesheet', href='/public/css/main.min.css')
   body
     .container-fluid
-      header
-        h1 <span class='glyphicon glyphicon-user'></span> Hi, I'm Morgan Ney!
+      header#header
+        h1.
+          <span class='glyphicon glyphicon-user'></span> <span class='glyphicon glyphicon-headphones'></span>
+          Hi, I'm Morgan Ney
         p Just another random dude on the Internet ...
       #basics
         h2 Just The Basics
+        dl
+          dt Gender
+          dd Male
+          dt <abbr title='Date of Birth'>D.O.B.</abbr>
+          dd April 27<sup>th</sup>, 1978
 
-      #map
+      #places
+        h2 Places I've Lived
+        #map
+
+      footer#footer.row
+        .col-sm-2.
+          <span class='glyphicon glyphicon-phone'></span>
+          <a href='tel:15106848306'>+1 (510) 684-8306</a>
+        .col-sm-2.
+          <span class='glyphicon glyphicon-envelope'></span>
+          <a href='mailto:morganney@gmail.com'>morganney@gmail.com</a>
+        .col-sm-2 twitter
+        .col-sm-2 github
+        .col-sm-2 linkedin
+        .col-sm-2 facebook
+
+
 
 
 
