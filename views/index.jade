@@ -12,21 +12,52 @@ html(lang='en')
     <![endif]-->
     link(rel='stylesheet', href='/public/css/main.min.css')
   body
-    .container-fluid
-      header#header
+    #shell.container-fluid
+      header#header.jumbotron
         h1.
-          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=75' class='img-circle' />
-          Hi, I'm Morgan Ney
+          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=100' class='img-circle' />
+          Hi, I'm <a href='http://bizzybytes.com'>Morgan Ney</a>
         p.
           <span class='glyphicon glyphicon-user'></span> <span class='glyphicon glyphicon-headphones'></span>
           Just another random dude on the Internet ...
-      #likes
-        h2 Some Things I Like
-      #dislikes
-        h2 Some Things I Dislike
+      #interests.panel.panel-default
+        .panel-heading: h2.panel-title Interests
+        ul.list-group
+          li.list-group-item: a(href='http://www.youtube.com/watch?v=dlPs10GSJjQ') Zeitgeist / Moving Forward
+          li.list-group-item: a(href='http://www.thevenusproject.com/about/resume') Jacques Fresco / The Venus Project
+          li.list-group-item: a(href='http://www.amazon.com/TWA-Flight-800-Kristina-Borjesson/dp/B00FWLGTW0').
+           Flight TWA 800 / WTF!?
+          li.list-group-item: a(href='http://en.wikipedia.org/wiki/Riemann_hypothesis') The Riemann Hypothesis
+          li.list-group-item: a(href='') Local Organic Food / Farming
+          li.list-group-item: a(href='http://bizzybytes.com') Web Development
+          li.list-group-item: a(href='') Mind / Body / Health
+          li.list-group-item: a(href='') Nature / Outdoors
+      #abominations.panel.panel-default
+        .panel-heading: h2.panel-title Abominations
+        ul.list-group
+          li.list-group-item: a(href='') Politics
+          li.list-group-item: a(href='') Banking / Money / Federal Reserve
+          li.list-group-item: a(href='') Marketing / Advertising<br />(Euphemisms for lying & deceiving)
+          li.list-group-item: a(href='') Standard American Diet (S.A.D.)
+          li.list-group-item: a(href='') Food Industry
+          li.list-group-item.
+           <a href='https://www.wsws.org/en/articles/2000/10/nad-o05.html'>
+           Democrat or Republican only Society</a>
+           (<a href='http://www.youtube.com/watch?v=S5ZRRimf3Ps'>why do we stand for this?</a>)
+      #hobbies.panel.panel-default
+        .panel-heading: h2.panel-title Hobbies
+        ul.list-group
+          li.list-group-item: a(href='') Building stuff
+          li.list-group-item: a(href='') Writing
+          li.list-group-item: a(href='') Motorcycles
+          li.list-group-item: a(href='') Gardening
+          li.list-group-item: a(href='') Crafts / Painting
       #places
         h2 Places I've Lived
         #map
+
+      #elsewhere
+        h2 Elsewhere
 
       footer#footer.row
         .col-sm-2.
@@ -35,13 +66,10 @@ html(lang='en')
         .col-sm-2.
           <span class='glyphicon glyphicon-envelope'></span>
           <a href='mailto:morganney@gmail.com'>morganney@gmail.com</a>
-        .col-sm-2 twitter
         .col-sm-2 github
+        .col-sm-2 twitter
         .col-sm-2 linkedin
         .col-sm-2 facebook
-
-
-
 
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
