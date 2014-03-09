@@ -5,7 +5,8 @@ html(lang='en')
     // meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title= title
-    link(rel='stylesheet', href='/public/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/public/css/superhero-theme.min.css')
+    link(rel='stylesheet', media='(min-width: 768px)', href='/public/css/yeti-theme.min.css')
     <!--[if lt IE 9]>
     script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
     script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
@@ -15,12 +16,22 @@ html(lang='en')
     #shell.container-fluid
       header#header.jumbotron
         h1.
-          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=100' class='img-circle' />
+          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=150' class='img-circle' />
           Hi, I'm <a href='http://bizzybytes.com'>Morgan Ney</a>
-        p.
-          <span class='glyphicon glyphicon-user'></span> <span class='glyphicon glyphicon-headphones'></span>
-          Just another random dude on the Internet ...
-      #interests.panel.panel-default
+        p: a.btn.btn-primary.btn-lg(href='', data-toggle='modal', data-target='#dude') Who's That?
+        #dude.modal.modal-fade
+          .modal-dialog.modal-lg
+            .modal-content
+              .modal-header
+                button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
+                h2.modal-title Me? Well, I'm ...
+              .modal-body
+                p.
+                  <span class='glyphicon glyphicon-user'></span> <span class='glyphicon glyphicon-headphones'></span>
+                  &nbsp; Just another random dude on the Internet ...
+              .modal-footer
+                button(type="button", class="btn btn-default", data-dismiss="modal") Close
+      #interests.panel.panel-primary
         .panel-heading: h2.panel-title Interests
         ul.list-group
           li.list-group-item: a(href='http://www.youtube.com/watch?v=dlPs10GSJjQ') Zeitgeist / Moving Forward
@@ -32,7 +43,7 @@ html(lang='en')
           li.list-group-item: a(href='http://bizzybytes.com') Web Development
           li.list-group-item: a(href='') Mind / Body / Health
           li.list-group-item: a(href='') Nature / Outdoors
-      #abominations.panel.panel-default
+      #abominations.panel.panel-primary
         .panel-heading: h2.panel-title Abominations
         ul.list-group
           li.list-group-item: a(href='') Politics
@@ -41,10 +52,9 @@ html(lang='en')
           li.list-group-item: a(href='') Standard American Diet (S.A.D.)
           li.list-group-item: a(href='') Food Industry
           li.list-group-item.
-           <a href='https://www.wsws.org/en/articles/2000/10/nad-o05.html'>
-           Democrat or Republican only Society</a>
+           <a href='http://en.wikipedia.org/wiki/Two-party_system'>Two-party System</a>
            (<a href='http://www.youtube.com/watch?v=S5ZRRimf3Ps'>why do we stand for this?</a>)
-      #hobbies.panel.panel-default
+      #hobbies.panel.panel-primary
         .panel-heading: h2.panel-title Hobbies
         ul.list-group
           li.list-group-item: a(href='') Building stuff
@@ -52,10 +62,9 @@ html(lang='en')
           li.list-group-item: a(href='') Motorcycles
           li.list-group-item: a(href='') Gardening
           li.list-group-item: a(href='') Crafts / Painting
-      #places
-        h2 Places I've Lived
-        #map
-
+      #places.panel.panel-primary
+        .panel-heading: h2.panel-title Places I've Lived
+        #map.panel-body
       #elsewhere
         h2 Elsewhere
 
@@ -70,7 +79,6 @@ html(lang='en')
         .col-sm-2 twitter
         .col-sm-2 linkedin
         .col-sm-2 facebook
-
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='/public/js/bootstrap.min.js')
