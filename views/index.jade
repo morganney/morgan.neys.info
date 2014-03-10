@@ -65,20 +65,18 @@ html(lang='en')
       #places.panel.panel-primary
         .panel-heading: h2.panel-title Places I've Lived
         #map.panel-body
-      #elsewhere
-        h2 Elsewhere
-
-      footer#footer.row
-        .col-sm-2.
-          <span class='glyphicon glyphicon-phone'></span>
-          <a href='tel:15106848306'>+1 (510) 684-8306</a>
-        .col-sm-2.
-          <span class='glyphicon glyphicon-envelope'></span>
-          <a href='mailto:morganney@gmail.com'>morganney@gmail.com</a>
-        .col-sm-2 github
-        .col-sm-2 twitter
-        .col-sm-2 linkedin
-        .col-sm-2 facebook
+      footer#footer
+        .row
+          .col-sm-3: a(href='', class='linkedin icon')
+          .col-sm-3: a(href='', class='github icon')
+          .col-sm-3: a(href='', class='twitter icon')
+          .col-sm-3: a(href='', class='facebook icon')
+        .row.ctr.row-mid
+          .col-sm-4: a(href='tel:15106848306', data-toggle='tooltip', data-placement='top', title='Call me'): span(class='glyphicon glyphicon-phone')
+          .col-sm-4.col-mid: a(href='sms:15106848306', data-toggle='tooltip', data-placement='top', title='Text me'): span(class='glyphicon glyphicon-comment')
+          .col-sm-4: a(href='mailto:morganney@gmail.com', data-toggle='tooltip', data-placement='top', title='Email me'): span(class='glyphicon glyphicon-envelope')
+        .row.ctr
+          .col-sm-12 &copy; 2014 <a href='http://bizzybytes.com'>Morgan Ney</a>
 
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='/public/js/bootstrap.min.js')

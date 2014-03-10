@@ -31,6 +31,50 @@
   height: 25em;
   padding: 0;
 }
+#footer {
+  padding: 3em 0;
+}
+#footer a.icon {
+  display: block;
+  height: 64px;
+  width: 64px;
+  margin: auto;
+  background-image: url(/public/img/github-48.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #4e5d6c;
+  background-color: transparent;
+}
+#footer a.twitter {
+  background-image: url(/public/img/twitter-48.png);
+}
+#footer a.linkedin {
+  background-image: url(/public/img/linkedin-48.png);
+}
+#footer a.facebook {
+  background-image: url(/public/img/facebook-48.png);
+}
+#footer a.icon:hover {
+  background-color: #3d4954;
+  background-color: #4e5d6c;
+}
+#footer .ctr {
+  text-align: center;
+}
+#footer .row-mid {
+  margin: 5em 0;
+}
+#footer .row-mid a {
+  font-size: 32px;
+}
+#footer .row-mid .col-mid {
+  margin: 1em 0;
+}
+@media (min-wdith: 768px) {
+  #footer .row-mid div:last-child {
+    margin: 0;
+  }
+}
 @media (min-width: 992px) {
   .container-fluid {
     padding-left: 16%;

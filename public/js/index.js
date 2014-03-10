@@ -11,16 +11,14 @@ $(function() {
         zoomControlOptions: {
           position:  google.maps.ControlPosition.TOP_LEFT,
           style: google.maps.ZoomControlStyle.SMALL
-        }
-        /*
+        },
         styles: [
           {
             "stylers": [
-              { "gamma": 0.3 }
+              { "gamma": 0.5 }
             ]
           }
         ]
-        */
       },
       hmark = new google.maps.Marker({
         position: hayward,
@@ -55,4 +53,5 @@ $(function() {
 
   map.fitBounds(bounds);
 
+  $('#footer .row-mid a').tooltip();
 });
