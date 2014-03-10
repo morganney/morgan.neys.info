@@ -5,9 +5,11 @@ var express = require('express'),
 // Configuration
 app.configure('development', function() {
   app.locals({pretty: true});
+  app.locals({isDev: true});
   app.use(express.logger('dev'));
 });
 app.configure('production', function() {
+  app.locals({isProd: true});
   app.use(express.logger());
 });
 app.configure('all', function() {
@@ -31,6 +33,13 @@ app.configure('all', function() {
 // Routing
 app.get('/', function(req, res) {
   res.render('index');
+});
+app.get('/robots.txt', function(req, res) {
+  res.set({
+    'Content-Type': 'text/plain',
+    'Expires': new Date("1/1/2050").toUTCString()
+  });
+  res.send(200, 'User-agent: *\nDisallow: ');
 });
 
 
