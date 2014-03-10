@@ -11,7 +11,8 @@ $(function() {
         zoomControlOptions: {
           position:  google.maps.ControlPosition.TOP_LEFT,
           style: google.maps.ZoomControlStyle.SMALL
-        },
+        }
+        /*
         styles: [
           {
             "stylers": [
@@ -19,6 +20,7 @@ $(function() {
             ]
           }
         ]
+        */
       },
       hmark = new google.maps.Marker({
         position: hayward,

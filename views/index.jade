@@ -5,22 +5,22 @@ html(lang='en')
     // meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title= title
+    link(rel='stylesheet', href='/public/css/bootstrap.min.css')
     link(rel='stylesheet', href='/public/css/superhero-theme.min.css')
-    link(rel='stylesheet', media='(min-width: 768px)', href='/public/css/yeti-theme.min.css')
+    link(rel='stylesheet', href='/public/css/main.min.css')
     <!--[if lt IE 9]>
     script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
     script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
     <![endif]-->
-    link(rel='stylesheet', href='/public/css/main.min.css')
   body
     #shell.container-fluid
       header#header.jumbotron
         h1.
-          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=150' class='img-circle' />
+          <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=225' class='img-circle' />
           Hi, I'm <a href='http://bizzybytes.com'>Morgan Ney</a>
         p: a.btn.btn-primary.btn-lg(href='', data-toggle='modal', data-target='#dude') Who's That?
         #dude.modal.modal-fade
-          .modal-dialog.modal-lg
+          .modal-dialog
             .modal-content
               .modal-header
                 button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
