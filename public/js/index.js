@@ -52,6 +52,4 @@ $(function() {
   omark.setMap(map);
 
   map.fitBounds(bounds);
-
-  $('#footer .row-mid a').tooltip();
 });

@@ -41,6 +41,9 @@ app.get('/robots.txt', function(req, res) {
   });
   res.send(200, 'User-agent: *\nDisallow: ');
 });
+app.get('/hobbies/motorcycles', function(req, res) {
+  res.render('motorcycles');
+});
 
 
 require('http').createServer(app).listen('3030', function() {
