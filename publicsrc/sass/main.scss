@@ -74,8 +74,8 @@
 #footer .row-mid .col-mid {
   margin: 1em 0;
 }
-@media (min-wdith: 768px) {
-  #footer .row-mid div:last-child {
+@media (min-width: 768px) {
+  #footer .row-mid .col-mid {
     margin: 0;
   }
 }
