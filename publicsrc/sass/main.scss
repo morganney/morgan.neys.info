@@ -6,6 +6,13 @@
   color: inherit;
   font-weight: bold;
 }
+p#homelnk {
+  font-size: 24px;
+  margin: 25px 0 0 0;
+}
+body.home p#homelnk {
+  display: none;
+}
 #header  h1 {
   line-height: 1.5em;
 }
