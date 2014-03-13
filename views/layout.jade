@@ -5,7 +5,7 @@ html(lang='en')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='Personal website of Morgan Ney, a web developer from the San Francisco Bay Area.')
-    title= title
+    title=title
     link(rel='stylesheet', href='/public/css/superhero-theme.min.css')
     link(rel='stylesheet', href='/public/css/main.min.css')
     block styles
@@ -13,7 +13,7 @@ html(lang='en')
     script(src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
     script(src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
     <![endif]-->
-  body
+  body(class=bodyClass)
     #shell.container-fluid
       block page
       footer#footer
@@ -30,7 +30,7 @@ html(lang='en')
           .col-sm-4: a(href='mailto:morganney@gmail.com',data-toggle='tooltip',data-placement='top',title='Email me').
             <span class='glyphicon glyphicon-envelope'></span>
         .row.ctr
-          .col-sm-12 &copy; 2014 <a href='http://bizzybytes.com'>Morgan Ney</a>
+          .col-sm-12 &copy; 2014 <a href='http://bizzybytes.com'>Morgan Ney</a>. All rights reserved.
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
     script(src='/public/js/bootstrap.min.js')
     script(src='//maps.googleapis.com/maps/api/js?sensor=false')

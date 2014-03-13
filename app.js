@@ -1,11 +1,14 @@
 var express = require('express'),
+    routes = require('./routes'),
     app = express();
 
 
 // Configuration
 app.configure('development', function() {
-  app.locals({pretty: true});
-  app.locals({isDev: true});
+  app.locals({
+    pretty: true,
+    isDev: true
+  });
   app.use(express.logger('dev'));
 });
 app.configure('production', function() {
@@ -13,11 +16,12 @@ app.configure('production', function() {
   app.use(express.logger());
 });
 app.configure('all', function() {
-
   app.enable('trust proxy');
   app.set('view engine', 'jade');
-  app.locals({title: 'Morgan Ney'});
-
+  app.locals({
+    title: 'Morgan Ney',
+    bodyClass: 'default'
+  });
   app.use(express.compress());
   app.use(app.router);
   app.use(function(req, res, next) {
@@ -31,19 +35,10 @@ app.configure('all', function() {
 });
 
 // Routing
-app.get('/', function(req, res) {
-  res.render('index');
-});
-app.get('/robots.txt', function(req, res) {
-  res.set({
-    'Content-Type': 'text/plain',
-    'Expires': new Date("1/1/2050").toUTCString()
-  });
-  res.send(200, 'User-agent: *\nDisallow: ');
-});
-app.get('/hobbies/motorcycles', function(req, res) {
-  res.render('motorcycles');
-});
+app.get('/', routes.home);
+app.get('/robots.txt', routes.robots);
+app.get('/hobbies/motorcycles', routes.motorcycles);
+app.get('/hobbies/writing', routes.writing);
 
 
 require('http').createServer(app).listen('3030', function() {
