@@ -8,6 +8,7 @@ exports.motorcycles = function(req, res) {
 };
 
 exports.writing = function(req, res) {
+  res.locals({title: "Morgan Ney's Writing"});
   res.render('writing');
 };
 
