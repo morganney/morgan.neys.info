@@ -4,6 +4,7 @@ exports.home = function(req, res) {
 };
 
 exports.motorcycles = function(req, res) {
+  res.locals({title: "Morgan Ney's Motorcycle"});
   res.render('motorcycles');
 };
 
