@@ -1,55 +1,28 @@
 extends layout
-
+  
 block page
-  header#header.jumbotron
-    h1.
-      <img src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=225' class='img-circle' alt='M.N.' />
-      Hi, I'm <a href='http://bizzybytes.com'>Morgan Ney</a>
-    p: a.btn.btn-primary.btn-lg(href='', data-toggle='modal', data-target='#dude') Who's That?
-    #dude.modal.modal-fade
-      .modal-dialog
-        .modal-content
-          .modal-header
-            button(type="button", class="close", data-dismiss="modal", aria-hidden="true") &times;
-            h2.modal-title Me? Well, I'm ...
-          .modal-body
-            p.
-              <span class='glyphicon glyphicon-user'></span> <span class='glyphicon glyphicon-headphones'></span>
-              &nbsp; Just another random dude on the Internet ...
-          .modal-footer
-            button(type="button", class="btn btn-default", data-dismiss="modal") Close
-  #interests.panel.panel-primary
-    .panel-heading: h2.panel-title Interests
-    ul.list-group
-      li.list-group-item: a(href='http://www.youtube.com/watch?v=dlPs10GSJjQ') Zeitgeist: Moving Forward
-      li.list-group-item: a(href='http://www.thevenusproject.com/') The Venus Project
-      li.list-group-item: a(href='http://www.amazon.com/TWA-Flight-800-Kristina-Borjesson/dp/B00FWLGTW0').
-       TWA Flight 800 (WTF!?)
-      li.list-group-item: a(href='http://en.wikipedia.org/wiki/Riemann_hypothesis') The Riemann Hypothesis
-      li.list-group-item: a(href='http://www.thevenusproject.com/about/resource-based-economy') Resource Based Economy
-      li.list-group-item: a(href='http://en.wikipedia.org/wiki/Local_food') Local Organic Food & Farming
-      li.list-group-item: a(href='http://bizzybytes.com') Web Development
-  #abominations.panel.panel-primary
-    .panel-heading: h2.panel-title Abominations
-    ul.list-group
-      li.list-group-item Politics
-      li.list-group-item Banking / Money / Federal Reserve
-      li.list-group-item Marketing / Advertising<br />(mostly euphemisms for lying & deceiving)
-      li.list-group-item Standard American Diet (S.A.D.)
-      li.list-group-item.
-       <a href='http://en.wikipedia.org/wiki/Two-party_system'>Two-party System</a>
-       (<a href='http://www.youtube.com/watch?v=S5ZRRimf3Ps'>why do we stand for this?</a>)
-  #hobbies.panel.panel-primary
-    .panel-heading: h2.panel-title Hobbies
-    ul.list-group
-      li.list-group-item: a(href='') Woodworking
-      li.list-group-item: a(href='http://www.kennelboxing.com/') Exercise
-      li.list-group-item: a(href='/hobbies/motorcycles') Motorcycles
-      li.list-group-item: a(href='') Gardening
-      li.list-group-item: a(href='/hobbies/writing') Writing
-
-  #places.panel.panel-primary
-    .panel-heading: h2.panel-title Places I've Lived
-    #map.panel-body
+  #me
+    .section
+      header
+        h1: a(href='http://bizzybytes.com', rel='me') <span>Morgan</span> Ney
+        img(src='http://www.gravatar.com/avatar/c6027f211114989359f1ff7e076c98be?s=175', alt='M.N.')
+      address
+        p 432 CR 1236 Quitman, TX 75783
+        a(href='mailto:morganney@gmail.com') morganney@gmail.com
+        a(href='tel:+19038782665') (903) 879&mdash;2665
+    .section
+      p A father, husband, and web developer originally from the San Francisco Bay Area and now residing in Texas.
+      p
+        | When I'm not spending time with my three daughters, or playing baseball with my two dogs, I love being outdoors
+        | with my wife improving our property and making use of available resources. I'm a dreamer who hopes for 
+        | <a href='https://www.thevenusproject.com/resource-based-economy/'>change</a> and am in awe of the
+        | <a href='http://en.wikipedia.org/wiki/Riemann_hypothesis'>profound</a>.
+      blockquote(cite='https://www.bible.com/bible/111/1CO.13.13.NIV')
+        p And now these three remain: faith, hope and love. But the greatest of these is love.
+        footer 1 Corinthians 13:13 <cite>NIV</cite>
+  #places
+    h2 Places I've Lived
+    #map
 block scripts
-  script(src='/public/js/index.js')
+  script(src=`//maps.googleapis.com/maps/api/js?key=${googleMapsKey}`)
+  script(src='public/js/index.js')

@@ -1,728 +1,648 @@
 extends layout
 
 block styles
-  link(rel='stylesheet', href='/public/css/writing.min.css')
+  link(rel='stylesheet', href='/public/css/writing.css')
 block page
-  .page-header
-    h1 Writing
+  h1 Writing
   p.
     Sometimes I feel inspired to do some writing.  The following are years of writing done in two short bursts
     separated by a decade. At the time I thought of them as songs with a chorus (italics), but they read like poems as
     well. Feel free to interpret them how you prefer.
   #songs
-    #new-horizon
+    section#new-horizon
       h2 A New Horizon
       p.
         I wrote this collection during the second half of 2008 while finishing a fall semester of college.
-      .container-fluid
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Shell Shocked &mdash; <small>August 26<sup>th</sup>, 2008</small>
-                .verse
-                  p I lie and grin trying to find myself again
-                  p Lost and insecure, committing varied sins
-                  p Always trying to be something I'm not
-                  p Dream and scheme, fabricate a plot
-                .verse
-                  p Tortured by a long transition
-                  p How did I get in this position
-                  p I'm a fast thinker who anticipates
-                  p Preempt the conversation on every date
-                .verse
-                  p I can hardly believe this is me
-                  p My future's uncertain and in jeopardy
-                  p Where do you turn when there's nowhere to hide
-                  p I feign instead of face the pain inside
-                .chorus
-                  p I'm shell-shocked torn and surprised
-                  p For my transgressions I indemnify
-                  p Underachiever turned believer in my life
-                  p The future changes for me tonight!
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Genius <small>August 27<sup>th</sup>, 2008</small>
-                .verse
-                  p Travel to the top of a skyscraper
-                  p Realized blueprints transformed from paper
-                  p Somewhere among us there walks a creator
-                  p Someone to enhance our lives, an innovator
-                .chorus
-                  p Like a sinusoidal cosine
-                  p Periods of genius repeat in time
-                  p Their elusive thoughts escape most minds
-                  p To have that insight would be sublime
-                .verse
-                  p Enter a room and flip a light switch
-                  p An idea's been summoned from respite
-                  p Someone among us is meant to inspire
-                  p Someone profound we can admire
-                .verse
-                  p Use a cell phone and chat a bit
-                  p Satellites traverse an ellipse in orbit
-                  p Somewhere among us there's a prodigy
-                  p Someone who's alone, an oddity
-                .verse
-                  p There's some genius in us all
-                  p Sometimes we succeed, other times we fall
-                  p But there exists a rare few
-                  p Who comprehend more than we do
-                .verse
-                  p Their genius will trump you and me
-                  p It can't escape its destiny ...
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Save a recluse &mdash; <small>September 3<sup>rd</sup>, 2008</small>
-                .verse
-                  p Sitting quietly in an open space
-                  p Gazing upon a garden out of place
-                  p People post flyers trying to connect
-                  p I'm still alone and a hopeless wreck
-                  p The solitude has made me uneasy
-                  p I regret putting people beneath me
-                .chorus
-                  p I want to meet someone
-                  p I want to have some fun
-                  p It can last one night or for life if it's right
-                  p I'm getting bored with myself
-                  p I want to rejoice in somebody else
-                  p Rejoice in somebody else
-                .verse
-                  p Perched above the masses below
-                  p I can pass judgment and turn shallow
-                  p My outlook's become skewed
-                  p My perception of people so screwed
-                  p Be it friend, foe, mentor or aide
-                  p Let's get together and promenade
-                .verse
-                  p I used to socialize and thrive but I gave it up
-                  p Solve your own problems I've heard enough
-                  p Turned full circle to a new understanding
-                  p I'm tired ... I'm done, enough with the damning
-                  p So let's hit the pub to drink and get loose
-                  p Share some of your soul, save a recluse
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Heart's a Fiend &mdash; <small>August 29<sup>th</sup>, 2008</small>
-                .verse
-                  p Your beauty and grace
-                  p It's heaven to behold
-                  p As you walk at an angel's pace
-                .verse
-                  p You're much too hard to ignore
-                  p You touch me like no one before
-                .verse
-                  p Oh if I could hold you tight
-                  p To look in your eyes
-                  p And know the feelings right
-                .chorus
-                  p I wonder if it's meant to be
-                  p At times I sit and dream
-                  p That one day you'll be with me
-                  p For now your love's unseen ...
-                  p For now my heart's a fiend
-                .verse
-                  p Since you told me no
-                  p I've tried to let go
-                  p But for you and only you
-                  p There's no limit to the lengths I'll go
-                  p To express these feelings I have to show
-                .verse
-                  p There's no way for me to say
-                  p How I feel in this moment
-                  p And every single day
-                .verse
-                  p For now my feelings reside
-                  p Deep down, and trapped inside
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Ego &mdash; <small>September 5<sup>th</sup>, 2008</small>
-                .verse
-                  p On a regular basis I get the look
-                  p It's an open invitation
-                  p To use a clever line
-                  p And nullify masturbation
-                .chorus
-                  p I want a blonde-haired, blue-eyed honey
-                  p To complement my style
-                  p And laugh when I'm funny
-                .chorus
-                  p Stay by my side when I'm down and low
-                  p I'll find solace in the seeds we sow
-                .chorus
-                  p Don't notice looks from other girls
-                  p I'm too lost inside your world
-                .verse
-                  p Usually I don't even care
-                  p But then once in a while
-                  p I'll respond to her stare
-                  p And look back with a smile
-                .verse
-                  p I'm an object of affection
-                  p Beautiful girls look in my direction
-                  p From the outside they like what they see
-                  p Approach then, and know the better part of me
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Tortured Friendship &mdash; <small>September 12<sup>th</sup>, 2008</small>
-                .verse
-                  p Our life as roommates doesn't fit
-                  p There's tension over our past
-                  p Put simply without bombast
-                  p We have a tortured friendship
-                .verse
-                  p Please don't get me wrong
-                  p I'd value a true friendship
-                  p But not "fuck you, fuck this"
-                  p We just can't seem to get along
-                .chorus
-                  p You know the relationship ended
-                  p So when I see other girls
-                  p Don't get upended
-                  p You know the relationship ended
-                  p So when I ask you to leave
-                  p Don't get offended
-                .verse
-                  p Sometimes it seems possible
-                  p I almost think we can do it
-                  p Then you speak out illogical
-                  p O.C.D. should have knew it
-                .verse
-                  p Vying for love unreciprocated
-                  p And secret wishes intimated
-                  p Roommates with a tortured friendship
-                  p Our bad karma must have sent it
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Come My Way &mdash; <small>September 17<sup>th</sup>, 2008</small>
-                .verse
-                  p When is love going to come my way
-                  p You're a stranger I think of every day
-                  p One good man with an open heart
-                  p My cynicism is tearing it apart
-                .verse
-                  p Only dreams conjure your essence
-                  p Hold my hand and give me a kiss
-                  p Fight your evanescence
-                  p Grant my heart this one last wish
-                .verse
-                  p I just want to know who you are
-                  p So we can start our life together
-                  p My better half I'll love you forever
-                .chorus
-                  p I just want to find you
-                  p And look in your eyes
-                  p To see the surprise
-                  p Of finding me too
-                .chorus
-                  p I just want to find you
-                  p So I can be complete
-                  p And bring you relief
-                  p By finding me too
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Tedium &mdash; <small>September 25<sup>th</sup>, 2008</small>
-                .chorus
-                  p I'm living far removed from dreams
-                  p My life has been misplaced
-                  p Let's rendezvous at a foreign place
-                  p So our lives can be exchanged
-                  p Your's for mine
-                  p And destiny can get it right this time
-                .verse
-                  p I'm buried by life's cruel monotony
-                  p Selfish routine piled on top of me
-                  p I want to scream just to feel alive
-                  p Don't you live before you die!?
-                .verse
-                  p Real life resides somewhere higher
-                  p On top of mountains and under fire
-                  p When I close my eyes and reflect
-                  p That life and mine finally connect
-                .verse
-                  p On the train, then off the train
-                  p A combination that drains
-                  p Trapped by a daily commute
-                  p Weary souls mix and dilute
-                .verse
-                  p I feel my life slipping away
-                  p What's the point of today
-                  p If it feels more like tomorrow
-                  p Your excitement for my sorrow
-                .verse
-                  p A pigeon perched high above
-                  p While men in suits discuss love
-                  p I've seen this all before
-                  p My life's routine is just a bore
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Foreign Immersion &mdash; <small>September 27<sup>th</sup>, 2008</small>
-                .verse
-                  p I want to lie out on the beach
-                  p And let the sun shine on my face
-                  p Then surf the waves before I swim beneath
-                  p To resurface with a woman at my place
-                .verse
-                  p Immerse ourselves in another culture
-                  p Come with me to see the exotic
-                  p And together our spirits we can nurture
-                  p Over foreign elixirs that transcend hypnotic
-                .chorus
-                  p I want it; I need it &mdash; this taste of freedom
-                  p To stop the inside bleeding
-                  p Give me something more, show me a world
-                  p Where passions ignite, dreams do take flight
-                  p And the man on the corner doesn't exist
-                  p Just sunrise on the horizon
-                  p In the morning as I'm rising
-                  p From a night of orgasmic bliss
-                .verse
-                  p Whether it be Mexico or somewhere I don't know
-                  p It doesn't matter I just want to go
-                  p To places I've never seen before
-                  p And find a girl that I adore ...
-    #oneself
+      section.song
+        h3 Shell Shocked &mdash; <small>August 26<sup>th</sup>, 2008</small>
+        .verse
+          p I lie and grin trying to find myself again
+          p Lost and insecure, committing varied sins
+          p Always trying to be something I'm not
+          p Dream and scheme, fabricate a plot
+        .verse
+          p Tortured by a long transition
+          p How did I get in this position
+          p I'm a fast thinker who anticipates
+          p Preempt the conversation on every date
+        .verse
+          p I can hardly believe this is me
+          p My future's uncertain and in jeopardy
+          p Where do you turn when there's nowhere to hide
+          p I feign instead of face the pain inside
+        .chorus
+          p I'm shell-shocked torn and surprised
+          p For my transgressions I indemnify
+          p Underachiever turned believer in my life
+          p The future changes for me tonight!
+      section.song
+        h3 Genius <small>August 27<sup>th</sup>, 2008</small>
+        .verse
+          p Travel to the top of a skyscraper
+          p Realized blueprints transformed from paper
+          p Somewhere among us there walks a creator
+          p Someone to enhance our lives, an innovator
+        .chorus
+          p Like a sinusoidal cosine
+          p Periods of genius repeat in time
+          p Their elusive thoughts escape most minds
+          p To have that insight would be sublime
+        .verse
+          p Enter a room and flip a light switch
+          p An idea's been summoned from respite
+          p Someone among us is meant to inspire
+          p Someone profound we can admire
+        .verse
+          p Use a cell phone and chat a bit
+          p Satellites traverse an ellipse in orbit
+          p Somewhere among us there's a prodigy
+          p Someone who's alone, an oddity
+        .verse
+          p There's some genius in us all
+          p Sometimes we succeed, other times we fall
+          p But there exists a rare few
+          p Who comprehend more than we do
+        .verse
+          p Their genius will trump you and me
+          p It can't escape its destiny ...
+      section.song
+        h3 Save a recluse &mdash; <small>September 3<sup>rd</sup>, 2008</small>
+        .verse
+          p Sitting quietly in an open space
+          p Gazing upon a garden out of place
+          p People post flyers trying to connect
+          p I'm still alone and a hopeless wreck
+          p The solitude has made me uneasy
+          p I regret putting people beneath me
+        .chorus
+          p I want to meet someone
+          p I want to have some fun
+          p It can last one night or for life if it's right
+          p I'm getting bored with myself
+          p I want to rejoice in somebody else
+          p Rejoice in somebody else
+        .verse
+          p Perched above the masses below
+          p I can pass judgment and turn shallow
+          p My outlook's become skewed
+          p My perception of people so screwed
+          p Be it friend, foe, mentor or aide
+          p Let's get together and promenade
+        .verse
+          p I used to socialize and thrive but I gave it up
+          p Solve your own problems I've heard enough
+          p Turned full circle to a new understanding
+          p I'm tired ... I'm done, enough with the damning
+          p So let's hit the pub to drink and get loose
+          p Share some of your soul, save a recluse
+      section.song
+        h3 Heart's a Fiend &mdash; <small>August 29<sup>th</sup>, 2008</small>
+        .verse
+          p Your beauty and grace
+          p It's heaven to behold
+          p As you walk at an angel's pace
+        .verse
+          p You're much too hard to ignore
+          p You touch me like no one before
+        .verse
+          p Oh if I could hold you tight
+          p To look in your eyes
+          p And know the feelings right
+        .chorus
+          p I wonder if it's meant to be
+          p At times I sit and dream
+          p That one day you'll be with me
+          p For now your love's unseen ...
+          p For now my heart's a fiend
+        .verse
+          p Since you told me no
+          p I've tried to let go
+          p But for you and only you
+          p There's no limit to the lengths I'll go
+          p To express these feelings I have to show
+        .verse
+          p There's no way for me to say
+          p How I feel in this moment
+          p And every single day
+        .verse
+          p For now my feelings reside
+          p Deep down, and trapped inside
+      section.song
+        h3 Ego &mdash; <small>September 5<sup>th</sup>, 2008</small>
+        .verse
+          p On a regular basis I get the look
+          p It's an open invitation
+          p To use a clever line
+          p And nullify masturbation
+        .chorus
+          p I want a blonde-haired, blue-eyed honey
+          p To complement my style
+          p And laugh when I'm funny
+        .chorus
+          p Stay by my side when I'm down and low
+          p I'll find solace in the seeds we sow
+        .chorus
+          p Don't notice looks from other girls
+          p I'm too lost inside your world
+        .verse
+          p Usually I don't even care
+          p But then once in a while
+          p I'll respond to her stare
+          p And look back with a smile
+        .verse
+          p I'm an object of affection
+          p Beautiful girls look in my direction
+          p From the outside they like what they see
+          p Approach then, and know the better part of me
+      section.song
+        h3 Tortured Friendship &mdash; <small>September 12<sup>th</sup>, 2008</small>
+        .verse
+          p Our life as roommates doesn't fit
+          p There's tension over our past
+          p Put simply without bombast
+          p We have a tortured friendship
+        .verse
+          p Please don't get me wrong
+          p I'd value a true friendship
+          p But not "fuck you, fuck this"
+          p We just can't seem to get along
+        .chorus
+          p You know the relationship ended
+          p So when I see other girls
+          p Don't get upended
+          p You know the relationship ended
+          p So when I ask you to leave
+          p Don't get offended
+        .verse
+          p Sometimes it seems possible
+          p I almost think we can do it
+          p Then you speak out illogical
+          p O.C.D. should have knew it
+        .verse
+          p Vying for love unreciprocated
+          p And secret wishes intimated
+          p Roommates with a tortured friendship
+          p Our bad karma must have sent it
+      section.song
+        h3 Come My Way &mdash; <small>September 17<sup>th</sup>, 2008</small>
+        .verse
+          p When is love going to come my way
+          p You're a stranger I think of every day
+          p One good man with an open heart
+          p My cynicism is tearing it apart
+        .verse
+          p Only dreams conjure your essence
+          p Hold my hand and give me a kiss
+          p Fight your evanescence
+          p Grant my heart this one last wish
+        .verse
+          p I just want to know who you are
+          p So we can start our life together
+          p My better half I'll love you forever
+        .chorus
+          p I just want to find you
+          p And look in your eyes
+          p To see the surprise
+          p Of finding me too
+        .chorus
+          p I just want to find you
+          p So I can be complete
+          p And bring you relief
+          p By finding me too
+      section.song
+        h3 Tedium &mdash; <small>September 25<sup>th</sup>, 2008</small>
+        .chorus
+          p I'm living far removed from dreams
+          p My life has been misplaced
+          p Let's rendezvous at a foreign place
+          p So our lives can be exchanged
+          p Your's for mine
+          p And destiny can get it right this time
+        .verse
+          p I'm buried by life's cruel monotony
+          p Selfish routine piled on top of me
+          p I want to scream just to feel alive
+          p Don't you live before you die!?
+        .verse
+          p Real life resides somewhere higher
+          p On top of mountains and under fire
+          p When I close my eyes and reflect
+          p That life and mine finally connect
+        .verse
+          p On the train, then off the train
+          p A combination that drains
+          p Trapped by a daily commute
+          p Weary souls mix and dilute
+        .verse
+          p I feel my life slipping away
+          p What's the point of today
+          p If it feels more like tomorrow
+          p Your excitement for my sorrow
+        .verse
+          p A pigeon perched high above
+          p While men in suits discuss love
+          p I've seen this all before
+          p My life's routine is just a bore
+      section.song
+        h3 Foreign Immersion &mdash; <small>September 27<sup>th</sup>, 2008</small>
+        .verse
+          p I want to lie out on the beach
+          p And let the sun shine on my face
+          p Then surf the waves before I swim beneath
+          p To resurface with a woman at my place
+        .verse
+          p Immerse ourselves in another culture
+          p Come with me to see the exotic
+          p And together our spirits we can nurture
+          p Over foreign elixirs that transcend hypnotic
+        .chorus
+          p I want it; I need it &mdash; this taste of freedom
+          p To stop the inside bleeding
+          p Give me something more, show me a world
+          p Where passions ignite, dreams do take flight
+          p And the man on the corner doesn't exist
+          p Just sunrise on the horizon
+          p In the morning as I'm rising
+          p From a night of orgasmic bliss
+        .verse
+          p Whether it be Mexico or somewhere I don't know
+          p It doesn't matter I just want to go
+          p To places I've never seen before
+          p And find a girl that I adore ...
+    section#oneself
       h2 Volume Oneself
       p.
         This collection was written during the most challenging time of my life. I was in my late teens / early twenties
         and living alone without a clue.
-      .container-fluid
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Second Time Around &mdash; <small>May, 1998</small>
-                .verse
-                  p He saw her coming, it was from straight ahead
-                  p Oh what a woman
-                  p It was only time before she was in his bed
-                .chorus
-                  p Second time around
-                  p He knew he was the man around town
-                  p They were doing things like never before
-                  p And making sounds, especially
-                  p The second time around
-                .verse
-                  p What else could there be
-                  p Nothing left to satisfy his needs
-                  p Conversation, sexual orientation, masturbation ...
-                  p He had mastered female exploitation
-                .verse
-                  p Looking in the mirror
-                  p Was never expecting it to be
-                  p Remembering the days long gone, thinking alone
-                  p What has my ignorance dealt me
-                .chorus
-                  p Second time around
-                  p Love was nowhere to be found
-                  p If he could do it all over again, he'd be a real man, during
-                  p The second time around
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Subatomic What &mdash; <small>May, 1998</small>
-                .verse
-                  p Like a proton spinning out of control
-                  p I'm crashing against the force
-                  p You'll see me falling out the door
-                  p Too many down the hatch to drive the Porsche
-                .verse
-                  p Like an atom bomb going off
-                  p I'm about to explode
-                  p So many people are around
-                  p Particles and moving energy how profound
-                .chorus
-                  p Subatomic what
-                  p Subatomic what
-                  p Pass the tonic and shut up
-                  p Subatomic what
-                .verse
-                  p Like a neutron pulled by gravity I'm getting sucked in
-                  p It's no dream just a hopeless scheme
-                  p Anybody else want a shot at me
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Primate &mdash; <small>May, 1998</small>
-                .verse
-                  p What is it that makes us do the things we do
-                  p So often asked but most of us have no clue
-                  p From them to us, primitive to new
-                .chorus
-                  p From Lucy to Marilyn Monroe
-                  p We did away with stone for computer download
-                  p We're moving too fast as if you didn't know
-                  p Take it slow, take it slow
-                .verse
-                  p Thunder roars lightning strikes, it's coming
-                  p The bones are laughing at us
-                  p No need to bother running
-                .verse
-                  p New York city lights, airplane flights
-                  p Music videos and midnight late shows
-                  p A world acting like we didn't come from here
-                  p How long before we live up there
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Abused Man &mdash; <small>May 31<sup>st</sup>, 1998</small>
-                .verse
-                  p The suns coming up and lights shining through
-                  p It's heading for my face, I don't even move
-                  p What's the use
-                  p I'm use to the abuse
-                .chorus
-                  p I get so aggravated
-                  p I know that I am hated
-                  p Don't even wish me a belated
-                  p Damn I feel so degraded
-                .verse
-                  p At my shit job again
-                  p The garbage stinks and the clock is dead I think
-                  p I could bear it and grin
-                  p What's the use
-                  p I'm use to the abuse
-                .verse
-                  p Driving home through traffic
-                  p A lane opens to my right
-                  p I hesitate, damn it's too late
-                  p My life's a sorry plight
-                  p What's the use
-                  p I'm use to the abuse
-                .verse
-                  p I'm an abused man, I have no real plan, I'm just an abused man
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Just a Thought &mdash; <small>June 2<sup>rd</sup>, 1998</small>
-                .verse
-                  p Mother nature is never predictable
-                  p Sometimes you could say life is dull
-                  p We taste the good Lord on Sunday
-                  p I hate roads that only go one way
-                .chorus
-                  p So I keep things to myself
-                  p As the seasons change with time
-                  p I know I'm like everyone else
-                  p We all like songs that rhyme
-                  p Ones that stay in the mind
-                .verse
-                  p Ultraviolet light is out of normal sight
-                  p Could there really be a God
-                  p And if so does he sleep at night
-                  p I want a woman with one hell of a bod'
-                .verse
-                  p Does anybody have the right to judge
-                  p Who says when to pull the plug
-                  p Women shouldn't pick up hitchhikers
-                  p And that Oprah, I don't really like her
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 An American War &mdash; <small>June 3<sup>rd</sup>, 1998</small>
-                .verse
-                  p The smell of death was strong in the air
-                  p Bullets were flying not far from here
-                  p In pursuit of the enemy
-                  p Strangers on foreign land, in need of a remedy
-                  p Who will die for their country
-                .chorus
-                  p Holding their ground, trembling with fear
-                  p Waiting to come home to whom they hold dear
-                  p We've seen this before
-                  p It's an American war, an American war
-                  p The battle is ending it's almost won
-                  p Fighting with courage and strength, our side will never run
-                  p We've seen this before
-                  p It's an American war, an American war
-                .verse
-                  p Like a heavy snowstorm crossfire filled the air
-                  p We raped the enemy until she was dead and bare
-                  p Red, white, and blue was full of pride
-                  p Men keep up the attack with a confident stride
-                  p This is the darkest side of man
-                .verse
-                  p The front line is holding strong
-                  p The sun should be up before long
-                  p Surrounded by death
-                  p He asked him to stay by his side till his final breath
-                  p Can God be found in such a place
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Living a Nightmare &mdash; <small>June 3<sup>rd</sup>, 1998</small>
-                .verse
-                  p He would tear his eyes from his skull
-                  p Run wild in the nude to be like you
-                  p Are burning his intestines logical
-                .verse
-                  p Living far from normal
-                  p He was born with no internals
-                  p His heartbeat stopped at birth
-                .chorus
-                  p Living like a walking nightmare
-                  p That must be hard to bear
-                  p No one cared he lived a nightmare
-                  p Living like a walking nightmare
-                .verse
-                  p Not a single hair on his body
-                  p He was born like no other
-                  p Some say the devil was his mother
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Invasion &mdash; <small>June 4<sup>th</sup>, 1998</small>
-                .verse
-                  p He's the man that was gonna die
-                  p He's the man that had E. Coli
-                  p I'm afraid to breathe anymore
-                  p Wouldn't dare share a Coca-Cola
-                  p I'm too terrifed of Ebola
-                .verse
-                  p Will we ever find an answer
-                  p Her baby daughter was cursed with cancer
-                  p How many of us live with a virus
-                  p AIDS is a worldwide epidemic
-                  p Somebody better think quick
-                .chorus
-                  p We're being invaded
-                  p Soon Homo Sapiens will be outdated
-                  p It's the microscopic world
-                  p The diagnosis is in
-                  p We're plagued, it's us they live within
-                  p We've been infected
-                .verse
-                  p There's a small African village in hysteria
-                  p The mosquito has arrived that carries malaria
-                  p Hopefully we rise to the occasion
-                  p Beware the world of minute measure
-                  p They've started their invasion
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 X-Rays &mdash; <small>June 5<sup>th</sup>, 1998</small>
-                .verse
-                  p Can I be seen through
-                  p Are the ideas in my head easily seen by you
-                  p Am I being X-rayed
-                  p Am I becoming invisible
-                  p How is it that you know I feel miserable
-                  p What's up with me today
-                .chorus
-                  p I don't want to be on display
-                  p I don't want to be X-rayed
-                  p I feel awkward and strange today
-                  p Get me out from under the X-ray
-                  p It shouldn't be used that way
-                .verse
-                  p What else will man invent to get paid
-                  p The future world is coming
-                  p Are we that blind to the truth
-                  p It can't be stopped so what's the use
-                  p Some other worlds use X-rays
-                .verse
-                  p His skeleton was in full view
-                  p They had more in mind than collecting dues
-                  p They had control of the X-ray
-                  p Today a genius will be born
-                  p Years after Jesus wore a crown of thorns
-                  p Ask him the secrets of X-rays
-        #tonight.row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Tonight &mdash; <small>June 7<sup>th</sup>, 1998</small>
-                .verse
-                  p Tonight I'm gonna get so high
-                  p I don't even want to know who I am
-                  p Then I can be somebody else
-                  p Maybe I'll cough up phlegm
-                .verse
-                  p Tonight I'm gonna fall in love
-                  p I wonder who she'll be
-                  p If she's not the right one for me
-                  p I'll still get a taste of her pu--!y
-                .verse
-                  p Tonight I'm gonna be reborn
-                  p I'll eat through my umbilical cord
-                  p This time I'm gonna be a girl
-                  p And my bio mother a whore
-                .verse
-                  p Tonight I'll travel to the moon
-                  p I'm going to a new dimension
-                  p Maybe I'll fall into a black hole
-                  p And see things beyond comprehension
-                .chorus
-                  p I've so much to do before I run out of time
-                  p What a disaster if I woke up blind
-                  p Too much to do before I run out of time
-                  p What a disaster if I lost my mind
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Life of a Man &mdash; <small>June 14<sup>th</sup>, 1998</small>
-                .verse
-                  p Fully loaded fridge stacked with beer
-                  p This was the thought on his mind with no other care
-                  p The sun was shining, sky was clear
-                  p The weekend was here
-                .verse
-                  p Parked next to him at the light she was quite a sight
-                  p Could there be sex in store for him tonight
-                  p Only time could tell
-                  p He'd give it a shot, what the hell
-                .verse
-                  p Alone in his world, he had no fear
-                  p Turning the channels and downing the beer
-                  p Work was work, play was play
-                  p He needed a woman who saw things his way
-                  p His hands were rough and his nails dirty
-                  p Showing signs of baldness at the age of thirty
-                .chorus
-                  p Never show the world your tears
-                  p Protect and serve with no fears
-                  p Provide for your family as planned
-                  p Live the life of a man
-                .verse
-                  p Working for a real asshole trying to move up in life
-                  p Vacation time couldn't come soon enough
-                  p Dad taught him to gut fish with his knife
-                .verse
-                  p Divorced and on his second marriage
-                  p His baby girl was sleeping in her carriage
-                  p No longer did he search for other women
-                  p Just lost the desire
-                  p He's a family man and stopped being a liar
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Star Gazer &mdash; <small>July 5<sup>th</sup>, 1998</small>
-                .verse
-                  p Possibilities of alien life
-                  p It kept his mind in constant strife
-                  p He would be there for the midnight flight
-                  p He proclaimed, the universe entropy
-                  p It cannot stop me
-                .verse
-                  p Bound for a crash course in reality
-                  p He was confined to only visions in his mind
-                  p To earth he was contained
-                  p Where to put the blame
-                  p His meager human brain
-                .verse
-                  p Who will miss him
-                  p He's off to a new solar system
-                  p The journey is on
-                  p He travels far and beyond
-                  p Gazing at the heavens since childhood
-                  p Up there he'll finally be understood
-                .chorus
-                  p I am what I am
-                  p I've dreamt of little green men
-                  p I am a stargazer
-                  p Beware my Vulcan triple-beam laser
-        .row.songs
-          .col-sm-12
-            .skin
-              .song
-                h3 Rhetoric &mdash; <small>July 11<sup>th</sup>, 1998</small>
-                .verse
-                  p So many lines had been written
-                  p Shared thoughts were ruled forbidden
-                  p And I could give a damn
-                  p As if it really matters
-                  p Prepared platters thrown through windows shatter
-                .verse
-                  p Discrepancies unfold between young and old
-                  p Don't scream your nonsense over here
-                  p Dissected mind, rhetoric written in rhyme
-                  p Making sense of this will be hard fought
-                  p So I won't give it too much thought
-                .verse
-                  p Give me room to breathe
-                  p I need to be alive please
-                  p Am I worthlessness gone amiss
-                  p Brain outbursts are running dry
-                  p My inspirations soon will die
-                .chorus
-                  p It all had been thought up
-                  p Children do wrong children get caught up
-                  p Its all gone to waste
-                  p Long lost visions will be misplaced
-                .chorus
-                  p This rhetoric of mind
-                  p Will it be valued in time
-                  p To each his own
-                  p And to the king his goddamn throne
-
-
-
-    #trisha
+      section.song
+        h3 Second Time Around &mdash; <small>May, 1998</small>
+        .verse
+          p He saw her coming, it was from straight ahead
+          p Oh what a woman
+          p It was only time before she was in his bed
+        .chorus
+          p Second time around
+          p He knew he was the man around town
+          p They were doing things like never before
+          p And making sounds, especially
+          p The second time around
+        .verse
+          p What else could there be
+          p Nothing left to satisfy his needs
+          p Conversation, sexual orientation, masturbation ...
+          p He had mastered female exploitation
+        .verse
+          p Looking in the mirror
+          p Was never expecting it to be
+          p Remembering the days long gone, thinking alone
+          p What has my ignorance dealt me
+        .chorus
+          p Second time around
+          p Love was nowhere to be found
+          p If he could do it all over again, he'd be a real man, during
+          p The second time around
+      section.song
+        h3 Subatomic What &mdash; <small>May, 1998</small>
+        .verse
+          p Like a proton spinning out of control
+          p I'm crashing against the force
+          p You'll see me falling out the door
+          p Too many down the hatch to drive the Porsche
+        .verse
+          p Like an atom bomb going off
+          p I'm about to explode
+          p So many people are around
+          p Particles and moving energy how profound
+        .chorus
+          p Subatomic what
+          p Subatomic what
+          p Pass the tonic and shut up
+          p Subatomic what
+        .verse
+          p Like a neutron pulled by gravity I'm getting sucked in
+          p It's no dream just a hopeless scheme
+          p Anybody else want a shot at me
+      section.song
+        h3 Primate &mdash; <small>May, 1998</small>
+        .verse
+          p What is it that makes us do the things we do
+          p So often asked but most of us have no clue
+          p From them to us, primitive to new
+        .chorus
+          p From Lucy to Marilyn Monroe
+          p We did away with stone for computer download
+          p We're moving too fast as if you didn't know
+          p Take it slow, take it slow
+        .verse
+          p Thunder roars lightning strikes, it's coming
+          p The bones are laughing at us
+          p No need to bother running
+        .verse
+          p New York city lights, airplane flights
+          p Music videos and midnight late shows
+          p A world acting like we didn't come from here
+          p How long before we live up there
+      section.song
+        h3 Abused Man &mdash; <small>May 31<sup>st</sup>, 1998</small>
+        .verse
+          p The suns coming up and lights shining through
+          p It's heading for my face, I don't even move
+          p What's the use
+          p I'm use to the abuse
+        .chorus
+          p I get so aggravated
+          p I know that I am hated
+          p Don't even wish me a belated
+          p Damn I feel so degraded
+        .verse
+          p At my shit job again
+          p The garbage stinks and the clock is dead I think
+          p I could bear it and grin
+          p What's the use
+          p I'm use to the abuse
+        .verse
+          p Driving home through traffic
+          p A lane opens to my right
+          p I hesitate, damn it's too late
+          p My life's a sorry plight
+          p What's the use
+          p I'm use to the abuse
+        .verse
+          p I'm an abused man, I have no real plan, I'm just an abused man
+      section.song
+        h3 Just a Thought &mdash; <small>June 2<sup>rd</sup>, 1998</small>
+        .verse
+          p Mother nature is never predictable
+          p Sometimes you could say life is dull
+          p We taste the good Lord on Sunday
+          p I hate roads that only go one way
+        .chorus
+          p So I keep things to myself
+          p As the seasons change with time
+          p I know I'm like everyone else
+          p We all like songs that rhyme
+          p Ones that stay in the mind
+        .verse
+          p Ultraviolet light is out of normal sight
+          p Could there really be a God
+          p And if so does he sleep at night
+          p I want a woman with one hell of a bod'
+        .verse
+          p Does anybody have the right to judge
+          p Who says when to pull the plug
+          p Women shouldn't pick up hitchhikers
+          p And that Oprah, I don't really like her
+      section.song
+        h3 An American War &mdash; <small>June 3<sup>rd</sup>, 1998</small>
+        .verse
+          p The smell of death was strong in the air
+          p Bullets were flying not far from here
+          p In pursuit of the enemy
+          p Strangers on foreign land, in need of a remedy
+          p Who will die for their country
+        .chorus
+          p Holding their ground, trembling with fear
+          p Waiting to come home to whom they hold dear
+          p We've seen this before
+          p It's an American war, an American war
+          p The battle is ending it's almost won
+          p Fighting with courage and strength, our side will never run
+          p We've seen this before
+          p It's an American war, an American war
+        .verse
+          p Like a heavy snowstorm crossfire filled the air
+          p We raped the enemy until she was dead and bare
+          p Red, white, and blue was full of pride
+          p Men keep up the attack with a confident stride
+          p This is the darkest side of man
+        .verse
+          p The front line is holding strong
+          p The sun should be up before long
+          p Surrounded by death
+          p He asked him to stay by his side till his final breath
+          p Can God be found in such a place
+      section.song
+        h3 Living a Nightmare &mdash; <small>June 3<sup>rd</sup>, 1998</small>
+        .verse
+          p He would tear his eyes from his skull
+          p Run wild in the nude to be like you
+          p Are burning his intestines logical
+        .verse
+          p Living far from normal
+          p He was born with no internals
+          p His heartbeat stopped at birth
+        .chorus
+          p Living like a walking nightmare
+          p That must be hard to bear
+          p No one cared he lived a nightmare
+          p Living like a walking nightmare
+        .verse
+          p Not a single hair on his body
+          p He was born like no other
+          p Some say the devil was his mother
+      section.song
+        h3 Invasion &mdash; <small>June 4<sup>th</sup>, 1998</small>
+        .verse
+          p He's the man that was gonna die
+          p He's the man that had E. Coli
+          p I'm afraid to breathe anymore
+          p Wouldn't dare share a Coca-Cola
+          p I'm too terrifed of Ebola
+        .verse
+          p Will we ever find an answer
+          p Her baby daughter was cursed with cancer
+          p How many of us live with a virus
+          p AIDS is a worldwide epidemic
+          p Somebody better think quick
+        .chorus
+          p We're being invaded
+          p Soon Homo Sapiens will be outdated
+          p It's the microscopic world
+          p The diagnosis is in
+          p We're plagued, it's us they live within
+          p We've been infected
+        .verse
+          p There's a small African village in hysteria
+          p The mosquito has arrived that carries malaria
+          p Hopefully we rise to the occasion
+          p Beware the world of minute measure
+          p They've started their invasion
+      section.song
+        h3 X-Rays &mdash; <small>June 5<sup>th</sup>, 1998</small>
+        .verse
+          p Can I be seen through
+          p Are the ideas in my head easily seen by you
+          p Am I being X-rayed
+          p Am I becoming invisible
+          p How is it that you know I feel miserable
+          p What's up with me today
+        .chorus
+          p I don't want to be on display
+          p I don't want to be X-rayed
+          p I feel awkward and strange today
+          p Get me out from under the X-ray
+          p It shouldn't be used that way
+        .verse
+          p What else will man invent to get paid
+          p The future world is coming
+          p Are we that blind to the truth
+          p It can't be stopped so what's the use
+          p Some other worlds use X-rays
+        .verse
+          p His skeleton was in full view
+          p They had more in mind than collecting dues
+          p They had control of the X-ray
+          p Today a genius will be born
+          p Years after Jesus wore a crown of thorns
+          p Ask him the secrets of X-rays
+      section#tonight.song
+        h3 Tonight &mdash; <small>June 7<sup>th</sup>, 1998</small>
+        .verse
+          p Tonight I'm gonna get so high
+          p I don't even want to know who I am
+          p Then I can be somebody else
+          p Maybe I'll cough up phlegm
+        .verse
+          p Tonight I'm gonna fall in love
+          p I wonder who she'll be
+          p If she's not the right one for me
+          p I'll still get a taste of her pu--!y
+        .verse
+          p Tonight I'm gonna be reborn
+          p I'll eat through my umbilical cord
+          p This time I'm gonna be a girl
+          p And my bio mother a whore
+        .verse
+          p Tonight I'll travel to the moon
+          p I'm going to a new dimension
+          p Maybe I'll fall into a black hole
+          p And see things beyond comprehension
+        .chorus
+          p I've so much to do before I run out of time
+          p What a disaster if I woke up blind
+          p Too much to do before I run out of time
+          p What a disaster if I lost my mind
+      section.song
+        h3 Life of a Man &mdash; <small>June 14<sup>th</sup>, 1998</small>
+        .verse
+          p Fully loaded fridge stacked with beer
+          p This was the thought on his mind with no other care
+          p The sun was shining, sky was clear
+          p The weekend was here
+        .verse
+          p Parked next to him at the light she was quite a sight
+          p Could there be sex in store for him tonight
+          p Only time could tell
+          p He'd give it a shot, what the hell
+        .verse
+          p Alone in his world, he had no fear
+          p Turning the channels and downing the beer
+          p Work was work, play was play
+          p He needed a woman who saw things his way
+          p His hands were rough and his nails dirty
+          p Showing signs of baldness at the age of thirty
+        .chorus
+          p Never show the world your tears
+          p Protect and serve with no fears
+          p Provide for your family as planned
+          p Live the life of a man
+        .verse
+          p Working for a real asshole trying to move up in life
+          p Vacation time couldn't come soon enough
+          p Dad taught him to gut fish with his knife
+        .verse
+          p Divorced and on his second marriage
+          p His baby girl was sleeping in her carriage
+          p No longer did he search for other women
+          p Just lost the desire
+          p He's a family man and stopped being a liar
+      section.song
+        h3 Star Gazer &mdash; <small>July 5<sup>th</sup>, 1998</small>
+        .verse
+          p Possibilities of alien life
+          p It kept his mind in constant strife
+          p He would be there for the midnight flight
+          p He proclaimed, the universe entropy
+          p It cannot stop me
+        .verse
+          p Bound for a crash course in reality
+          p He was confined to only visions in his mind
+          p To earth he was contained
+          p Where to put the blame
+          p His meager human brain
+        .verse
+          p Who will miss him
+          p He's off to a new solar system
+          p The journey is on
+          p He travels far and beyond
+          p Gazing at the heavens since childhood
+          p Up there he'll finally be understood
+        .chorus
+          p I am what I am
+          p I've dreamt of little green men
+          p I am a stargazer
+          p Beware my Vulcan triple-beam laser
+      section.song
+        h3 Rhetoric &mdash; <small>July 11<sup>th</sup>, 1998</small>
+        .verse
+          p So many lines had been written
+          p Shared thoughts were ruled forbidden
+          p And I could give a damn
+          p As if it really matters
+          p Prepared platters thrown through windows shatter
+        .verse
+          p Discrepancies unfold between young and old
+          p Don't scream your nonsense over here
+          p Dissected mind, rhetoric written in rhyme
+          p Making sense of this will be hard fought
+          p So I won't give it too much thought
+        .verse
+          p Give me room to breathe
+          p I need to be alive please
+          p Am I worthlessness gone amiss
+          p Brain outbursts are running dry
+          p My inspirations soon will die
+        .chorus
+          p It all had been thought up
+          p Children do wrong children get caught up
+          p Its all gone to waste
+          p Long lost visions will be misplaced
+        .chorus
+          p This rhetoric of mind
+          p Will it be valued in time
+          p To each his own
+          p And to the king his goddamn throne
+    section#trisha
       h2 For Trisha
       p My love, now and forever. I only regret that it took us so long to find each other.
-      .container-fluid
-        .row.songs
-          #trishimg.col-sm-6
-            .skin
-              .song
-                img(src='/public/img/trish-crab.jpg', alt='Trisha enjoying crab', class='img-responsive')
-          .col-sm-6
-            .skin
-              .song
-                h3 Unspoken &mdash; <small>June 1<sup>st</sup>, 2012</small>
-                .verse
-                  p Our love lives through and through
-                  p Spoken by me and shown by you
-                  p Seas of silence keep a love at bay
-                  p Your smile makes my heart obey
-                .chorus
-                  p Unspoken but true
-                  p The love I feel from you
-                  p Unspoken but real
-                  p The love you make me feel
-                .chorus
-                  p Love that strays amiss
-                  p Blossoms when the unspoken passes your lips
-                .verse
-                  p Our love stands on its own
-                  p Shared by two and never left alone
-                  p Love more precious than a rare token
-                  p Still waiting for the unspoken
-                .chorus
-                  p [chorus]
-                .verse
-                  p With you I'm fully enchanted
-                  p I'll never take you for granted
-                  p Our love is unspoken and once fully awoken
-                  p Is not to be supplanted
-                .chorus
-                  p [chorus]
+      section.song
+        h3 Unspoken &mdash; <small>June 1<sup>st</sup>, 2012</small>
+        .verse
+          p Our love lives through and through
+          p Spoken by me and shown by you
+          p Seas of silence keep a love at bay
+          p Your smile makes my heart obey
+        .chorus
+          p Unspoken but true
+          p The love I feel from you
+          p Unspoken but real
+          p The love you make me feel
+        .chorus
+          p Love that strays amiss
+          p Blossoms when the unspoken passes your lips
+        .verse
+          p Our love stands on its own
+          p Shared by two and never left alone
+          p Love more precious than a rare token
+          p Still waiting for the unspoken
+        .chorus
+          p [chorus]
+        .verse
+          p With you I'm fully enchanted
+          p I'll never take you for granted
+          p Our love is unspoken and once fully awoken
+          p Is not to be supplanted
+        .chorus
+          p [chorus]
     #end
       p Now silence ...

@@ -1,9 +1,10 @@
-$(function() {
-  var $map = $('#map'),
-      hayward = new google.maps.LatLng(37.668821, -122.080796),
+window.addEventListener('DOMContentLoaded', () => {
+  var hayward = new google.maps.LatLng(37.668821, -122.080796),
       sanjose = new google.maps.LatLng(37.339386, -121.894955),
       berkeley = new google.maps.LatLng(37.871593, -122.272747),
       oakland = new google.maps.LatLng(37.804364, -122.271114),
+      quitman = new google.maps.LatLng(32.7959605, -95.4510641),
+      coarsegold = new google.maps.LatLng(37.2621687, -119.7009834),
       bounds = new google.maps.LatLngBounds(),
       options = {
         disableDefaultUI: true,
@@ -36,20 +37,32 @@ $(function() {
         position: oakland,
         title: 'Oakland'
       }),
-      map;
+      qmark = new google.maps.Marker({
+        position: quitman,
+        title: 'Quitman'
+      })
+      cmark = new google.maps.Marker({
+        position: coarsegold,
+        title: 'Coarsegold'
+      })
+      map
 
-  bounds.extend(hayward);
-  bounds.extend(sanjose);
-  bounds.extend(berkeley);
-  bounds.extend(oakland);
+  bounds.extend(hayward)
+  bounds.extend(sanjose)
+  bounds.extend(berkeley)
+  bounds.extend(oakland)
+  bounds.extend(quitman)
+  bounds.extend(coarsegold)
 
   // It appears 'center' and 'zoom' are not required when using fitBounds()
-  map = new google.maps.Map($map.get(0),  options);
+  map = new google.maps.Map(document.getElementById('map'),  options)
 
-  hmark.setMap(map);
-  smark.setMap(map);
-  bmark.setMap(map);
-  omark.setMap(map);
+  hmark.setMap(map)
+  smark.setMap(map)
+  bmark.setMap(map)
+  omark.setMap(map)
+  qmark.setMap(map)
+  cmark.setMap(map)
 
-  map.fitBounds(bounds);
-});
+  map.fitBounds(bounds)
+})
