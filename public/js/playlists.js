@@ -18,7 +18,6 @@ class YouTube extends HTMLElement {
     const song = document.getElementById(`${this.dataset.id}`)
     const rect = song.getBoundingClientRect()
 
-    iframe.setAttribute('width', '100%')
     iframe.setAttribute('height', rect.width * youTubeHeightToWidthRatio)
     iframe.setAttribute('src', `https://www.youtube.com/embed/${this.dataset.id}`)
 
