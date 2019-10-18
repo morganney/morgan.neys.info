@@ -1,0 +1,21 @@
+<template id='song-details'>
+  <style>
+    details {
+      display: inline-block;
+      width: 100%;
+    }
+    summary {
+      outline: none;
+      display: inline-block;
+      cursor: pointer;
+    }
+    you-tube {
+      display: inline-block;
+      margin: 15px 0 0 0;
+      width: 100%;
+    }
+  </style>
+  <details>
+    <summary><slot name='title'></slot></summary>
+  </details>
+</template>

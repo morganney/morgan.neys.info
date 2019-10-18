@@ -1,15 +1,48 @@
 extends layout
 
-block styles
+block head
   link(rel='stylesheet', href='/public/css/playlists.css')
 block page
-  h1 Playlists (TODO)
-  section#eighties
+  include ../templates/song-details.html
+  include ../templates/you-tube.html
+  h1 Playlists
+  p For me nothing beats the 80's and 90's music. Today's music is soft on lyrics and is superficial. I'm sure we all feel the same about the music we grew up on.
+  section#eighties.songs
     h2 Eighties
     ul
-      li
-        details(data-id='wJzNZ1c5C9c').
-          <summary>Keep on Loving You</summary>
-          
+      li: song-details(id='wJzNZ1c5C9c'): span(slot='title') Keep on Loving You &mdash; REO Speedwagon
+      li: song-details(id='FTQbiNvZqaY'): span(slot='title') Africa &mdash; Toto
+      li: song-details(id='s6TtwR2Dbjg'): span(slot='title') Heaven &mdash; Bryan Adams
+      li: song-details(id='Epj84QVw2rc'): span(slot='title') Come Undone &mdash; Duran Duran
+      li: song-details(id='MzGnX-MbYE4'): span(slot='title') People Are People &mdash; Depeche Mode
+      li: song-details(id='mh8MIp2FOhc'): span(slot='title') I'll Be There For You &mdash; Bon Jovi
+      li: song-details(id='4N1iwQxiHrs'): span(slot='title') Your Love &mdash; The Outfield
+      li: song-details(id='lAD6Obi7Cag'): span(slot='title') Money For Nothing &mdash; Dire Straights
+      li: song-details(id='AAZQaYKZMTI'): span(slot='title') White Wedding &mdash; Billy Idol
+      li: song-details(id='WyF8RHM1OCg'): span(slot='title') Here I Go Again &mdash; White Snake
+      li: song-details(id='VdphvuyaV_I'): span(slot='title') Rebel Yell &mdash; Billy Idol
+      li: song-details(id='JIrm0dHbCDU'): span(slot='title') Strangelove &mdash; Depeche Mode
+      li: song-details(id='IGVZOLV9SPo'): span(slot='title') Love Is A Battlefield &mdash; Pat Benatar
+      li to be continued...
+  section#nineties.songs
+    h2 Nineties
+    ul
+      li: song-details(id='ENXvZ9YRjbo'): span(slot='title') Say It Ain't So &mdash; Weezer
+      li: song-details(id='u1xrNaTO1bI'): span(slot='title') Personal Jesus &mdash; Depeche Mode
+      li: song-details(id='C-Naa1HXeDQ'): span(slot='title') 3AM &mdash; Matchbox Twenty
+      li: song-details(id='-oqAU5VxFWs'): span(slot='title') Mr. Jones &mdash; Counting Crows
+      li: song-details(id='gRYZijLZR-Q'): span(slot='title') Jumper &mdash; Third Eye Blind
+      li: song-details(id='UNq9gmY_Oz4'): span(slot='title') Brain Stew/Jaded &mdash; Green Day
+      li: song-details(id='NOG3eus4ZSo'): span(slot='title') Tonight, Tonight &mdash; The Smashing Pumpkins
+      li: song-details(id='clKAdQnwJ7A'): span(slot='title') If You're Gone &mdash; Matchbox Twenty
+      li: song-details(id='diT3FvDHMyo'): span(slot='title') Enjoy The Silence &mdash; Depeche Mode
+      li: song-details(id='rE1oIhSgTgI'): span(slot='title') How's It Going To Be &mdash; Third Eye Blind
+      li: song-details(id='8-r-V0uK4u0'): span(slot='title') Bullet With Butterfly Winds &mdash; The Smashing Pumpkins
+      li: song-details(id='HAkHqYlqops'): span(slot='title') Push &mdash; Matchbox Twenty
+      li: song-details(id='LHQqqM5sr7g'): span(slot='title') Undone &ndash;&ndash; The Sweater Song &mdash; Weezer
+      li: song-details(id='beINamVRGy4'): span(slot='title') Semi-Charmed Life &mdash; Third Eye Blind
+      li: song-details(id='4aeETEoNfOg'): span(slot='title') 1979 &mdash; The Smashing Pumpkins
+      li to be continued...
 block scripts
+  script(src='public/js/lodash.custom.min.js')
   script(src='public/js/playlists.js')
