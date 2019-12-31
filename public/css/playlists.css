@@ -1,9 +1,0 @@
-.songs li {
-  margin: 0 0 20px 0;
-}
-.songs li:last-child {
-  margin-bottom: 0;
-}
-song-details {
-  display: block;
-}
