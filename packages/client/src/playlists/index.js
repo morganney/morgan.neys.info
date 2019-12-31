@@ -1,7 +1,13 @@
+import debounce from 'https://cdn.jsdelivr.net/npm/lodash-es@4.17.15/debounce.js'
+
 const youTubeHeightToWidthRatio = 0.5625
-const resizeIframe = _.debounce((width, node) => {
-  node.setAttribute('height', width * youTubeHeightToWidthRatio)
-}, 250, { leading: true, trailing: true })
+const resizeIframe = debounce(
+  (width, node) => {
+    node.setAttribute('height', width * youTubeHeightToWidthRatio)
+  },
+  250,
+  { leading: true, trailing: true }
+)
 
 class YouTube extends HTMLElement {
   constructor() {
@@ -21,9 +27,13 @@ class YouTube extends HTMLElement {
     iframe.setAttribute('height', rect.width * youTubeHeightToWidthRatio)
     iframe.setAttribute('src', `https://www.youtube.com/embed/${this.dataset.id}`)
 
-    window.addEventListener('resize', () => {
-      resizeIframe(song.getBoundingClientRect().width, iframe)
-    }, false)
+    window.addEventListener(
+      'resize',
+      () => {
+        resizeIframe(song.getBoundingClientRect().width, iframe)
+      },
+      false
+    )
   }
 }
 class SongDetails extends HTMLElement {
@@ -37,17 +47,21 @@ class SongDetails extends HTMLElement {
   }
 
   connectedCallback() {
-    this.shadowRoot.querySelector('details').addEventListener('toggle', evt => {
-      const detail = evt.target
+    this.shadowRoot.querySelector('details').addEventListener(
+      'toggle',
+      evt => {
+        const detail = evt.target
 
-      if (!detail.dataset.opened) {
-        const youtube = document.createElement('you-tube')
+        if (!detail.dataset.opened) {
+          const youtube = document.createElement('you-tube')
 
-        youtube.setAttribute('data-id', this.id)
-        detail.appendChild(youtube)
-        detail.dataset.opened = true
-      }
-    }, false)
+          youtube.setAttribute('data-id', this.id)
+          detail.appendChild(youtube)
+          detail.dataset.opened = true
+        }
+      },
+      false
+    )
   }
 }
 

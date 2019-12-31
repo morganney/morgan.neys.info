@@ -2,6 +2,7 @@ extends layout
 
 block head
   link(rel='stylesheet', href='/public/css/playlists.css')
+  script(src='public/playlists/index.js' type='module')
 block page
   include ../templates/song-details.html
   include ../templates/you-tube.html
@@ -42,7 +43,8 @@ block page
       li: song-details(id='LHQqqM5sr7g'): span(slot='title') Undone &ndash;&ndash; The Sweater Song &mdash; Weezer
       li: song-details(id='beINamVRGy4'): span(slot='title') Semi-Charmed Life &mdash; Third Eye Blind
       li: song-details(id='4aeETEoNfOg'): span(slot='title') 1979 &mdash; The Smashing Pumpkins
+      li: song-details(id='EqWRaAF6_WY'): span(slot='title') My Hero &mdash; Foo Fighters
+      li: song-details(id='lYBIRHi5-o8'): span(slot='title') Down &mdash; 311
+      li: song-details(id='gYdlqjiQPAc'): span(slot='title') Low &mdash; Cracker
+      li: song-details(id='A-oh-tP6RvA'): span(slot='title') Barely Breathing &mdash; Duncan Sheik
       li to be continued...
-block scripts
-  script(src='public/js/lodash.custom.min.js')
-  script(src='public/js/playlists.js')

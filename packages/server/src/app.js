@@ -1,19 +1,20 @@
-const express = require('express')
-const compression = require('compression')
-const errorhandler = require('errorhandler')
-const logger = require('morgan')
+import express from 'express'
+import compression from 'compression'
+import errorhandler from 'errorhandler'
+import logger from 'morgan'
 
-const routes = require('./routes')
+import { routes } from './routes.js'
 
 const app = express()
 
 // Configuration
-if (app.get('env') === 'development') {
+if (process.env.NODE_ENV === 'development') {
   app.locals.pretty = true
   app.locals.isDev = true
   app.locals.googleMapsKey = null
   app.use(logger('dev'))
   app.use(express.static('.'))
+  app.use(errorhandler())
 } else {
   app.locals.isProd = true
   app.locals.googleMapsKey = process.env.GOOGLE_MAPS_KEY
@@ -21,6 +22,7 @@ if (app.get('env') === 'development') {
 }
 
 app.enable('trust proxy')
+app.set('views', './packages/server/src/views')
 app.set('view engine', 'pug')
 app.locals.title = 'Morgan Ney'
 app.locals.bodyClass = 'default'
@@ -39,15 +41,13 @@ app.get('/resume', routes.resume)
 app.get('/family', routes.family)
 
 // Error handling
-app.use(function(req, res, next) {
+app.use(function(req, res) {
   // TODO: 404 view
   res.status(404)
 })
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   console.error(err.stack)
   res.status(500)
 })
 
-app.listen('3030', function() {
-  console.log('morgan.neys.info now listening on port 3030')
-})
+export { app }

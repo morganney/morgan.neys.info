@@ -24,5 +24,5 @@ block page
     h2 Places I've Lived
     #map
 block scripts
-  script(src=`//maps.googleapis.com/maps/api/js?key=${googleMapsKey}`)
-  script(src='public/js/index.js')
+  script(src='public/home/index.js')
+  script(src=`//maps.googleapis.com/maps/api/js?key=${googleMapsKey}&callback=initMap` async defer)
