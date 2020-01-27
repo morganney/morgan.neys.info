@@ -23,10 +23,10 @@ const routes = {
     res.locals.bodyClass = 'resume'
     res.render('resume')
   },
-  memes(req, res) {
-    res.locals.title = "Morgan Ney's Memes"
-    res.locals.bodyClass = 'memes'
-    res.render('memes')
+  movies(req, res) {
+    res.locals.title = "Morgan Ney's Movies"
+    res.locals.bodyClass = 'movies'
+    res.render('movies')
   },
   robots(req, res) {
     res.set({

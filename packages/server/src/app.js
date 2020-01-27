@@ -36,7 +36,7 @@ app.get('/', routes.home)
 app.get('/robots.txt', routes.robots)
 app.get('/writing', routes.writing)
 app.get('/playlists', routes.playlists)
-app.get('/memes', routes.memes)
+app.get('/movies', routes.movies)
 app.get('/resume', routes.resume)
 app.get('/family', routes.family)
 

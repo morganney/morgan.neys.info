@@ -18,13 +18,16 @@
     "esm": "3.2.25",
     "fancy-log": "1.3.3",
     "gulp": "4.0.2",
+    "gulp-if": "3.0.0",
     "gulp-nodemon": "2.4.2",
+    "gulp-replace": "1.0.0",
     "lodash-cli": "4.17.5",
     "nodemon": "2.0.2",
     "prettier": "1.19.1"
   },
   "scripts": {
     "dev": "gulp dev",
-    "lint": "eslint *.js 'packages/**/src/**/*.js' 'gulpfile.esm.js/**/*.js'"
+    "lint": "eslint *.js 'packages/**/src/**/*.js' 'gulpfile.esm.js/**/*.js'",
+    "build": "NODE_ENV=production gulp build"
   }
 }

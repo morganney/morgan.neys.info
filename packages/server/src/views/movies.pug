@@ -1,0 +1,8 @@
+extends layout
+
+block head
+  script(src= isDev ? 'https://unpkg.com/prop-types@15.7.2/prop-types.js' : 'https://unpkg.com/prop-types@15.7.2/prop-types.min.js')
+  script(type='module' src='/public/movies/index.js')
+block page
+  h1 Movies
+  #movies

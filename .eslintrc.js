@@ -5,7 +5,9 @@ module.exports = {
     node: true
   },
   globals: {
-    google: true
+    google: true,
+    // @see https://github.com/facebook/prop-types/issues/111 for why no prop-types
+    PropTypes: true
   },
   extends: [
     'eslint:recommended',
