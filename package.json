@@ -26,6 +26,7 @@
     "prettier": "1.19.1"
   },
   "scripts": {
+    "up": "node packages/server/src/index.js",
     "dev": "gulp dev",
     "lint": "eslint *.js 'packages/**/src/**/*.js' 'gulpfile.esm.js/**/*.js'",
     "build": "NODE_ENV=production gulp build"
