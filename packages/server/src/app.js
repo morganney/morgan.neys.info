@@ -37,14 +37,14 @@ app.get('/robots.txt', routes.robots)
 app.get('/writing', routes.writing)
 app.get('/playlists', routes.playlists)
 app.get('/movies', routes.movies)
-app.get('/resume', routes.resume)
+app.get('/frontend-engineer-resume', routes.resume)
 app.get('/family', routes.family)
 
-// Error handling
+// 404
 app.use(function(req, res) {
-  // TODO: 404 view
-  res.status(404)
+  res.status(404).render('notFound')
 })
+// Error handling
 app.use(function(err, req, res) {
   console.error(err.stack)
   res.status(500)
