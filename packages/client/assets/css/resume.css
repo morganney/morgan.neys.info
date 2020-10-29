@@ -105,7 +105,7 @@ section:nth-child(4) p {
 section:last-child p:last-child {
   margin-top: 10px;
 }
-section:last-child a {
+section:last-child a, section li a {
   color: #000;
 }
 address {
