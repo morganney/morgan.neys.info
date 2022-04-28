@@ -90,8 +90,8 @@ section:nth-child(3) article ul {
   margin-top: 10px;
   line-height: 1.7rem;
 }
-section:nth-child(3) article:nth-child(2) {
-  margin: 25px 0;
+section:nth-child(3) article:nth-child(n + 2) {
+  margin-top: 25px;
 }
 section:nth-child(4) article:last-child {
   margin-top: 25px;
