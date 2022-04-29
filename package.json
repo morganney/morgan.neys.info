@@ -4,12 +4,9 @@
   "description": "Personal website of Morgan Ney",
   "private": true,
   "files": [],
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": []
-  },
+  "workspaces": [
+    "./packages/*"
+  ],
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.9.0",
