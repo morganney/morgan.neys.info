@@ -1,0 +1,22 @@
+.wordCloud > div {
+  display: flex;
+  justify-content: center;
+}
+.wordCloud svg {
+  width: 95%;
+}
+.wordCloud text {
+  font-size: 2em;
+}
+.loading {
+  min-height: 250px;
+  border: 1px solid green;
+}
+.para {
+  margin-bottom: 28px;
+}
+@media screen and (min-width: 600px) {
+  .wordCloud svg {
+    width: 70%;
+  }
+}

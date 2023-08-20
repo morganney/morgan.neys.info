@@ -1,4 +1,3 @@
-morgan.neys.info
-================
+# [`morgan.neys.info`](https://morgan.neys.info/)
 
-My personal website
+Personal website of web developer [Morgan Ney](https://morgan.neys.info/).
