@@ -15,9 +15,9 @@ jobs:
         uses: actions/setup-node@v3.6.0
         with:
           node-version: '20.5.1'
-      - name: Set Runner IP
+      - name: Set IP
         id: ip
-        run: echo "curl https://api.ipify.org" >> $GITHUB_OUTPUT
+        uses: haythem/public-ip@v1.3.0
       - name: Read IP
         env:
           THE_IP: ${{ steps.ip.outputs.ipv4 }}
