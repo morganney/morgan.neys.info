@@ -19,7 +19,7 @@ jobs:
         id: ip
         run: |
           {
-            echo 'ipv4=<<EOF'
+            echo 'ipv4<<EOF'
             curl https://api.ipify.org
             echo EOF
           } >> $GITHUB_OUTPUT
