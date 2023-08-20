@@ -17,12 +17,7 @@ jobs:
           node-version: '20.5.1'
       - name: Set Runner IP
         id: ip
-        run: |
-          {
-            echo 'ipv4<<EOF'
-            curl https://api.ipify.org
-            echo EOF
-          } >> $GITHUB_OUTPUT
+        run: echo "ipv4={curl https://api.ipify.org}" >> $GITHUB_OUTPUT
       - name: Read IP
         env:
           THE_IP: ${{ steps.ip.outputs.ipv4 }}
