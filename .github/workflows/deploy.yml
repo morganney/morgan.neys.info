@@ -27,11 +27,15 @@ jobs:
         run: npm run lint
       - name: Build
         run: npm run build
-      - name: Deploy
-        uses: easingthemes/ssh-deploy@main
+      - name: Set Runner IP
+        id: ip
+        run: |
+          {
+            echo 'ipv4=<<EOF'
+            curl https://api.ipify.org
+            echo EOF
+          } >> $GITHUB_OUTPUT
+      - name: Read IP
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.EC2_HOST_DNS }}
-          REMOTE_USER: ${{ secrets.EC2_USERNAME }}
-          TARGET: ${{ secrets.EC2_TARGET_DIR }}
-          SOURCE: out
+          THE_IP: ${{ steps.ip.outputs.ipv4 }}
+        run: echo "The ipv4 is $THE_IP"
