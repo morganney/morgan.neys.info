@@ -1,0 +1,20 @@
+.songs h2 {
+  margin: 24px 0;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list li {
+  margin: 0 0 24px 0;
+}
+.list li:last-child {
+  margin-bottom: 0;
+}
+.list li song-details {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  pointer-events: none;
+}

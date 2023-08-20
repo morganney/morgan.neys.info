@@ -1,0 +1,28 @@
+.grid {
+  display: grid;
+  grid-template-rows: max-content minmax(calc(156px + 12px), auto);
+  gap: 32px;
+}
+.blockquote {
+  padding: 12px;
+}
+.blockquote > p {
+  background: #e5e5e577;
+  background: gray;
+  color: #e5e5e5;
+  padding: 28px 20px;
+  border-radius: 3px;
+}
+.blockquote p::before {
+  content: '\201C';
+}
+.blockquote p::after {
+  content: '\201D';
+}
+.blockquote footer {
+  text-align: right;
+  margin-top: 8px;
+}
+.blockquote footer::before {
+  content: '\2014';
+}

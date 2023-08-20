@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, 12px);
+  grid-template-rows: repeat(auto-fit, 12px);
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+}
+.grid span {
+  width: 12px;
+  height: 12px;
+}
+.grid .alive {
+  background: #70c47e77;
+}
+.grid .dead {
+  background: #eaeaea66;
+}
