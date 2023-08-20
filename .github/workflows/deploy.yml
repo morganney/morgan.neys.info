@@ -30,3 +30,17 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Test AWS
         run: aws ec2 describe-security-groups --group-ids ${{ secrets.EC2_SG_ID }}
+      - name: Whitelist runner IP
+        run: |
+          aws ec2 authorize-security-group-ingress \
+            --group-id ${{ secrets.EC2_SG_ID }} \
+            --protocol tcp \
+            --port 22 \
+            --cidr ${{ steps.ip.outputs.ipv4 }}/32
+      - name: Revoke runner IP
+        run: |
+          aws ec2 revoke-security-group-ingress \
+            --group-id ${{ secrets.EC2_SG_ID }} \
+            --protocol tcp \
+            --port 22 \
+            --cidr ${{ steps.ip.outputs.ipv4 }}/32
