@@ -4,13 +4,12 @@
 }
 .wordCloud svg {
   width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .wordCloud text {
   font-size: 2em;
-}
-.loading {
-  min-height: 250px;
-  border: 1px solid green;
 }
 .para {
   margin-bottom: 28px;

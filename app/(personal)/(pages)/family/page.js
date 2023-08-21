@@ -10,7 +10,7 @@ const Loading = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        minHeight: '250px',
+        minHeight: '305px',
       }}
     >
       <span className="spinner"></span>
@@ -65,7 +65,7 @@ export default function Family() {
     'Share',
   ].map(w => ({
     text: w.toLowerCase(),
-    value: core.includes(w) ? Math.random() * 17 + 15 : Math.random() * 17 + 10,
+    value: core.includes(w) ? Math.random() * 17 + 13 : Math.random() * 17 + 9,
   }))
 
   return (
@@ -84,6 +84,7 @@ export default function Family() {
           fontSize={d => d.value}
           fontWeight="bold"
           font="Roboto"
+          rotate={w => w.value % 360}
         />
       </div>
     </>
