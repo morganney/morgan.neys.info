@@ -5,6 +5,7 @@ on:
 
 jobs:
   deploy:
+    if: contains('["morganney"]', github.actor)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
