@@ -10,7 +10,7 @@ const Loading = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        minHeight: '250px',
+        minHeight: '305px',
       }}
     >
       <span className="spinner"></span>
@@ -65,12 +65,11 @@ export default function Family() {
     'Share',
   ].map(w => ({
     text: w.toLowerCase(),
-    value: core.includes(w) ? Math.random() * 17 + 15 : Math.random() * 17 + 10,
+    value: core.includes(w) ? Math.random() * 17 + 13 : Math.random() * 17 + 9,
   }))
 
   return (
     <>
-      <h1>Family 👨‍👩‍👧‍👧</h1>
       <p className={styles.para}>
         My family consists of my wife Trisha, and our three daughters, Hannah (9), Emma
         (6), and Rebecca (4). We also have three cats, two dogs, and about 36 chickens.
@@ -84,6 +83,7 @@ export default function Family() {
           fontSize={d => d.value}
           fontWeight="bold"
           font="Roboto"
+          rotate={w => w.value % 360}
         />
       </div>
     </>

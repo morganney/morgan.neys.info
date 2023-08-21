@@ -35,7 +35,8 @@ export default function Resume() {
       <section>
         <h3>Skills</h3>
         <p>
-          JavaScript/TypeScript, Node.js, HTML, CSS, Web Platform, Jest, React, Redux,
+          JavaScript/TypeScript, Node.js, HTML, CSS,{' '}
+          <a href="https://html-now.github.io/">Web Platform</a>, Jest, React, Redux,
           CSS-in-JS, E2E/Integration/Unit Testing, Build-as-Bundle, Build-as-Library, Dual
           Builds, GitHub Actions CI/CD Workflows, Dependency Management.
         </p>

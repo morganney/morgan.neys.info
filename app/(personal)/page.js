@@ -2,7 +2,7 @@ import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import styles from './page.module.css'
 
-const Gol = dynamic(() => import('./(pages)/components/gol/module.js'), { ssr: false })
+const Gol = dynamic(() => import('./components/gol/module.js'), { ssr: false })
 
 export default function Home() {
   return (

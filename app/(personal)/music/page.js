@@ -13,7 +13,6 @@ export default function Music() {
 
   return (
     <>
-      <h1>Playlists 📻</h1>
       <p>
         For me nothing beats the 80s and 90s music. Today&apos;s music is soft on lyrics
         and is superficial. I&apos;m sure we all feel the same about the music we grew up
