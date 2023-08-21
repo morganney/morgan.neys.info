@@ -70,7 +70,6 @@ export default function Family() {
 
   return (
     <>
-      <h1>Family 👨‍👩‍👧‍👧</h1>
       <p className={styles.para}>
         My family consists of my wife Trisha, and our three daughters, Hannah (9), Emma
         (6), and Rebecca (4). We also have three cats, two dogs, and about 36 chickens.
