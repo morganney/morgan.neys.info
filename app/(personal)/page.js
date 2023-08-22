@@ -26,7 +26,7 @@ export default function Home() {
             a realist who hopes for{' '}
             <a href="https://www.thevenusproject.com/resource-based-economy/">change</a>{' '}
             and am in awe of the{' '}
-            <a href="http://en.wikipedia.org/wiki/Riemann_hypothesis">profound</a>.
+            <a href="https://en.wikipedia.org/wiki/Riemann_hypothesis">profound</a>.
           </p>
           <blockquote className={styles.blockquote}>
             <p>
