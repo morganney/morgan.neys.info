@@ -8,4 +8,8 @@ const nextConfig = {
   },
 }
 
+if (process.env.NODE_STAGE === 'pages') {
+  nextConfig.basePath = '/morgan.neys.info'
+}
+
 export default nextConfig

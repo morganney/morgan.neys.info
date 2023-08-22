@@ -18,7 +18,7 @@ export default function Home() {
             Bay Area and now residing in Texas.
           </p>
           <p>
-            When I&apos;m not spending time with my <Link href="family">family</Link>, I
+            When I&apos;m not spending time with my <Link href="/family">family</Link>, I
             enjoy working on my <a href="https://github.com/morganney">GitHub</a>{' '}
             projects, or listening to <Link href="/music">music</Link> while I exercise.
             At times I&apos;ve been compelled to do some{' '}
