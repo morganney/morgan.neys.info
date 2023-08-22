@@ -8,7 +8,7 @@ const nextConfig = {
   },
 }
 
-if (process.env.NODE_STAGE === 'pages') {
+if (process.env.NEXT_PUBLIC_NODE_STAGE === 'pages') {
   nextConfig.basePath = '/morgan.neys.info'
 }
 

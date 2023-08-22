@@ -1,7 +1,9 @@
+import { getBasePath } from '../util.js'
+
 const setupYouTube = async () => {
   const [html, css] = await Promise.all([
-    fetch('/youTube/template.html').then(resp => resp.text()),
-    fetch('/youTube/styles.css').then(resp => resp.text()),
+    fetch(`${getBasePath()}youTube/template.html`).then(resp => resp.text()),
+    fetch(`${getBasePath()}youTube/styles.css`).then(resp => resp.text()),
   ])
   const parser = new DOMParser()
   const template = parser.parseFromString(html, 'text/html').querySelector('template')

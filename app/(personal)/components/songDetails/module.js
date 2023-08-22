@@ -1,7 +1,9 @@
+import { getBasePath } from '../util.js'
+
 const setupSongDetails = async () => {
   const [html, css] = await Promise.all([
-    fetch('/songDetails/template.html').then(resp => resp.text()),
-    fetch('/songDetails/styles.css').then(resp => resp.text()),
+    fetch(`${getBasePath()}songDetails/template.html`).then(resp => resp.text()),
+    fetch(`${getBasePath()}songDetails/styles.css`).then(resp => resp.text()),
   ])
   const parser = new DOMParser()
   const template = parser.parseFromString(html, 'text/html').querySelector('template')
