@@ -1,4 +1,4 @@
-0:["4iuaxv_5bySaRQ-DBIOxI",[[["",{"children":["(professional)",{"children":["resume",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true]}],"$L1",[[],"$L2"]]]]
+0:["mi_X58LzwkOW7shM_WvU4",[[["",{"children":["(professional)",{"children":["resume",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true]}],"$L1",[[],"$L2"]]]]
 3:HL["/morgan.neys.info/_next/static/css/93c06530ca9a8c52.css",{"as":"style"}]
 4:I{"id":7767,"chunks":["272:static/chunks/webpack-9c0373e303dd0a26.js","971:static/chunks/fd9d1056-70b1d99f28a26f2f.js","596:static/chunks/596-91d3b2ca9706ff70.js"],"name":"default","async":false}
 5:I{"id":7920,"chunks":["272:static/chunks/webpack-9c0373e303dd0a26.js","971:static/chunks/fd9d1056-70b1d99f28a26f2f.js","596:static/chunks/596-91d3b2ca9706ff70.js"],"name":"default","async":false}
