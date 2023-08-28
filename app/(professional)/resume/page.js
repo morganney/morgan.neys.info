@@ -35,10 +35,14 @@ export default function Resume() {
       <section>
         <h3>Skills</h3>
         <p>
-          JavaScript/TypeScript, Node.js, HTML, CSS,{' '}
-          <a href="https://html-now.github.io/">Web Platform</a>, Jest, React, Redux,
-          CSS-in-JS, E2E/Integration/Unit Testing, Build-as-Bundle, Build-as-Library, Dual
-          Builds, GitHub Actions CI/CD Workflows, Dependency Management.
+          JavaScript, TypeScript, Node.js, HTML, CSS, React, Redux, Next.js, CRA, Styled
+          Components, Emotion, Jest, Cypress, Testing Library, Vite, Rollup, Webpack,
+          Babel, SWC, Monorepos, Micro-frontends, SPA, Component Libraries,{' '}
+          <a href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages">
+            Dual Packages
+          </a>
+          , GitHub Actions, Dependency Management,{' '}
+          <a href="https://html-now.github.io/">Web Platform</a>.
         </p>
       </section>
       <section>
