@@ -14,8 +14,8 @@ export default function Home() {
         <div>
           <p>
             Hi, you&apos;ve reached my personal website. I&apos;m a father, husband, and{' '}
-            <Link href="/resume">web developer</Link> originally from the San Francisco
-            Bay Area and now residing in Texas.
+            <Link href="/resume">frontend engineer</Link> originally from the San
+            Francisco Bay Area and now residing in Texas.
           </p>
           <p>
             When I&apos;m not spending time with my <Link href="/family">family</Link>, I

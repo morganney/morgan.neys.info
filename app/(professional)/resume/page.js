@@ -9,7 +9,7 @@ export default function Resume() {
             Ney
           </h1>
           <h2>
-            <a href="https://linkedin.com/in/morganney">Web Developer</a>
+            <a href="https://linkedin.com/in/morganney">Frontend Engineer</a>
           </h2>
         </header>
         <div>
@@ -22,9 +22,6 @@ export default function Resume() {
             </p>
             <p>
               <a href="mailto:morganney@gmail.com">morganney@gmail.com</a>
-            </p>
-            <p>
-              <a href="https://morgan.neys.info">morgan.neys.info</a>
             </p>
             <p>
               <a href="https://github.com/morganney">github.com/morganney</a>
@@ -49,7 +46,7 @@ export default function Resume() {
         <h3>Experience</h3>
         <div>
           <article>
-            <h4>PowerSchool (acquired Headed2) / Sr. Software Engineer</h4>
+            <h4>PowerSchool (acquired Headed2) / Sr. Software Engineer II</h4>
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
             <ul>
               <li>
@@ -67,6 +64,10 @@ export default function Resume() {
                 Added ability to unit test their HTML Custom Element component library,
                 and created an npm bin script to facilitate set up of consuming
                 micro-frontends in their own Jest test suites.
+              </li>
+              <li>
+                Updated NPM dependencies and Webpack builds across multiple projects to
+                upgrade Node.js versions in CI/CD pipelines.
               </li>
             </ul>
           </article>
@@ -95,13 +96,12 @@ export default function Resume() {
             </ul>
           </article>
           <article>
-            <h4>Teladoc Health / Sr. Software Engineer (Web Frontend)</h4>
-            <h5>July 2018 &ndash; July 2021, Santa Barbara, CA</h5>
+            <h4>Teladoc Health (acquired InTouch Health) / Sr. Software Engineer</h4>
+            <h5>June 2020 &ndash; July 2021, Purchase, NY</h5>
             <ul>
               <li>
-                Utilizing Yarn Workspaces I started a mono-repo for development of
-                standalone SPAs, micro-frontends, a shared React component library, and an
-                Express mock server.
+                Developed features for React applications using TypeScript, Redux, Styled
+                Components, Jest, and Testing Library.
               </li>
               <li>
                 Created a React component that made use of dynamic imports to lazy load
@@ -115,9 +115,23 @@ export default function Resume() {
                 </a>
                 .
               </li>
+            </ul>
+          </article>
+          <article>
+            <h4>InTouch Health / Sr. Software Engineer (Web Frontend)</h4>
+            <h5>July 2018 &ndash; June 2020, Santa Barbara, CA</h5>
+            <ul>
               <li>
-                Developed features for React applications using TypeScript, Redux, Styled
-                Components, Jest, and Enzyme/Testing Library.
+                Brought on as the first frontend engineer to oversee development of their
+                new React SPA.
+              </li>
+              <li>
+                Using yarn workspaces and Docker I started a monorepo for development of
+                SPAs, a component library, Storybook, and an Express mock server.
+              </li>
+              <li>
+                Grew the monorepo to eleven contributors that spanned two teams and
+                multiple web apps.
               </li>
             </ul>
           </article>
