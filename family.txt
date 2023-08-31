@@ -1,4 +1,4 @@
-0:["WcqfR5e5ggrXIXlSxY4hy",[[["",{"children":["(personal)",{"children":["family",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true]}],"$L1",[[],"$L2"]]]]
+0:["xbgLGMsED8ssmbC3imr_j",[[["",{"children":["(personal)",{"children":["family",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true]}],"$L1",[[],"$L2"]]]]
 3:HL["/morgan.neys.info/_next/static/media/2aaf0723e720e8b9-s.p.woff2",{"as":"font","type":"font/woff2"}]
 4:HL["/morgan.neys.info/_next/static/css/4bf2d52049e77db6.css",{"as":"style"}]
 5:HL["/morgan.neys.info/_next/static/css/046526a0274b529d.css",{"as":"style"}]
