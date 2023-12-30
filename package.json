@@ -8,10 +8,6 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "cp -f ./app/404.html ./out/404.html",
-    "pages:build": "NEXT_PUBLIC_NODE_STAGE=pages next build",
-    "postpages:build": "npm run postbuild && npm run pages:sed",
-    "pages:sed": "sed -i.orig 's/\"\\/\"/\"\\/morgan.neys.info\"/' out/404.html",
-    "postpages:sed": "rm -f out/404.html.orig",
     "preview": "serve out",
     "start": "next start",
     "lint": "next lint"
