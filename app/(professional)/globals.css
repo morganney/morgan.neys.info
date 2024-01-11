@@ -167,6 +167,14 @@ section:first-child ul a {
   text-decoration: none;
   font-weight: 700;
 }
+section:nth-child(2) > div {
+  display: grid;
+  gap: 8px;
+}
+section:nth-child(2) h5 {
+  margin: 0 0 2px 0;
+  text-transform: none;
+}
 
 /* Explicitly desktop first design */
 @media screen and (max-width: 845px) {

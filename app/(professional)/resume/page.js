@@ -49,22 +49,37 @@ export default function Resume() {
       </section>
       <section>
         <h3>Skills</h3>
-        <p>
-          JavaScript, TypeScript, Node.js, HTML, CSS, React, Redux, Express.js, Next.js,
-          CRA, Styled Components, Emotion, Jest, Cypress, Testing Library, Vite, Rollup,
-          Webpack, Babel, SWC, Monorepos, Micro-frontends, SPA, Component Libraries,{' '}
-          <a
-            target="_blank"
-            href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
-          >
-            Dual Packages
-          </a>
-          , GitHub Actions, Dependency Management,{' '}
-          <a target="_blank" href="https://html-now.github.io/">
-            Web Platform
-          </a>
-          , Redis, PostgreSQL, MySQL, Docker, Compose, AWS-Copilot.
-        </p>
+        <div>
+          <article>
+            <h5>Client</h5>
+            <p>
+              JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
+              CSS-in-JS/CSS Modules, Jest, Cypress, Testing Library, Vite, Rollup,
+              Webpack, Babel, SPA, PWA,{' '}
+              <a target="_blank" href="https://html-now.github.io/">
+                Web Platform
+              </a>
+              .
+            </p>
+          </article>
+          <article>
+            <h5>Server</h5>
+            <p>Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL.</p>
+          </article>
+          <article>
+            <h5>DevOps</h5>
+            <p>
+              Monorepos,{' '}
+              <a
+                target="_blank"
+                href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
+              >
+                Dual Packages
+              </a>
+              , Docker, Compose, GitHub Actions, AWS Copilot CLI.
+            </p>
+          </article>
+        </div>
       </section>
       <section>
         <h3>Experience</h3>
