@@ -4,14 +4,16 @@ export default function Resume() {
       <section>
         <header>
           <h1>
-            <a target="_blank" href="https://morganney.github.io/morganney">
+            <a target="_blank" href="https://morgan.neys.info">
               Morgan
               <br />
               Ney
             </a>
           </h1>
           <h2>
-            <a href="https://linkedin.com/in/morganney">Web (Frontend) Engineer</a>
+            <a target="_blank" href="https://linkedin.com/in/morganney">
+              Web (Frontend) Engineer
+            </a>
           </h2>
         </header>
         <div>
@@ -20,20 +22,29 @@ export default function Resume() {
             <p>432 CR 1236</p>
             <p>Quitman, TX 75783</p>
             <p>
-              <a href="tel:+19038782665">903.878.2665</a>
-            </p>
-            <p>
               <a href="mailto:morganney@gmail.com">morganney@gmail.com</a>
             </p>
             <p>
-              <a href="https://github.com/morganney">github.com/morganney</a>
-            </p>
-            <p>
-              <a href="https://github.com/knightedcodemonkey">
-                github.com/knightedcodemonkey
-              </a>
+              <a href="tel:+19038782665">903.878.2665</a>
             </p>
           </address>
+          <ul>
+            <li>
+              <a target="_blank" href="https://morganney.github.io/morganney">
+                portfolio
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/morganney">
+                github.com/morganney
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/knightedcodemonkey">
+                github.com/knightedcodemonkey
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
       <section>
@@ -42,12 +53,17 @@ export default function Resume() {
           JavaScript, TypeScript, Node.js, HTML, CSS, React, Redux, Express.js, Next.js,
           CRA, Styled Components, Emotion, Jest, Cypress, Testing Library, Vite, Rollup,
           Webpack, Babel, SWC, Monorepos, Micro-frontends, SPA, Component Libraries,{' '}
-          <a href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages">
+          <a
+            target="_blank"
+            href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
+          >
             Dual Packages
           </a>
           , GitHub Actions, Dependency Management,{' '}
-          <a href="https://html-now.github.io/">Web Platform</a>, Redis, PostgreSQL,
-          MySQL, Docker, Compose, AWS-Copilot.
+          <a target="_blank" href="https://html-now.github.io/">
+            Web Platform
+          </a>
+          , Redis, PostgreSQL, MySQL, Docker, Compose, AWS-Copilot.
         </p>
       </section>
       <section>
@@ -66,7 +82,10 @@ export default function Resume() {
                 Developed a React text-to-speech component that wraps both SpeechSynthesis
                 and the HTMLAudioElement API&apos;s, while allowing the spoken text to be
                 highlighted, and/or synthesized through{' '}
-                <a href="https://aws.amazon.com/polly/">Amazon Polly</a>.
+                <a target="_blank" href="https://aws.amazon.com/polly/">
+                  Amazon Polly
+                </a>
+                .
               </li>
               <li>
                 Added ability to unit test their HTML Custom Element component library,
@@ -118,7 +137,10 @@ export default function Resume() {
               <li>
                 Transitioned an OAuth 2 flow for an SPA away from the browser and into a
                 Node/Express backend-for-frontend based on the{' '}
-                <a href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-07#section-6.2">
+                <a
+                  target="_blank"
+                  href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-07#section-6.2"
+                >
                   IETF BCP
                 </a>
                 .
@@ -206,7 +228,7 @@ export default function Resume() {
         <h3>Awards</h3>
         <div>
           <p>
-            <a href="https://news.ucsc.edu/2002/05/133.html">
+            <a target="_blank" href="https://news.ucsc.edu/2002/05/133.html">
               UCSC 2002 $20K Leadership Opportunity Scholarship
             </a>
             .

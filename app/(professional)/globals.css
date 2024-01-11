@@ -122,18 +122,13 @@ section li a {
   color: #000;
 }
 address {
-  margin-top: 3px;
+  display: grid;
+  margin: 3px 0 15px 0;
+  gap: 2px;
   font-style: normal;
 }
 address a {
-  color: #d44500;
-  text-decoration: none;
-}
-address p {
-  line-height: 1.7rem;
-}
-address p:nth-child(2) {
-  margin-bottom: 15px;
+  color: #000;
 }
 ul {
   margin: 0;
@@ -155,6 +150,22 @@ li:last-child {
 }
 h4 + ul li:nth-child(2) {
   margin: 20px 0 0 0;
+}
+section:first-child ul {
+  display: grid;
+  gap: 3px;
+}
+section:first-child li {
+  margin: 0;
+  padding: 0;
+}
+section:first-child li::before {
+  content: none;
+}
+section:first-child ul a {
+  color: #f2511b;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 /* Explicitly desktop first design */
