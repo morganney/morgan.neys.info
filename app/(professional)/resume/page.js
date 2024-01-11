@@ -4,12 +4,14 @@ export default function Resume() {
       <section>
         <header>
           <h1>
-            Morgan
-            <br />
-            Ney
+            <a target="_blank" href="https://morganney.github.io/morganney">
+              Morgan
+              <br />
+              Ney
+            </a>
           </h1>
           <h2>
-            <a href="https://linkedin.com/in/morganney">Frontend Engineer</a>
+            <a href="https://linkedin.com/in/morganney">Web (Frontend) Engineer</a>
           </h2>
         </header>
         <div>
@@ -26,20 +28,26 @@ export default function Resume() {
             <p>
               <a href="https://github.com/morganney">github.com/morganney</a>
             </p>
+            <p>
+              <a href="https://github.com/knightedcodemonkey">
+                github.com/knightedcodemonkey
+              </a>
+            </p>
           </address>
         </div>
       </section>
       <section>
         <h3>Skills</h3>
         <p>
-          JavaScript, TypeScript, Node.js, HTML, CSS, React, Redux, Next.js, CRA, Styled
-          Components, Emotion, Jest, Cypress, Testing Library, Vite, Rollup, Webpack,
-          Babel, SWC, Monorepos, Micro-frontends, SPA, Component Libraries,{' '}
+          JavaScript, TypeScript, Node.js, HTML, CSS, React, Redux, Express.js, Next.js,
+          CRA, Styled Components, Emotion, Jest, Cypress, Testing Library, Vite, Rollup,
+          Webpack, Babel, SWC, Monorepos, Micro-frontends, SPA, Component Libraries,{' '}
           <a href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages">
             Dual Packages
           </a>
           , GitHub Actions, Dependency Management,{' '}
-          <a href="https://html-now.github.io/">Web Platform</a>.
+          <a href="https://html-now.github.io/">Web Platform</a>, Redis, PostgreSQL,
+          MySQL, Docker, Compose, AWS-Copilot.
         </p>
       </section>
       <section>

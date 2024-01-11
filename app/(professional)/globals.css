@@ -44,6 +44,10 @@ h1 {
   font-weight: 800;
   font-size: 3.2rem;
 }
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
 h2 {
   color: #f2511b;
   margin: 0;
