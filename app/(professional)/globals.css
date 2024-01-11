@@ -44,6 +44,10 @@ h1 {
   font-weight: 800;
   font-size: 3.2rem;
 }
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
 h2 {
   color: #f2511b;
   margin: 0;
@@ -118,18 +122,13 @@ section li a {
   color: #000;
 }
 address {
-  margin-top: 3px;
+  display: grid;
+  margin: 3px 0 15px 0;
+  gap: 2px;
   font-style: normal;
 }
 address a {
-  color: #d44500;
-  text-decoration: none;
-}
-address p {
-  line-height: 1.7rem;
-}
-address p:nth-child(2) {
-  margin-bottom: 15px;
+  color: #000;
 }
 ul {
   margin: 0;
@@ -152,6 +151,30 @@ li:last-child {
 h4 + ul li:nth-child(2) {
   margin: 20px 0 0 0;
 }
+section:first-child ul {
+  display: grid;
+  gap: 3px;
+}
+section:first-child li {
+  margin: 0;
+  padding: 0;
+}
+section:first-child li::before {
+  content: none;
+}
+section:first-child ul a {
+  color: #f2511b;
+  text-decoration: none;
+  font-weight: 700;
+}
+section:nth-child(2) > div {
+  display: grid;
+  gap: 8px;
+}
+section:nth-child(2) h5 {
+  margin: 0 0 2px 0;
+  text-transform: none;
+}
 
 /* Explicitly desktop first design */
 @media screen and (max-width: 845px) {
@@ -163,5 +186,11 @@ h4 + ul li:nth-child(2) {
   }
   h3::before {
     display: none;
+  }
+}
+
+@media print {
+  main {
+    box-shadow: none;
   }
 }
