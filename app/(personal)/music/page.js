@@ -34,6 +34,12 @@ export default function Music() {
             </song-details>
           </li>
           <li>
+            <song-details id="qQIO3pBFfXI">
+              <span slot="icon">🎹</span>
+              <span slot="title">In Too Deep &mdash; Genesis</span>
+            </song-details>
+          </li>
+          <li>
             <song-details id="FTQbiNvZqaY">
               <span slot="icon">🎸</span>
               <span slot="title">Africa &mdash; Toto</span>
