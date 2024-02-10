@@ -166,6 +166,18 @@ export default function Music() {
         <h2>90s</h2>
         <ul className={styles.list}>
           <li>
+            <song-details id="W05cPXpUHGI">
+              <span slot="icon">🎸</span>
+              <span slot="title">I Will Buy You A New Life &mdash; Everclear</span>
+            </song-details>
+          </li>
+          <li>
+            <song-details id="EkwD5rQ-_d4">
+              <span slot="icon">🎸</span>
+              <span slot="title">Possum Kingdom &mdash; The Toadies</span>
+            </song-details>
+          </li>
+          <li>
             <song-details id="u1xrNaTO1bI">
               <span slot="icon">🎸</span>
               <span slot="title">Personal Jesus &mdash; Depeche Mode</span>
@@ -209,6 +221,12 @@ export default function Music() {
               <span slot="title">
                 Undone &ndash;&ndash; The Sweater Song &mdash; Weezer
               </span>
+            </song-details>
+          </li>
+          <li>
+            <song-details id="MW6E_TNgCsY">
+              <span slot="icon">🎸</span>
+              <span slot="title">Santa Monica &mdash; Everclear</span>
             </song-details>
           </li>
           <li>
