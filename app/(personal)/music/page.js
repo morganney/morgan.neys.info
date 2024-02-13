@@ -248,6 +248,12 @@ export default function Music() {
             </song-details>
           </li>
           <li>
+            <song-details id="ENXvZ9YRjbo">
+              <span slot="icon">🎸</span>
+              <span slot="title">Say It A&apos;nt So &mdash; Weezer</span>
+            </song-details>
+          </li>
+          <li>
             <song-details id="lYBIRHi5-o8">
               <span slot="icon">🎸</span>
               <span slot="title">Down &mdash; 311</span>
