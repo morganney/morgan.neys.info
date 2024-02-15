@@ -54,8 +54,8 @@ export default function Resume() {
             <h5>Client</h5>
             <p>
               JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
-              CSS-in-JS/CSS Modules, Jest, Cypress, Testing Library, Vite, Rollup,
-              Webpack, Babel, SPA, PWA,{' '}
+              CSS-in-JS/CSS Modules, Jest, Cypress, Playwright, Testing Library, Vite,
+              Rollup, Webpack, Babel, SPA, PWA,{' '}
               <a target="_blank" href="https://html-now.github.io/">
                 Web Platform
               </a>
