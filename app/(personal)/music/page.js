@@ -277,6 +277,12 @@ export default function Music() {
               <span slot="title">C.R.E.A.M. &mdash; Wu&ndash;Tang Clan</span>
             </song-details>
           </li>
+          <li>
+            <song-details id="xmUZ6nCFNoU">
+              <span slot="icon">🎸</span>
+              <span slot="title">Today &mdash; The Smashing Pumpkins</span>
+            </song-details>
+          </li>
           <li>to be continued...</li>
         </ul>
       </section>

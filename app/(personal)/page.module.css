@@ -7,9 +7,9 @@
   padding: 12px;
 }
 .blockquote > p {
-  background: #e5e5e577;
-  background: gray;
+  background: #333;
   color: #e5e5e5;
+  font-weight: 500;
   padding: 28px 20px;
   border-radius: 3px;
 }

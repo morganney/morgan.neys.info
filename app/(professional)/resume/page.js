@@ -194,6 +194,10 @@ export default function Resume() {
                 frontend middleware service used for aggregation and mocking of other
                 microservices.
               </li>
+              <li>
+                Contributed as part of the front end platform teach, providing the
+                modules, framework, and tools to support higher-level feature development.
+              </li>
             </ul>
           </article>
           <article>

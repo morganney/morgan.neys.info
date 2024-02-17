@@ -6,10 +6,11 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+
 export const metadata = {
   title: 'Morgan Ney',
   description:
-    'Personal website of Morgan Ney, a father, husband, and web developer originally from the San Francisco Bay Area and now residing in Texas.',
+    'Personal website of Morgan Ney, a husband, father, and web developer originally from the San Francisco Bay Area and now residing in Texas.',
 }
 export default function RootLayout({ children }) {
   return (
