@@ -10,25 +10,25 @@ body {
   box-sizing: border-box;
 }
 html {
-  height: 100%;
+  min-height: 100%;
   display: flex;
-  background: black;
+  background: linear-gradient(#5a5a5a 0%, #191919 95%);
+
 }
 body {
   display: grid;
   grid-auto-rows: max-content;
   gap: 52px;
   align-content: center;
-  min-height: 100%;
-  max-width: 725px;
+  min-height: 100dvh;
+  width: 725px;
   margin: auto;
   padding: 18px;
-  background: rgba(224, 224, 224, 0.86);
+  background: rgba(224, 224, 224, 0.75);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(224, 224, 224, 0.3);
 }
-
 a:link,
 a:visited {
   color: rgb(0, 0, 238);
@@ -49,6 +49,7 @@ main > section:first-child h1 {
   margin: 0;
   font-size: 28px;
   word-break: break-all;
+  color: #333;
 }
 main > h1 {
   margin: 0 0 24px 0;
@@ -64,7 +65,7 @@ main + footer address {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  gap: 6px;
+  gap: 12px;
 }
 main + footer address > *::before {
   margin-right: 5px;
@@ -113,12 +114,12 @@ span.spinner {
   border-bottom-color: rgba(255, 255, 255, 0);
   animation: spin 1s linear infinite;
 }
-@media (min-width: 500px) {
+@media (width >= 500px) {
   body {
     padding: 28px;
   }
 }
-@media (min-width: 900px) {
+@media (width >= 900px) {
   body {
     padding: 36px;
   }
