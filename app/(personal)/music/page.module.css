@@ -12,9 +12,3 @@
 .list li:last-child {
   margin-bottom: 0;
 }
-.list li song-details {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  pointer-events: none;
-}

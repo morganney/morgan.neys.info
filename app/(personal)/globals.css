@@ -13,7 +13,6 @@ html {
   min-height: 100%;
   display: flex;
   background: linear-gradient(#5a5a5a 0%, #191919 95%);
-
 }
 body {
   display: grid;
