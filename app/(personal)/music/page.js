@@ -5,10 +5,11 @@ import styles from './page.module.css'
 
 export default function Music() {
   useEffect(() => {
-    Promise.all([
-      import('../components/youTube/defined.js'),
-      import('../components/songDetails/defined.js'),
-    ])
+    const loadYtv = async () => {
+      await import('youtube-vid/defined')
+    }
+
+    loadYtv()
   }, [])
 
   return (
@@ -22,142 +23,142 @@ export default function Music() {
         <h2>80s</h2>
         <ul className={styles.list}>
           <li>
-            <song-details id="kd9TlGDZGkI">
+            <youtube-vid id="kd9TlGDZGkI">
               <span slot="icon">🎸</span>
               <span slot="title">Walk of Life &mdash; Dire Straits</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="wJzNZ1c5C9c">
+            <youtube-vid id="wJzNZ1c5C9c">
               <span slot="icon">🎹</span>
               <span slot="title">Keep on Loving You &mdash; REO Speedwagon</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="qQIO3pBFfXI">
+            <youtube-vid id="qQIO3pBFfXI">
               <span slot="icon">🎹</span>
               <span slot="title">In Too Deep &mdash; Genesis</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="FTQbiNvZqaY">
+            <youtube-vid id="FTQbiNvZqaY">
               <span slot="icon">🎸</span>
               <span slot="title">Africa &mdash; Toto</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="8Pa9x9fZBtY">
+            <youtube-vid id="8Pa9x9fZBtY">
               <span slot="icon">🎸</span>
               <span slot="title">Sultans of Swing &mdash; Dire Straits (78)</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="s6TtwR2Dbjg">
+            <youtube-vid id="s6TtwR2Dbjg">
               <span slot="icon">🎤</span>
               <span slot="title">Heaven &mdash; Bryan Adams</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="Epj84QVw2rc">
+            <youtube-vid id="Epj84QVw2rc">
               <span slot="icon">🎵</span>
               <span slot="title">Come Undone &mdash; Duran Duran</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="xuZA6qiJVfU">
+            <youtube-vid id="xuZA6qiJVfU">
               <span slot="icon">🎸</span>
               <span slot="title">Drive &mdash; The Cars</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="MzGnX-MbYE4">
+            <youtube-vid id="MzGnX-MbYE4">
               <span slot="icon">🎸</span>
               <span slot="title">People Are People &mdash; Depeche Mode</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="mh8MIp2FOhc">
+            <youtube-vid id="mh8MIp2FOhc">
               <span slot="icon">🎸</span>
               <span slot="title">I&apos;ll Be There For You &mdash; Bon Jovi</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="4N1iwQxiHrs">
+            <youtube-vid id="4N1iwQxiHrs">
               <span slot="icon">🎸</span>
               <span slot="title">Your Love &mdash; The Outfield</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="wTP2RUD_cL0">
+            <youtube-vid id="wTP2RUD_cL0">
               <span slot="icon">🎸</span>
               <span slot="title">Money For Nothing &mdash; Dire Straights</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="AAZQaYKZMTI">
+            <youtube-vid id="AAZQaYKZMTI">
               <span slot="icon">🎸</span>
               <span slot="title">White Wedding &mdash; Billy Idol</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="WyF8RHM1OCg">
+            <youtube-vid id="WyF8RHM1OCg">
               <span slot="icon">🎸</span>
               <span slot="title">Here I Go Again &mdash; White Snake</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="VdphvuyaV_I">
+            <youtube-vid id="VdphvuyaV_I">
               <span slot="icon">🎸</span>
               <span slot="title">Rebel Yell &mdash; Billy Idol</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="JIrm0dHbCDU">
+            <youtube-vid id="JIrm0dHbCDU">
               <span slot="icon">🎸</span>
               <span slot="title">Strangelove &mdash; Depeche Mode</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="YIHMPc6ZCuI">
+            <youtube-vid id="YIHMPc6ZCuI">
               <span slot="icon">🎸</span>
               <span slot="title">So Far Away &mdash; Dire Straits</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="IGVZOLV9SPo">
+            <youtube-vid id="IGVZOLV9SPo">
               <span slot="icon">🎤</span>
               <span slot="title">Love Is A Battlefield &mdash; Pat Benatar</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="CBTOGVb_cQg">
+            <youtube-vid id="CBTOGVb_cQg">
               <span slot="icon">🎸</span>
               <span slot="title">Angel &mdash; Aerosmith</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="bDgOwX72fLI">
+            <youtube-vid id="bDgOwX72fLI">
               <span slot="icon">🎹</span>
               <span slot="title">Mandolin Rain &mdash; Bruce Hornsby, The Range</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="kU8OJAOMbPg">
+            <youtube-vid id="kU8OJAOMbPg">
               <span slot="icon">🎵</span>
               <span slot="title">In Your Eyes &mdash; Peter Gabriel</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="pekhxxngQ3s">
+            <youtube-vid id="pekhxxngQ3s">
               <span slot="icon">🎵</span>
               <span slot="title">No One Is To Blame &mdash; Howard Jones</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="Adw772km7PQ">
+            <youtube-vid id="Adw772km7PQ">
               <span slot="icon">🎵</span>
               <span slot="title">Back In The High Life Again &mdash; Steve Winwood</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>to be continued...</li>
         </ul>
@@ -166,122 +167,122 @@ export default function Music() {
         <h2>90s</h2>
         <ul className={styles.list}>
           <li>
-            <song-details id="W05cPXpUHGI">
+            <youtube-vid id="W05cPXpUHGI">
               <span slot="icon">🎸</span>
               <span slot="title">I Will Buy You A New Life &mdash; Everclear</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="EkwD5rQ-_d4">
+            <youtube-vid id="EkwD5rQ-_d4">
               <span slot="icon">🎸</span>
               <span slot="title">Possum Kingdom &mdash; The Toadies</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="u1xrNaTO1bI">
+            <youtube-vid id="u1xrNaTO1bI">
               <span slot="icon">🎸</span>
               <span slot="title">Personal Jesus &mdash; Depeche Mode</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="AVYYpNaSs2Y">
+            <youtube-vid id="AVYYpNaSs2Y">
               <span slot="icon">🎵</span>
               <span slot="title">All I Want &mdash; Toad The Wet Sprocket</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="-oqAU5VxFWs">
+            <youtube-vid id="-oqAU5VxFWs">
               <span slot="icon">🎤</span>
               <span slot="title">Mr. Jones &mdash; Counting Crows</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="gRYZijLZR-Q">
+            <youtube-vid id="gRYZijLZR-Q">
               <span slot="icon">🎸</span>
               <span slot="title">Jumper &mdash; Third Eye Blind</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="rE1oIhSgTgI">
+            <youtube-vid id="rE1oIhSgTgI">
               <span slot="icon">🎸</span>
               <span slot="title">How&apos;s It Going To Be &mdash; Third Eye Blind</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="8-r-V0uK4u0">
+            <youtube-vid id="8-r-V0uK4u0">
               <span slot="icon">🎸</span>
               <span slot="title">
                 Bullet With Butterfly Winds &mdash; The Smashing Pumpkins
               </span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="LHQqqM5sr7g">
+            <youtube-vid id="LHQqqM5sr7g">
               <span slot="icon">🎸</span>
               <span slot="title">
                 Undone &ndash;&ndash; The Sweater Song &mdash; Weezer
               </span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="MW6E_TNgCsY">
+            <youtube-vid id="MW6E_TNgCsY">
               <span slot="icon">🎸</span>
               <span slot="title">Santa Monica &mdash; Everclear</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="beINamVRGy4">
+            <youtube-vid id="beINamVRGy4">
               <span slot="icon">🎸</span>
               <span slot="title">Semi-Charmed Life &mdash; Third Eye Blind</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="4aeETEoNfOg">
+            <youtube-vid id="4aeETEoNfOg">
               <span slot="icon">🎸</span>
               <span slot="title">1979 &mdash; The Smashing Pumpkins</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="EqWRaAF6_WY">
+            <youtube-vid id="EqWRaAF6_WY">
               <span slot="icon">🎸</span>
               <span slot="title">My Hero &mdash; Foo Fighters</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="ENXvZ9YRjbo">
+            <youtube-vid id="ENXvZ9YRjbo">
               <span slot="icon">🎸</span>
               <span slot="title">Say It A&apos;nt So &mdash; Weezer</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="lYBIRHi5-o8">
+            <youtube-vid id="lYBIRHi5-o8">
               <span slot="icon">🎸</span>
               <span slot="title">Down &mdash; 311</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="gYdlqjiQPAc">
+            <youtube-vid id="gYdlqjiQPAc">
               <span slot="icon">🎸</span>
               <span slot="title">Low &mdash; Cracker</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="A-oh-tP6RvA">
+            <youtube-vid id="A-oh-tP6RvA">
               <span slot="icon">🎤</span>
               <span slot="title">Barely Breathing &mdash; Duncan Sheik</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="PBwAxmrE194">
+            <youtube-vid id="PBwAxmrE194">
               <span slot="icon">🎤</span>
               <span slot="title">C.R.E.A.M. &mdash; Wu&ndash;Tang Clan</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="xmUZ6nCFNoU">
+            <youtube-vid id="xmUZ6nCFNoU">
               <span slot="icon">🎸</span>
               <span slot="title">Today &mdash; The Smashing Pumpkins</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>to be continued...</li>
         </ul>
@@ -290,16 +291,16 @@ export default function Music() {
         <h2>2000s</h2>
         <ul className={styles.list}>
           <li>
-            <song-details id="yKNxeF4KMsY">
+            <youtube-vid id="yKNxeF4KMsY">
               <span slot="icon">🎸</span>
               <span slot="title">Yellow &mdash; Coldplay</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>
-            <song-details id="k4V3Mo61fJM">
+            <youtube-vid id="k4V3Mo61fJM">
               <span slot="icon">🎸</span>
               <span slot="title">Fix You &mdash; Coldplay</span>
-            </song-details>
+            </youtube-vid>
           </li>
           <li>to be continued...</li>
         </ul>
