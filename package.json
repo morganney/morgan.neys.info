@@ -6,10 +6,7 @@
   "scripts": {
     "prettier": "prettier -w .",
     "dev": "next dev",
-    "predev": "npm run cpytv",
     "build": "next build",
-    "prebuild": "npm run cpytv",
-    "cpytv": "ytvcp --webroot ./public",
     "preview": "serve out",
     "start": "next start",
     "lint": "next lint"
@@ -21,7 +18,7 @@
     "react": "^18.2.0",
     "react-d3-cloud": "^1.0.6",
     "react-dom": "^18.2.0",
-    "youtube-vid": "^1.0.0-alpha.6"
+    "youtube-vid": "^1.0.0-alpha.7"
   },
   "devDependencies": {
     "@knighted/dump": "^1.0.3",

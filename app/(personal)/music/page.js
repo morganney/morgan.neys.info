@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import styles from './page.module.css'
+import 'youtube-vid/styles'
 
 export default function Music() {
   useEffect(() => {
