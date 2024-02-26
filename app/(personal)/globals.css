@@ -87,13 +87,12 @@ a#home {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  border: 1px solid rgb(78, 168, 92);
-  background: rgb(78, 168, 92);
-  background: green;
+  background: #333;
+  background: radial-gradient(circle at 14px 14px, rgb(78, 168, 92), #333);
 }
 a#home span {
   color: white;
-  font-size: 16px;
+  font-size: 12px;
 }
 @keyframes spin {
   to {
