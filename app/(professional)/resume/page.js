@@ -25,7 +25,7 @@ export default function Resume() {
               <a href="mailto:morganney@gmail.com">morganney@gmail.com</a>
             </p>
             <p>
-              <a href="tel:+19038782665">903.878.2665</a>
+              <a href="tel:+19035214816">903.521.4816</a>
             </p>
           </address>
           <ul>
