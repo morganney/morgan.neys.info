@@ -1,21 +1,109 @@
-.wordCloud > div {
+.family {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
 }
-.wordCloud svg {
-  width: 95%;
+.family article {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
 }
-.wordCloud text {
-  font-size: 2em;
+.family header {
 }
-.para {
-  margin-bottom: 28px;
+.family figure {
 }
-@media screen and (min-width: 600px) {
-  .wordCloud svg {
-    width: 70%;
+.family picture {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+}
+.family picture img {
+  max-width: 100%;
+  height: auto;
+  object-position: right 20% top 2%;
+  object-fit: none;
+
+  --b: 3px; /* border thickness */
+  --c: #0000 25%, #333 0; /* define the color here */
+  padding: 5px;
+  background:
+    conic-gradient(from 90deg at top var(--b) left var(--b), var(--c)) 0 0,
+    conic-gradient(from 180deg at top var(--b) right var(--b), var(--c)) 100% 0,
+    conic-gradient(from 0deg at bottom var(--b) left var(--b), var(--c)) 0 100%,
+    conic-gradient(from -90deg at bottom var(--b) right var(--b), var(--c)) 100% 100%;
+  background-size: 50px 50px; /* adjust border length here */
+  background-repeat: no-repeat;
+  transition: 0.6s;
+}
+.family picture img:hover {
+  background-size: 51% 51%;
+}
+.family picture img.emma {
+  object-position: 48% 23%;
+}
+.family picture img.rebecca {
+  object-position: left 13% bottom 35%;
+}
+.family dl {
+  /*
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 24px;
+  row-gap: 6px;
+  */
+}
+.family dt {
+  font-weight: 600;
+}
+.family dd {
+  text-indent: 16px;
+}
+.family p {
+  margin: 0;
+}
+
+@media screen and (width > 600px) {
+  .family dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 24px;
+    row-gap: 4px;
   }
 }
+/*
+.family picture {
+  display: flex;
+  height: 220px;
+  width: 175px;
+  overflow: hidden;
+  border: 2px solid #222;
+}
+.family picture img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 85% 45px;
+  transform: scale(2);
+}
+.family picture img.emma {
+  object-position: 47% 30px;
+  transform: scale(2.5);
+}
+.family picture img.rebecca {
+  object-position: 2% -27px;
+  transform: scale(2.5);
+}
+
+@media screen and (width <= 500px) {
+  .family picture {
+    width: 125px;
+    height: 175px;
+  }
+  .family picture img, .family picture img.emma, .family picture img.rebecca {
+    transform: scale(1);
+  }
+}
+*/

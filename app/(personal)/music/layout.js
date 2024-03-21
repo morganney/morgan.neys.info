@@ -6,14 +6,20 @@ export const metadata = {
 export default function MusicLayout({ children }) {
   return (
     <>
-      <section>
-        <nav>
-          <Link href="/" id="home">
-            <span>MN</span>
-          </Link>
-        </nav>
-        <h1>Playlists 📻</h1>
-      </section>
+      <nav>
+        <ol>
+          <li>
+            <Link href="/">
+              <h1>
+                <code>morgan.neys.info</code>
+              </h1>
+            </Link>
+          </li>
+          <li>
+            <h2>playlist</h2>
+          </li>
+        </ol>
+      </nav>
       {children}
     </>
   )
