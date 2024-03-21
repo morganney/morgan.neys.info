@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import carnival from '../../../public/carnival-sm.webp'
+import carnival from '@/public/carnival-sm.webp'
 
 import styles from './page.module.css'
 

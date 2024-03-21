@@ -20,7 +20,6 @@ export default function FamilyLayout({ children }) {
           </li>
         </ol>
       </nav>
-
       {children}
     </>
   )

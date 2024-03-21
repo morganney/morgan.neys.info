@@ -24,12 +24,12 @@
     "@knighted/dump": "^1.0.3",
     "@types/node": "20.11.25",
     "@types/react": "18.2.64",
-    "cwebp-bin": "^8.0.0",
     "eslint": "^8.47.0",
     "eslint-config-next": "^14.1.0",
     "next": "^14.1.2",
     "prettier": "^3.2.5",
-    "serve": "^14.2.0"
+    "serve": "^14.2.0",
+    "sharp": "^0.33.2"
   },
   "overrides": {
     "d3-color": "^3.1.0"
