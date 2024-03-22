@@ -8,11 +8,12 @@
 html,
 body {
   box-sizing: border-box;
+  color: #333;
+  font-weight: 500;
 }
 html {
   min-height: 100%;
   display: flex;
-  background: linear-gradient(#5a5a5a 0%, #191919 95%);
 }
 body {
   display: grid;
@@ -23,10 +24,6 @@ body {
   width: 725px;
   margin: auto;
   padding: 18px;
-  background: rgba(224, 224, 224, 0.75);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(224, 224, 224, 0.3);
 }
 a:link,
 a:visited {
@@ -37,7 +34,7 @@ a:hover {
 }
 p {
   margin: 0 0 16px 0;
-  line-height: 1.25;
+  line-height: 1.35;
 }
 main,
 footer {
@@ -48,7 +45,6 @@ main > section:first-child h1 {
   margin: 0;
   font-size: 28px;
   word-break: break-all;
-  color: #333;
 }
 main > h1 {
   margin: 0 0 24px 0;
@@ -78,21 +74,33 @@ main + footer address a:first-of-type::before {
 main + footer address a:last-of-type::before {
   content: '📧';
 }
-a#home {
-  box-sizing: border-box;
+nav {
+  margin: 0 0 24px 0;
+}
+nav ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+nav li {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  height: 32px;
-  width: 32px;
-  border-radius: 50%;
-  background: #333;
-  background: radial-gradient(circle at 14px 14px, rgb(78, 168, 92), #333);
+  gap: 16px;
 }
-a#home span {
-  color: white;
-  font-size: 12px;
+nav h1,
+nav h2 {
+  margin: 0;
+  font-size: 28px;
+}
+nav li:not(:last-child)::after {
+  content: '>';
+  font-size: 22px;
+  font-weight: bold;
+}
+nav a {
+  text-decoration: none;
 }
 @keyframes spin {
   to {
@@ -115,6 +123,11 @@ span.spinner {
 @media (width >= 500px) {
   body {
     padding: 28px;
+  }
+
+  nav ol {
+    flex-direction: row;
+    align-items: center;
   }
 }
 @media (width >= 900px) {

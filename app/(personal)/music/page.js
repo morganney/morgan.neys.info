@@ -21,7 +21,7 @@ export default function Music() {
         on.
       </p>
       <section className={styles.songs} id="eighties">
-        <h2>80s</h2>
+        <h3>80s</h3>
         <ul className={styles.list}>
           <li>
             <youtube-vid id="kd9TlGDZGkI">
@@ -165,7 +165,7 @@ export default function Music() {
         </ul>
       </section>
       <section className={styles.songs} id="nineties">
-        <h2>90s</h2>
+        <h3>90s</h3>
         <ul className={styles.list}>
           <li>
             <youtube-vid id="W05cPXpUHGI">
@@ -289,7 +289,7 @@ export default function Music() {
         </ul>
       </section>
       <section className={styles.songs} id="millenium">
-        <h2>2000s</h2>
+        <h3>2000s</h3>
         <ul className={styles.list}>
           <li>
             <youtube-vid id="yKNxeF4KMsY">

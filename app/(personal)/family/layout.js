@@ -6,14 +6,20 @@ export const metadata = {
 export default function FamilyLayout({ children }) {
   return (
     <>
-      <section>
-        <nav>
-          <Link href="/" id="home">
-            <span>MN</span>
-          </Link>
-        </nav>
-        <h1>Family 👨‍👩‍👧‍👧</h1>
-      </section>
+      <nav>
+        <ol>
+          <li>
+            <Link href="/">
+              <h1>
+                <code>morgan.neys.info</code>
+              </h1>
+            </Link>
+          </li>
+          <li>
+            <h2>family</h2>
+          </li>
+        </ol>
+      </nav>
       {children}
     </>
   )
