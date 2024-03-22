@@ -11,10 +11,6 @@
   flex-direction: column;
   gap: 12px;
 }
-.family header {
-}
-.family figure {
-}
 .family picture {
   display: flex;
   overflow: hidden;
@@ -47,14 +43,6 @@
 .family picture img.rebecca {
   object-position: left 13% bottom 35%;
 }
-.family dl {
-  /*
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  column-gap: 24px;
-  row-gap: 6px;
-  */
-}
 .family dt {
   font-weight: 600;
 }
@@ -73,37 +61,3 @@
     row-gap: 4px;
   }
 }
-/*
-.family picture {
-  display: flex;
-  height: 220px;
-  width: 175px;
-  overflow: hidden;
-  border: 2px solid #222;
-}
-.family picture img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: 85% 45px;
-  transform: scale(2);
-}
-.family picture img.emma {
-  object-position: 47% 30px;
-  transform: scale(2.5);
-}
-.family picture img.rebecca {
-  object-position: 2% -27px;
-  transform: scale(2.5);
-}
-
-@media screen and (width <= 500px) {
-  .family picture {
-    width: 125px;
-    height: 175px;
-  }
-  .family picture img, .family picture img.emma, .family picture img.rebecca {
-    transform: scale(1);
-  }
-}
-*/
