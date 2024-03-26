@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
         <main>{children}</main>
         <footer>
           <address>
-            <a href="tel:+19038782665">
-              <span>(903) 878-2665</span>
+            <a href="tel:+19035214816">
+              <span>(903) 521-4816</span>
             </a>
             <a href="mailto:morganney@gmail.com">
               <span>morganney@gmail.com</span>
