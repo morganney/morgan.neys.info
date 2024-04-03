@@ -12,7 +12,7 @@ export default function Resume() {
           </h1>
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
-              Web (Frontend) Engineer
+              Web (Front-end) Engineer
             </a>
           </h2>
         </header>
@@ -229,7 +229,7 @@ export default function Resume() {
             <h4>SFSU</h4>
             <h5>January 2007 &ndash; May 2008, San Francisco, CA</h5>
             <p>
-              Studied general computer science curriculum after transfering credits from
+              Studied general computer science curriculum after transferring credits from
               Berkeley City College.
             </p>
           </article>
@@ -237,7 +237,7 @@ export default function Resume() {
             <h4>Berkeley City College</h4>
             <h5>August 2004 &ndash; December 2006, Berkeley, CA</h5>
             <p>
-              Studied general web programming curriculum before transfering credits to
+              Studied general web programming curriculum before transferring credits to
               SFSU.
             </p>
           </article>
