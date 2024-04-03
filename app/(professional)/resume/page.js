@@ -104,8 +104,8 @@ export default function Resume() {
               </li>
               <li>
                 Added ability to unit test their HTML Custom Element component library,
-                and created an npm bin script to facilitate set up of consuming
-                micro-frontends in their own Jest test suites.
+                and created an npm bin script to facilitate Jest configuration of
+                consuming micro-frontends.
               </li>
               <li>
                 Updated NPM dependencies and Webpack builds across multiple projects to
