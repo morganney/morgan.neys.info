@@ -1,9 +1,9 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Morgan Ney - Resume - Web Engineer',
+  title: 'Morgan Ney - Resume - Software Engineer',
   description:
-    'Resume of web engineer Morgan Ney. Specializing in JavaScript, HTML, CSS, TypeScript, Node.js, Webpack, Rollup, Vite, Storybook, and GitHub Actions.',
+    'Resume of software engineer Morgan Ney. Experienced in JavaScript, Node.js, and general web development. Specialized in front-end development and JavaScript build toolchains.',
 }
 export default function RootLayout({ children }) {
   return (

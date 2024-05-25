@@ -12,7 +12,7 @@ export default function Resume() {
           </h1>
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
-              Web (Front-end) Engineer
+              Software Engineer
             </a>
           </h2>
         </header>
@@ -39,11 +39,6 @@ export default function Resume() {
                 github.com/morganney
               </a>
             </li>
-            <li>
-              <a target="_blank" href="https://github.com/knightedcodemonkey">
-                github.com/knightedcodemonkey
-              </a>
-            </li>
           </ul>
         </div>
       </section>
@@ -54,8 +49,8 @@ export default function Resume() {
             <h5>Client</h5>
             <p>
               JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
-              CSS-in-JS/CSS Modules, Jest, Cypress, Playwright, Testing Library, Vite,
-              Rollup, Webpack, Babel, SPA, PWA,{' '}
+              Styled-Components, Emotion, Sass, Less, CSS Modules, Vite, Rollup, Webpack,
+              Babel, SPA, PWA,{' '}
               <a target="_blank" href="https://html-now.github.io/">
                 Web Platform
               </a>
@@ -64,19 +59,37 @@ export default function Resume() {
           </article>
           <article>
             <h5>Server</h5>
-            <p>Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL.</p>
+            <p>
+              Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL, Nginx, Apache, HTTP
+              JSON API.
+            </p>
+          </article>
+          <article>
+            <h5>Testing</h5>
+            <h6>Frameworks</h6>
+            <p>
+              Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
+              Karma.
+            </p>
+            <h6>Assertion Libraries</h6>
+            <p>Chai, Sinon.js, Enzyme, React Testing Library, Node:assert.</p>
+            <h6>Types/Styles</h6>
+            <p>
+              Unit, Functional, End-To-End (E2E), Test Driven Development (TDD), Behavior
+              Driven Development (BDD).
+            </p>
           </article>
           <article>
             <h5>DevOps</h5>
             <p>
-              Monorepos,{' '}
+              AWS (EC2, S3, Lambda, Route 53, CloudWatch, Copilot CLI), Docker, Compose,
+              GitHub Actions, Monorepos,{' '}
               <a
                 target="_blank"
                 href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
               >
-                Dual Packages
+                Dual Packages.
               </a>
-              , Docker, Compose, GitHub Actions, AWS Copilot CLI.
             </p>
           </article>
         </div>
