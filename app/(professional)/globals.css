@@ -177,7 +177,7 @@ section:first-child ul a {
 }
 section:nth-child(2) > div {
   display: grid;
-  gap: 8px;
+  gap: 12px;
 }
 section:nth-child(2) h5 {
   margin: 0 0 2px 0;

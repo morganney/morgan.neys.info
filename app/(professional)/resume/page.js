@@ -65,6 +65,19 @@ export default function Resume() {
             </p>
           </article>
           <article>
+            <h5>DevOps</h5>
+            <p>
+              AWS (EC2, S3, Lambda, Route 53, CloudWatch, Copilot CLI), Docker, Compose,
+              GitHub Actions, Monorepos,{' '}
+              <a
+                target="_blank"
+                href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
+              >
+                Dual Packages.
+              </a>
+            </p>
+          </article>
+          <article>
             <h5>Testing</h5>
             <h6>Frameworks</h6>
             <p>
@@ -77,19 +90,6 @@ export default function Resume() {
             <p>
               Unit, Functional, End-To-End (E2E), Test Driven Development (TDD), Behavior
               Driven Development (BDD).
-            </p>
-          </article>
-          <article>
-            <h5>DevOps</h5>
-            <p>
-              AWS (EC2, S3, Lambda, Route 53, CloudWatch, Copilot CLI), Docker, Compose,
-              GitHub Actions, Monorepos,{' '}
-              <a
-                target="_blank"
-                href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
-              >
-                Dual Packages.
-              </a>
             </p>
           </article>
         </div>
