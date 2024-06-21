@@ -46,7 +46,7 @@ export default function Resume() {
         <h3>Skills</h3>
         <div>
           <article>
-            <h5>Client</h5>
+            <h5>Frontend</h5>
             <p>
               JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
               Styled-Components, Emotion, Sass, Less, CSS Modules, Vite, Rollup, Webpack,
@@ -58,7 +58,7 @@ export default function Resume() {
             </p>
           </article>
           <article>
-            <h5>Server</h5>
+            <h5>Backend</h5>
             <p>
               Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL, Nginx, Apache, HTTP
               JSON API.
@@ -97,6 +97,30 @@ export default function Resume() {
       <section>
         <h3>Experience</h3>
         <div>
+          <article>
+            <h4>The Sage Group / Sr. Software Engineer</h4>
+            <h5>April 2024 &ndash; Present, San Francisco, CA</h5>
+            <ul>
+              <li>
+                Working with my previous employer Tenable as a remote contractor helping
+                to develop their new vulnerability management product.
+              </li>
+              <li>
+                Develop user interface features in a SPA using React, React Router DOM,
+                React Query, MobX and Emotion. Write tests for developed components using
+                Cypress Component Testing.
+              </li>
+              <li>
+                Helped catch bugs by suggesting the enabling of ESLint rule
+                react-hooks/exhaustive-deps and writing a Node script to report only those
+                errors so they could be fixed outside of the normal CI/CD pipeline.
+              </li>
+              <li>
+                Participate in code reviews on GitHub, daily standups and sprint planning
+                over Zoom, and team collaboration on Slack.
+              </li>
+            </ul>
+          </article>
           <article>
             <h4>PowerSchool (acquired Headed2) / Sr. Software Engineer II</h4>
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>

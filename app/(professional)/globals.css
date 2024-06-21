@@ -161,7 +161,7 @@ h4 + ul li:nth-child(2) {
 }
 section:first-child ul {
   display: grid;
-  gap: 3px;
+  gap: 5px;
 }
 section:first-child li {
   margin: 0;
