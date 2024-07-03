@@ -67,8 +67,8 @@ export default function Resume() {
           <article>
             <h5>DevOps</h5>
             <p>
-              AWS (EC2, S3, Lambda, Route 53, CloudWatch, Copilot CLI), Docker, Compose,
-              GitHub Actions, Monorepos,{' '}
+              AWS (EC2, ECS, ECR, RDS, S3, Lambda, Route 53, CloudWatch, Copilot CLI),
+              Docker, Compose, GitHub Actions, Monorepos,{' '}
               <a
                 target="_blank"
                 href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
@@ -97,6 +97,31 @@ export default function Resume() {
       <section>
         <h3>Experience</h3>
         <div>
+          <article>
+            <h4>Busmap / Personal Project</h4>
+            <h5>August 2023 &ndash; Present, https://try.busmap.online</h5>
+            <ul>
+              <li>
+                Full-stack responsive web application providing real-time bus arrival and
+                departure times for transit agencies across North and South America.
+              </li>
+              <li>
+                Developed with Docker, PostgreSQL, Redis, Express, React, Storybook, and
+                Playwright within a monorepo on GitHub
+                (https://github.com/morganney/busmap).
+              </li>
+              <li>
+                Deployed to AWS initially using Copilot CLI, RDS (Aurora Serverless V2),
+                ECR, and ECS, but switched to a manual approach with EC2, and Route53 due
+                to prohibitive costs from CLI not supporting Aurora V1 with Environment
+                Addons (https://github.com/aws/copilot-cli/issues/4960).
+              </li>
+              <li>
+                Backed by the RestBus API I developed and deployed to AWS Lambda.
+                https://morganney.github.io/restbus.info/.
+              </li>
+            </ul>
+          </article>
           <article>
             <h4>The Sage Group / Sr. Software Engineer</h4>
             <h5>April 2024 &ndash; Present, San Francisco, CA</h5>
