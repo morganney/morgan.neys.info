@@ -67,8 +67,8 @@ export default function Resume() {
           <article>
             <h5>DevOps</h5>
             <p>
-              AWS (EC2, ECS, ECR, RDS, S3, Lambda, Route 53, CloudWatch, Copilot CLI),
-              Docker, Compose, GitHub Actions, Monorepos,{' '}
+              AWS (EC2, ECS, ECR, RDS, API Gateway, S3, Lambda, Route 53, CloudWatch,
+              Copilot CLI), Docker, Compose, GitHub Actions, Monorepos,{' '}
               <a
                 target="_blank"
                 href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
@@ -239,6 +239,11 @@ export default function Resume() {
               <li>
                 Grew the monorepo to eleven contributors that spanned two teams and
                 multiple web apps.
+              </li>
+              <li>
+                Deployed the API for a React SPA to AWS using Amazon API Gateway and stage
+                variables for management of different environments. Served static assets
+                for the SPA via S3.
               </li>
             </ul>
           </article>
