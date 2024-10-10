@@ -25,7 +25,9 @@ main {
   font-family: Lato, sans-serif;
   font-size: 1.4rem;
 }
-
+a {
+  color: #0000ee;
+}
 h1,
 h2,
 h3,
@@ -125,10 +127,6 @@ section:nth-child(4) p {
 section:last-child p:last-child {
   margin-top: 10px;
 }
-section:last-child a,
-section li a {
-  color: #000;
-}
 address {
   display: grid;
   margin: 3px 0 15px 0;
@@ -199,6 +197,10 @@ section:nth-child(2) h5 {
 }
 
 @media print {
+  a {
+    color: #000;
+    text-decoration: none;
+  }
   main {
     box-shadow: none;
   }

@@ -98,8 +98,35 @@ export default function Resume() {
         <h3>Experience</h3>
         <div>
           <article>
+            <h4>Athena / Software Engineer</h4>
+            <h5>July 2024 &ndash; Present</h5>
+            <ul>
+              <li>
+                Brought on as a senior engineer to help establish best practices for
+                developing and maintaining a financial advice application built with
+                Next.js, React, Styled Components, and TypeScript.
+              </li>
+              <li>
+                Helped fix their E2E tests by seeding the database within the docker
+                container, establishing dependencies between tests, and using Playwright
+                locators in favor of manual timeouts.
+              </li>
+              <li>
+                Improved the CI/CD pipeline by updating workflow dependencies, adding more
+                linting, testing, and a pre-push hook to enforce coding standards thereby
+                minimizing workflow runner usage and expediting the feedback loop.
+              </li>
+              <li>
+                Developed a responsive investments dashboard that displays a user&apos;s
+                accounts, holdings, and performance over time using a data-grid, and SVG
+                based time-series chart with selectable date ranges.
+              </li>
+            </ul>
+          </article>
+          <article>
             <h4>Busmap / Personal Project</h4>
-            <h5>August 2023 &ndash; Present, https://try.busmap.online</h5>
+            <h5>August 2023 &ndash; Present &ndash; https://try.busmap.online</h5>
+
             <ul>
               <li>
                 Full-stack responsive web application providing real-time bus arrival and
@@ -107,24 +134,27 @@ export default function Resume() {
               </li>
               <li>
                 Developed with Docker, PostgreSQL, Redis, Express, React, Storybook, and
-                Playwright within a monorepo on GitHub
-                (https://github.com/morganney/busmap).
+                Playwright within a GitHub monorepo.
               </li>
               <li>
                 Deployed to AWS initially using Copilot CLI, RDS (Aurora Serverless V2),
-                ECR, and ECS, but switched to a manual approach with EC2, and Route53 due
-                to prohibitive costs from CLI not supporting Aurora V1 with Environment
-                Addons (https://github.com/aws/copilot-cli/issues/4960).
+                ECR, and ECS, then switched to a manual approach with EC2, and Route53 due
+                to prohibitive costs from CLI{' '}
+                <a href="https://github.com/aws/copilot-cli/issues/4960">
+                  not supporting Aurora V1 with Environment Addons
+                </a>
+                .
               </li>
               <li>
-                Backed by the RestBus API I developed and deployed to AWS Lambda.
-                https://morganney.github.io/restbus.info/.
+                Backed by the{' '}
+                <a href="https://morganney.github.io/restbus.info/">RestBus API</a> I
+                developed and deployed to AWS Lambda.
               </li>
             </ul>
           </article>
           <article>
             <h4>The Sage Group / Sr. Software Engineer</h4>
-            <h5>April 2024 &ndash; Present, San Francisco, CA</h5>
+            <h5>April 2024 &ndash; July 2024, San Francisco, CA</h5>
             <ul>
               <li>
                 Working with my previous employer Tenable as a remote contractor helping
@@ -133,12 +163,7 @@ export default function Resume() {
               <li>
                 Develop user interface features in a SPA using React, React Router DOM,
                 React Query, MobX and Emotion. Write tests for developed components using
-                Cypress Component Testing.
-              </li>
-              <li>
-                Helped catch bugs by suggesting the enabling of ESLint rule
-                react-hooks/exhaustive-deps and writing a Node script to report only those
-                errors so they could be fixed outside of the normal CI/CD pipeline.
+                Cypress Component Testing and Jest.
               </li>
               <li>
                 Participate in code reviews on GitHub, daily standups and sprint planning
