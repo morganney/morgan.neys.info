@@ -6,7 +6,7 @@
   "scripts": {
     "prettier": "prettier -w .",
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "preview": "serve out",
     "start": "next start",
     "lint": "next lint"
@@ -24,10 +24,10 @@
     "@types/node": "20.11.25",
     "@types/react": "18.2.64",
     "eslint": "^8.47.0",
-    "eslint-config-next": "^14.1.0",
-    "next": "^14.1.2",
+    "eslint-config-next": "^14.2.15",
+    "next": "^14.2.15",
     "prettier": "^3.2.5",
-    "serve": "^14.2.0",
+    "serve": "^14.2.3",
     "sharp": "^0.33.2"
   },
   "prettier": {
@@ -36,5 +36,8 @@
     "printWidth": 90,
     "trailingComma": "es5",
     "singleQuote": true
+  },
+  "overrides": {
+    "path-to-regexp": "^3.3.0"
   }
 }
