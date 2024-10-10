@@ -173,6 +173,9 @@ section:first-child ul a {
   text-decoration: none;
   font-weight: 700;
 }
+section:first-child ul a span:last-child {
+  display: none;
+}
 section:nth-child(2) > div {
   display: grid;
   gap: 12px;
@@ -203,5 +206,11 @@ section:nth-child(2) h5 {
   }
   main {
     box-shadow: none;
+  }
+  section:first-child ul a span:first-child {
+    display: none;
+  }
+  section:first-child ul a span:last-child {
+    display: inline;
   }
 }

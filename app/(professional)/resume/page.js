@@ -31,7 +31,8 @@ export default function Resume() {
           <ul>
             <li>
               <a target="_blank" href="https://morganney.github.io/morganney">
-                portfolio
+                <span>portfolio</span>
+                <span>morganney.github.io/morganney</span>
               </a>
             </li>
             <li>
