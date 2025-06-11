@@ -12,20 +12,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.0.8",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "youtube-vid": "^1.0.0-alpha.7"
   },
   "devDependencies": {
     "@knighted/dump": "^1.0.3",
+    "@next/eslint-plugin-next": "^15.3.3",
     "@types/node": "20.11.25",
-    "@types/react": "18.2.64",
-    "eslint": "^8.47.0",
-    "eslint-config-next": "^14.2.15",
-    "next": "^14.2.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "eslint": "^9.28.0",
+    "eslint-config-next": "^15.3.3",
+    "eslint-plugin-next": "^0.0.0",
+    "next": "^15.3.3",
     "prettier": "^3.2.5",
     "serve": "^14.2.3",
     "sharp": "^0.33.2"
