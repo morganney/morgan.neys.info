@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[129],{2129:(e,t,a)=>{a.a(e,async(e,n)=>{try{a.r(t),a.d(t,{default:()=>s});let e=async()=>{let e="you-tube";if(!customElements.get(e)){let{YouTube:t}=await a.e(60).then(a.bind(a,2060));customElements.define(e,t)}return await customElements.whenDefined(e)},s=await e();n()}catch(e){n(e)}},1)}}]);
