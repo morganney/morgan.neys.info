@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Script>
+      <Script id="lights-out" strategy="afterInteractive">
         {`
           import('https://esm.sh/lights-out@1.0.0-alpha.3').then(({ LightsOut }) => {
             const mql = window.matchMedia('(prefers-color-scheme: dark)');
