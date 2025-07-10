@@ -51,7 +51,7 @@ export default function Resume() {
             <p>
               JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
               Styled-Components, Emotion, Sass, Less, CSS Modules, Vite, Rollup, Webpack,
-              Babel, SPA, PWA,{' '}
+              Rspack, SWC, Babel, SPA, PWA,{' '}
               <a target="_blank" href="https://html-now.github.io/">
                 Web Platform
               </a>
@@ -86,12 +86,7 @@ export default function Resume() {
               Karma.
             </p>
             <h6>Assertion Libraries</h6>
-            <p>Chai, Sinon.js, Enzyme, React Testing Library, Node:assert.</p>
-            <h6>Types/Styles</h6>
-            <p>
-              Unit, Functional, End-To-End (E2E), Test Driven Development (TDD), Behavior
-              Driven Development (BDD).
-            </p>
+            <p>React Testing Library, Node:assert, jest-dom, Chai, Sinon.js, Enzyme.</p>
           </article>
         </div>
       </section>
@@ -99,35 +94,65 @@ export default function Resume() {
         <h3>Experience</h3>
         <div>
           <article>
-            <h4>Athena / Software Engineer</h4>
-            <h5>July 2024 &ndash; Present</h5>
+            <h4>GrowthLoop / Staff Frontend Engineer</h4>
+            <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Brought on as a senior engineer to help establish best practices for
-                developing and maintaining a financial advice application built with
+                Set up a local development environment using Docker Compose, enabling
+                developers to run the entire application stack locally—including the
+                backend, frontend, and database—while forwarding requests through kubectl
+                to access remote services.
+              </li>
+              <li>
+                Using Downshift.js, I developed a combo box component that supports
+                multiple selections, customizable rendering, and asynchronous option
+                loading. The component can function as either a single-select combo box or
+                a multi-select dropdown, controlled via a prop.
+              </li>
+              <li>
+                Improved code quality by introducing additional tooling for linting,
+                testing, type checking, unused code detection, cyclical dependency/import
+                detection, and code formatting. Implemented a pre-push hook to enforce
+                coding standards and minimize workflow runner usage.
+              </li>
+              <li>
+                Refactored the codebase by removing unused dependencies, files, and
+                unnecessary workspaces. Adopted a colocation-by-feature structure, making
+                it easier to onboard new developers and improving the maintainability and
+                readability of the codebase.
+              </li>
+            </ul>
+          </article>
+          <article>
+            <h4>Athena / Software Engineer</h4>
+            <h5>July 2024 &ndash; January 2025</h5>
+            <ul>
+              <li>
+                Appointed as a senior engineer to lead the adoption of best practices in
+                the development and maintenance of a financial advice application using
                 Next.js, React, Styled Components, and TypeScript.
               </li>
               <li>
-                Helped fix their E2E tests by seeding the database within the docker
-                container, establishing dependencies between tests, and using Playwright
-                locators in favor of manual timeouts.
+                Improved E2E test reliability by seeding the database within the Docker
+                container, establishing dependencies between tests, and replacing manual
+                timeouts with Playwright locators.
               </li>
               <li>
-                Improved the CI/CD pipeline by updating workflow dependencies, adding more
-                linting, testing, and a pre-push hook to enforce coding standards thereby
-                minimizing workflow runner usage and expediting the feedback loop.
+                Improved the CI/CD pipeline by updating workflow dependencies, adding
+                enhanced linting and testing, and implementing a pre-push hook to enforce
+                coding standards—minimizing workflow runner usage and expediting the
+                feedback loop.
               </li>
               <li>
-                Developed a responsive investments dashboard that displays a user&apos;s
-                accounts, holdings, and performance over time using a data-grid, and SVG
-                based time-series chart with selectable date ranges.
+                Developed a responsive investments dashboard that displays users&apos;
+                accounts, holdings, and performance over time using a data grid and an
+                SVG-based time-series chart with selectable date ranges.
               </li>
             </ul>
           </article>
           <article>
             <h4>Busmap / Personal Project</h4>
-            <h5>August 2023 &ndash; Present &ndash; https://try.busmap.online</h5>
-
+            <h5>August 2023 &ndash; March 2024 &ndash; https://try.busmap.online</h5>
             <ul>
               <li>
                 Full-stack responsive web application providing real-time bus arrival and
@@ -150,25 +175,6 @@ export default function Resume() {
                 Backed by the{' '}
                 <a href="https://morganney.github.io/restbus.info/">RestBus API</a> I
                 developed and deployed to AWS Lambda.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>The Sage Group / Sr. Software Engineer</h4>
-            <h5>April 2024 &ndash; July 2024, San Francisco, CA</h5>
-            <ul>
-              <li>
-                Working with my previous employer Tenable as a remote contractor helping
-                to develop their new vulnerability management product.
-              </li>
-              <li>
-                Develop user interface features in a SPA using React, React Router DOM,
-                React Query, MobX and Emotion. Write tests for developed components using
-                Cypress Component Testing and Jest.
-              </li>
-              <li>
-                Participate in code reviews on GitHub, daily standups and sprint planning
-                over Zoom, and team collaboration on Slack.
               </li>
             </ul>
           </article>
