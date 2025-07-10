@@ -40,7 +40,9 @@ export default function Home() {
             </footer>
           </blockquote>
         </div>
-        <Gol />
+        <div id="gol">
+          <Gol />
+        </div>
       </div>
     </>
   )
