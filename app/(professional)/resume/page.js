@@ -12,7 +12,7 @@ export default function Resume() {
           </h1>
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
-              Software Engineer
+              Frontend Engineer
             </a>
           </h2>
         </header>
@@ -94,7 +94,7 @@ export default function Resume() {
         <h3>Experience</h3>
         <div>
           <article>
-            <h4>GrowthLoop / Staff Frontend Engineer</h4>
+            <h4>GrowthLoop / Senior Frontend Engineer</h4>
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
@@ -147,34 +147,6 @@ export default function Resume() {
                 Developed a responsive investments dashboard that displays users&apos;
                 accounts, holdings, and performance over time using a data grid and an
                 SVG-based time-series chart with selectable date ranges.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>Busmap / Personal Project</h4>
-            <h5>August 2023 &ndash; March 2024 &ndash; https://try.busmap.online</h5>
-            <ul>
-              <li>
-                Full-stack responsive web application providing real-time bus arrival and
-                departure times for transit agencies across North and South America.
-              </li>
-              <li>
-                Developed with Docker, PostgreSQL, Redis, Express, React, Storybook, and
-                Playwright within a GitHub monorepo.
-              </li>
-              <li>
-                Deployed to AWS initially using Copilot CLI, RDS (Aurora Serverless V2),
-                ECR, and ECS, then switched to a manual approach with EC2, and Route53 due
-                to prohibitive costs from CLI{' '}
-                <a href="https://github.com/aws/copilot-cli/issues/4960">
-                  not supporting Aurora V1 with Environment Addons
-                </a>
-                .
-              </li>
-              <li>
-                Backed by the{' '}
-                <a href="https://morganney.github.io/restbus.info/">RestBus API</a> I
-                developed and deployed to AWS Lambda.
               </li>
             </ul>
           </article>
