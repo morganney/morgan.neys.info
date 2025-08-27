@@ -31,8 +31,7 @@ export default function Resume() {
           <ul>
             <li>
               <a target="_blank" href="https://morganney.github.io/morganney">
-                <span>portfolio</span>
-                <span>morganney.github.io/morganney</span>
+                morganney.github.io/morganney
               </a>
             </li>
             <li>
@@ -110,10 +109,15 @@ export default function Resume() {
                 a multi-select dropdown, controlled via a prop.
               </li>
               <li>
-                Improved code quality by introducing additional tooling for linting,
-                testing, type checking, unused code detection, cyclical dependency/import
-                detection, and code formatting. Implemented a pre-push hook to enforce
-                coding standards and minimize workflow runner usage.
+                Enhanced customers&apos; ability to visualize complex relationships
+                between their warehouse datasets by transforming tabular data into an
+                interactive canvas of linked nodes using React Flow.
+              </li>
+              <li>
+                Optimized audience building performance by implementing chunked rendering
+                with requestAnimationFrame and deferring debounced network requests until
+                after batch processing. This eliminated UI jank and reduced interaction
+                latency to the next paint by a factor of sixteen.
               </li>
               <li>
                 Refactored the codebase by removing unused dependencies, files, and
