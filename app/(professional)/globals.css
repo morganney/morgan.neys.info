@@ -20,7 +20,7 @@ main {
   background-color: white;
   box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   padding: 65px;
-  max-width: 825px;
+  max-width: 900px;
   margin: 15px auto;
   font-family: Lato, sans-serif;
   font-size: 1.4rem;
@@ -142,14 +142,14 @@ ul {
   padding: 0;
 }
 li {
-  margin-bottom: 3px;
-  padding-left: 45px;
+  margin-bottom: 5px;
+  padding-left: 25px;
   position: relative;
 }
 li::before {
   content: '-';
   position: absolute;
-  left: 25px;
+  left: 10px;
 }
 li:last-child {
   margin-bottom: 0;
@@ -176,14 +176,24 @@ section:first-child ul a {
 section:first-child ul a span:last-child {
   display: none;
 }
-section:nth-child(2) > div {
-  display: grid;
-  gap: 12px;
-}
-section:nth-child(2) h5 {
-  margin: 0 0 2px 0;
-  text-transform: none;
-  font-size: 1.3rem;
+section:nth-child(2) {
+  dt {
+    font-weight: 700;
+  }
+  dd {
+    margin-left: 25px;
+    padding-left: 0;
+  }
+  li {
+    padding-left: 0;
+
+    &::before {
+      content: none;
+    }
+  }
+  strong {
+    font-weight: 600;
+  }
 }
 
 /* Explicitly desktop first design */

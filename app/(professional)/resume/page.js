@@ -31,8 +31,7 @@ export default function Resume() {
           <ul>
             <li>
               <a target="_blank" href="https://morganney.github.io/morganney">
-                <span>portfolio</span>
-                <span>morganney.github.io/morganney</span>
+                morganney.github.io/morganney
               </a>
             </li>
             <li>
@@ -45,50 +44,55 @@ export default function Resume() {
       </section>
       <section>
         <h3>Skills</h3>
-        <div>
-          <article>
-            <h5>Frontend</h5>
-            <p>
-              JavaScript, TypeScript, HTML, CSS, React, React Query, Redux, Storybook,
-              Styled-Components, Emotion, Sass, Less, CSS Modules, Vite, Rollup, Webpack,
-              Rspack, SWC, Babel, SPA, PWA,{' '}
-              <a target="_blank" href="https://html-now.github.io/">
-                Web Platform
-              </a>
-              .
-            </p>
-          </article>
-          <article>
-            <h5>Backend</h5>
-            <p>
-              Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL, Nginx, Apache, HTTP
-              JSON API.
-            </p>
-          </article>
-          <article>
-            <h5>DevOps</h5>
-            <p>
-              AWS (EC2, ECS, ECR, RDS, API Gateway, S3, Lambda, Route 53, CloudWatch,
-              Copilot CLI), Docker, Compose, GitHub Actions, Monorepos,{' '}
-              <a
-                target="_blank"
-                href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
-              >
-                Dual Packages.
-              </a>
-            </p>
-          </article>
-          <article>
-            <h5>Testing</h5>
-            <h6>Frameworks</h6>
-            <p>
-              Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
-              Karma.
-            </p>
-            <h6>Assertion Libraries</h6>
-            <p>React Testing Library, Node:assert, jest-dom, Chai, Sinon.js, Enzyme.</p>
-          </article>
-        </div>
+        <dl>
+          <dt>Frontend</dt>
+          <dd>
+            <ul>
+              <li>
+                <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, React,
+                Next.js
+              </li>
+              <li>
+                <strong>UI:</strong> React Query, Zustand, Redux, Storybook,
+                Styled-Components, Vanilla Extract, Emotion
+              </li>
+              <li>
+                <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, SWC, Babel
+              </li>
+              <li>
+                <strong>Web Fundamentals:</strong> HTML, CSS, SPA, PWA,{' '}
+                <a target="_blank" href="https://html-now.github.io/">
+                  Web Platform
+                </a>
+              </li>
+            </ul>
+          </dd>
+          <dt>Backend</dt>
+          <dd>
+            Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL, Nginx, Apache,
+            REST/JSON APIs
+          </dd>
+          <dt>DevOps & CI/CD</dt>
+          <dd>
+            AWS (EC2, ECS, ECR, RDS, API Gateway, S3, Lambda, Route 53, CloudWatch,
+            Copilot CLI), Docker, Docker Compose, GitHub Actions, Monorepos,{' '}
+            <a
+              target="_blank"
+              href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
+            >
+              Dual Packages
+            </a>
+          </dd>
+          <dt>Testing</dt>
+          <dd>
+            Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
+            React Testing Library, jest-dom, Node:assert, Chai, Sinon.js
+          </dd>
+          <dt>Other Strengths</dt>
+          <dd>
+            Performance Optimization, Design Systems, Responsive UX, Accessibility (a11y)
+          </dd>
+        </dl>
       </section>
       <section>
         <h3>Experience</h3>
@@ -98,28 +102,46 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Set up a local development environment using Docker Compose, enabling
-                developers to run the entire application stack locally—including the
-                backend, frontend, and database—while forwarding requests through kubectl
-                to access remote services.
+                Developed an interactive canvas using React Flow to visualize and explore
+                complex relationships within warehouse datasets, improving user
+                comprehension and engagement.
               </li>
               <li>
-                Using Downshift.js, I developed a combo box component that supports
-                multiple selections, customizable rendering, and asynchronous option
-                loading. The component can function as either a single-select combo box or
-                a multi-select dropdown, controlled via a prop.
+                Engineered a flexible combo box component with Downshift.js, supporting
+                both single and multi-select modes, customizable rendering, and
+                asynchronous option loading for enhanced usability.
               </li>
               <li>
-                Improved code quality by introducing additional tooling for linting,
-                testing, type checking, unused code detection, cyclical dependency/import
-                detection, and code formatting. Implemented a pre-push hook to enforce
-                coding standards and minimize workflow runner usage.
+                Optimized front-end performance by implementing chunked rendering
+                strategies and efficient network request batching, reducing interaction
+                latency by a factor of sixteen and eliminating UI jank.
               </li>
               <li>
-                Refactored the codebase by removing unused dependencies, files, and
-                unnecessary workspaces. Adopted a colocation-by-feature structure, making
-                it easier to onboard new developers and improving the maintainability and
-                readability of the codebase.
+                Elevated code quality and maintainability by introducing advanced tooling
+                for linting, testing, and type checking, and by implementing pre-push
+                hooks and{' '}
+                <a
+                  target="_blank"
+                  href="https://github.com/knightedcodemonkey/display-name"
+                >
+                  codemods
+                </a>{' '}
+                to enforce coding standards and streamline developer workflows.
+              </li>
+              <li>
+                Refactored codebase structure using colocation-by-feature, removed
+                obsolete dependencies and files, and improved documentation, making
+                onboarding easier and code maintenance more efficient.
+              </li>
+              <li>
+                Set up a robust local development environment with Docker Compose,
+                enabling the team to run the full stack locally and facilitating seamless
+                integration with remote services.
+              </li>
+              <li>
+                Collaborated closely with designers and product managers to deliver highly
+                interactive, user-friendly features, prioritizing accessibility,
+                responsiveness, and pixel-perfect UI.
               </li>
             </ul>
           </article>
@@ -128,25 +150,16 @@ export default function Resume() {
             <h5>July 2024 &ndash; January 2025</h5>
             <ul>
               <li>
-                Appointed as a senior engineer to lead the adoption of best practices in
-                the development and maintenance of a financial advice application using
+                Led adoption of best practices for a financial advice platform using
                 Next.js, React, Styled Components, and TypeScript.
               </li>
               <li>
-                Improved E2E test reliability by seeding the database within the Docker
-                container, establishing dependencies between tests, and replacing manual
-                timeouts with Playwright locators.
+                Enhanced E2E test reliability and streamlined CI/CD workflows with
+                Playwright, improved linting, and database seeding in Docker.
               </li>
               <li>
-                Improved the CI/CD pipeline by updating workflow dependencies, adding
-                enhanced linting and testing, and implementing a pre-push hook to enforce
-                coding standards—minimizing workflow runner usage and expediting the
-                feedback loop.
-              </li>
-              <li>
-                Developed a responsive investments dashboard that displays users&apos;
-                accounts, holdings, and performance over time using a data grid and an
-                SVG-based time-series chart with selectable date ranges.
+                Delivered a responsive investments dashboard featuring performance
+                analytics via data grid and SVG-based time-series charts.
               </li>
             </ul>
           </article>
@@ -155,27 +168,28 @@ export default function Resume() {
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
             <ul>
               <li>
-                Using the HTML Canvas element, I developed a responsive React drawing
-                component that supports HiDPI displays, erasing, undoing/redoing strokes,
-                and serialization of the drawing as a Blob or Data URL.
+                Developed a responsive React drawing component using the HTML Canvas
+                element, supporting HiDPI displays, erasing, undo/redo, and export as Blob
+                or Data URL.
               </li>
               <li>
-                Developed a React text-to-speech component that wraps both SpeechSynthesis
-                and the HTMLAudioElement API&apos;s, while allowing the spoken text to be
-                highlighted, and/or synthesized through{' '}
-                <a target="_blank" href="https://aws.amazon.com/polly/">
-                  Amazon Polly
-                </a>
-                .
+                Built a{' '}
+                <a target="_blank" href="https://github.com/morganney/tts-react">
+                  React text-to-speech component
+                </a>{' '}
+                integrating SpeechSynthesis, HTMLAudioElement APIs, and Amazon Polly, with
+                support for highlighted spoken text and flexible voice synthesis for
+                accessibility.
               </li>
               <li>
-                Added ability to unit test their HTML Custom Element component library,
-                and created an NPM bin script to facilitate Jest configuration of
-                consuming micro-frontends.
+                Enabled robust unit testing for Custom Element component libraries and
+                automated Jest setup for micro-frontend consumers via tailored NPM
+                scripts.
               </li>
               <li>
-                Updated NPM dependencies and Webpack builds across multiple projects to
-                upgrade Node.js versions in CI/CD pipelines.
+                Upgraded Node.js versions and modernized NPM dependencies and Webpack
+                builds across multiple projects, enhancing CI/CD stability and
+                maintainability.
               </li>
             </ul>
           </article>
@@ -184,22 +198,29 @@ export default function Resume() {
             <h5>July 2021 &ndash; June 2022, Sparkill, NY</h5>
             <ul>
               <li>
-                Set up their first CI/CD pipeline using GitHub Actions to automate
-                integration and deployment of a Scala backend, React/Webpack frontend, and
-                Storybook build.
+                Implemented CI/CD automation with GitHub Actions, streamlining integration
+                and deployment for Scala backend, React/Webpack frontend, and Storybook
+                builds.
               </li>
               <li>
-                Transitioned legacy code from class-based Redux workflows to React context
-                and local state where applicable, while establishing similar patterns for
-                new development using hooks.
+                Modernized front-end state management by migrating legacy Redux class
+                patterns to React Context and hooks, promoting maintainable, scalable
+                architecture in new feature development.
               </li>
               <li>
-                Using Storybook, I created a reusable React component library that laid
-                the foundation for future UI development with a consistent UX and design.
+                Built a reusable React component library with Storybook, and created{' '}
+                <a
+                  target="_blank"
+                  href="https://www.npmjs.com/package/storybook-preset-inline-svg"
+                >
+                  storybook-preset-inline-svg
+                </a>{' '}
+                to enable easy inline SVG usage, laying the groundwork for consistent,
+                scalable UI and improved developer velocity.
               </li>
               <li>
-                Developed their new homepage, global navigation, and multi-step
-                registration flow for mobile and desktop.
+                Designed and developed responsive homepage, global navigation, and
+                multi-step registration flow for both mobile and desktop platforms.
               </li>
             </ul>
           </article>
