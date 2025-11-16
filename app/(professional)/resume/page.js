@@ -118,7 +118,12 @@ export default function Resume() {
                 Elevated code quality and maintainability by introducing advanced tooling
                 for linting, testing, and type checking, and by implementing pre-push
                 hooks and{' '}
-                <a href="https://github.com/knightedcodemonkey/display-name">codemods</a>{' '}
+                <a
+                  target="_blank"
+                  href="https://github.com/knightedcodemonkey/display-name"
+                >
+                  codemods
+                </a>{' '}
                 to enforce coding standards and streamline developer workflows.
               </li>
               <li>
@@ -167,7 +172,7 @@ export default function Resume() {
               </li>
               <li>
                 Built a{' '}
-                <a href="https://github.com/morganney/tts-react">
+                <a target="_blank" href="https://github.com/morganney/tts-react">
                   React text-to-speech component
                 </a>{' '}
                 integrating SpeechSynthesis, HTMLAudioElement APIs, and Amazon Polly, with
