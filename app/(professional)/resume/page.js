@@ -61,7 +61,9 @@ export default function Resume() {
               </li>
               <li>
                 <strong>Web Fundamentals:</strong> HTML, CSS, SPA, PWA,{' '}
-                <a href="https://html-now.github.io/">Web Platform</a>
+                <a target="_blank" href="https://html-now.github.io/">
+                  Web Platform
+                </a>
               </li>
             </ul>
           </dd>
