@@ -103,12 +103,6 @@ export default function Resume() {
                 to access remote services.
               </li>
               <li>
-                Using Downshift.js, I developed a combo box component that supports
-                multiple selections, customizable rendering, and asynchronous option
-                loading. The component can function as either a single-select combo box or
-                a multi-select dropdown, controlled via a prop.
-              </li>
-              <li>
                 Enhanced customers&apos; ability to visualize complex relationships
                 between their warehouse datasets by transforming tabular data into an
                 interactive canvas of linked nodes using React Flow.
@@ -120,10 +114,11 @@ export default function Resume() {
                 latency to the next paint by a factor of sixteen.
               </li>
               <li>
-                Refactored the codebase by removing unused dependencies, files, and
-                unnecessary workspaces. Adopted a colocation-by-feature structure, making
-                it easier to onboard new developers and improving the maintainability and
-                readability of the codebase.
+                Enhanced code quality and maintainability by implementing advanced tooling
+                and pre-push hooks for linting, testing, type checking, and standardized
+                formatting. Refactored the codebase by removing obsolete dependencies and
+                files, and reorganized project structure for improved onboarding and
+                readability.
               </li>
             </ul>
           </article>
