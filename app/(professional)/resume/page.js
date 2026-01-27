@@ -88,11 +88,32 @@ export default function Resume() {
             Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
             React Testing Library, jest-dom, Node:assert, Chai, Sinon.js
           </dd>
+          <dt>AI &amp; Developer Velocity</dt>
+          <dd>
+            Agentic Workflows (Cursor Composer, Copilot Plan), AI-Driven Prototyping,
+            CodeRabbit (Automated Reviews), LLM-assisted Software Architecture
+          </dd>
           <dt>Other Strengths</dt>
           <dd>
-            Performance Optimization, Design Systems, Responsive UX, Accessibility (a11y)
+            Performance Optimization (Core Web Vitals), Design Systems, Responsive UX,
+            Accessibility (a11y), Engineering Mentorship &amp; Vision
           </dd>
         </dl>
+      </section>
+      <section>
+        <h3>Technical Research &amp; Prototyping</h3>
+        <div>
+          <article>
+            <h4>AI-Driven Web Tooling</h4>
+            <h5>2024 &ndash; Present</h5>
+            <p>
+              Architected and implemented a suite of high-performance web primitives
+              (@knighted/jsx, css, jsx-ts-plugin) using agentic AI workflows. Leveraged
+              LLMs for complex refactoring and automated PR auditing, achieving rapid
+              iteration cycles from concept to published NPM packages.
+            </p>
+          </article>
+        </div>
       </section>
       <section>
         <h3>Experience</h3>
