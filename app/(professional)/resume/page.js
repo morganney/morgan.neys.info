@@ -105,7 +105,7 @@ export default function Resume() {
         <div>
           <article>
             <h4>AI-Driven Web Tooling</h4>
-            <h5>2024 &ndash; Present</h5>
+            <h5>January 2024 &ndash; Present</h5>
             <p>
               Architected and implemented a suite of high-performance web primitives
               (@knighted/jsx, css, jsx-ts-plugin) using agentic AI workflows. Leveraged
