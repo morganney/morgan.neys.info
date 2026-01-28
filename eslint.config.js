@@ -4,10 +4,10 @@ import next from '@next/eslint-plugin-next'
 
 export default defineConfig([
   globalIgnores(['.next/**', 'out/**']),
+  ...nextVitals,
   {
-    extends: [nextVitals],
     plugins: {
-      next: next,
+      next,
     },
     rules: {
       'no-console': 'error',
