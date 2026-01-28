@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/744355e03808d4c7.js","/_next/static/chunks/18f38dbeee9f54d3.js"],""]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+0:{"buildId":"tovHoj7MLMDrb1gr9TPOw","rsc":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/18f38dbeee9f54d3.js","async":true}]],[["$","nav",null,{"children":["$","ol",null,{"children":[["$","li",null,{"children":["$","$L2",null,{"href":"/","children":["$","h1",null,{"children":["$","code",null,{"children":"morgan.neys.info"}]}]}]}],["$","li",null,{"children":["$","h2",null,{"children":"family"}]}]]}]}],["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]]}],"loading":null,"isPartial":false}
