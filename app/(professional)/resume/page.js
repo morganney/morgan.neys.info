@@ -88,11 +88,60 @@ export default function Resume() {
             Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
             React Testing Library, jest-dom, Node:assert, Chai, Sinon.js
           </dd>
+          <dt>AI &amp; Developer Velocity</dt>
+          <dd>
+            Agentic workflows (Cursor, Copilot Plan/Agent), AI-driven prototyping and
+            implementation, LLM-assisted software architecture, automated reviews
+            (Copilot, CodeRabbit)
+          </dd>
           <dt>Other Strengths</dt>
           <dd>
-            Performance Optimization, Design Systems, Responsive UX, Accessibility (a11y)
+            Performance Optimization (Core Web Vitals), Design Systems, Responsive UX,
+            Accessibility (a11y), Engineering Mentorship &amp; Vision
           </dd>
         </dl>
+      </section>
+      <section>
+        <h3>Technical Research &amp; Prototyping</h3>
+        <div>
+          <article>
+            <h4>AI-Driven Web Tooling</h4>
+            <h5>December 2025 &ndash; Present</h5>
+            <p>
+              Architected and implemented a suite of high-performance web primitives:
+              <a target="_blank" href="https://github.com/knightedcodemonkey/css">
+                @knighted/css
+              </a>{' '}
+              (CSS pipeline),{' '}
+              <a target="_blank" href="https://github.com/knightedcodemonkey/jsx">
+                @knighted/jsx
+              </a>{' '}
+              (JSX runtime/loader), and{' '}
+              <a
+                target="_blank"
+                href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
+              >
+                @knighted/jsx-ts-plugin
+              </a>{' '}
+              (TypeScript editor diagnostics) using agentic AI workflows; delivered demo
+              apps{' '}
+              <a target="_blank" href="https://github.com/morganney/css-jsx-app">
+                css-jsx-app
+              </a>
+              ,{' '}
+              <a target="_blank" href="https://github.com/morganney/jsx-loader-demo">
+                jsx-loader-demo
+              </a>
+              , and{' '}
+              <a target="_blank" href="https://github.com/morganney/jsx-node-playground">
+                jsx-node-playground
+              </a>{' '}
+              to validate integration and DX. Leveraged LLMs for complex refactoring and
+              automated PR auditing, achieving rapid iteration cycles from concept to
+              published NPM packages.
+            </p>
+          </article>
+        </div>
       </section>
       <section>
         <h3>Experience</h3>
