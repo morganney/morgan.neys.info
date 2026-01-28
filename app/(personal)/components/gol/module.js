@@ -110,19 +110,23 @@ export default function Gol() {
 
   useEffect(() => {
     let timer = null
+    let raf = null
 
     if (status === RUNNING) {
       timer = setTimeout(nextGeneration, GENERATION_TIME)
     }
 
     if (status === ENDED) {
-      prev.current = cells
-      setStatus(RUNNING)
-      setCells(Utils.getRandomMatrix(size))
+      raf = requestAnimationFrame(() => {
+        prev.current = cells
+        setStatus(RUNNING)
+        setCells(Utils.getRandomMatrix(size))
+      })
     }
 
     return () => {
       clearTimeout(timer)
+      cancelAnimationFrame(raf)
     }
   }, [status, size, cells, nextGeneration])
 
