@@ -10,7 +10,7 @@ export default function Resume() {
           </h1>
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
-              <span>Senior Software Engineer</span>
+              <span>Senior Frontend Engineer</span>
               <span>Frontend Architecture & Developer Tooling</span>
             </a>
           </h2>
@@ -44,11 +44,12 @@ export default function Resume() {
       <section>
         <h3>Summary</h3>
         <p>
-          I bridge high-impact product features with the systems that make development
-          better. I specialize in frontend foundations—code analysis, AST tooling, and
-          build optimizations—to turn complex workflows into golden paths. Product-minded,
-          I care equally about polished UI details, scalable component libraries, and
-          robust developer infrastructure.
+          Senior frontend engineer focused on developer tooling and frontend systems,
+          bridging high-impact product features with the platforms that enable delivery at
+          scale. I specialize in code analysis, AST tooling, and build optimizations to
+          turn complex workflows into golden paths. Product-minded, I care equally about
+          polished UI details, scalable component libraries, and robust developer
+          infrastructure.
         </p>
       </section>
       <section>
@@ -59,16 +60,15 @@ export default function Resume() {
             <ul>
               <li>
                 <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, HTML,
-                CSS, React, Next.js, Sass, Less, SPA, PWA
+                CSS, React, Next.js, SPA, PWA
               </li>
               <li>
-                <strong>UI & Visualization:</strong> React Query, Zustand, Redux,
-                Styled-Components, Vanilla Extract, Emotion, D3.js, HTML5 Canvas, SVG,
-                React Flow
+                <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
+                React Query, Zustand, Redux, Styled-Components, Vanilla Extract
               </li>
               <li>
-                <strong>Build Tools:</strong> Vite, Webpack, Rollup, ESBuild, Rspack, OXC,
-                SWC, Babel, Storybook
+                <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
+                Babel
               </li>
             </ul>
           </dd>
@@ -178,16 +178,6 @@ export default function Resume() {
                 to enforce coding standards and streamline developer workflows.
               </li>
               <li>
-                Refactored codebase structure using colocation-by-feature, removed
-                obsolete dependencies and files, and improved documentation, making
-                onboarding easier and code maintenance more efficient.
-              </li>
-              <li>
-                Set up a robust local development environment with Docker Compose,
-                enabling the team to run the full stack locally and facilitating seamless
-                integration with remote services.
-              </li>
-              <li>
                 Collaborated closely with designers and product managers to deliver highly
                 interactive, user-friendly features, prioritizing accessibility,
                 responsiveness, and pixel-perfect UI.
@@ -201,10 +191,6 @@ export default function Resume() {
               <li>
                 Led adoption of best practices for a financial advice platform using
                 Next.js, React, Styled Components, and TypeScript.
-              </li>
-              <li>
-                Enhanced E2E test reliability and streamlined CI/CD workflows with
-                Playwright, improved linting, and database seeding in Docker.
               </li>
               <li>
                 Delivered a responsive investments dashboard featuring performance
@@ -230,16 +216,6 @@ export default function Resume() {
                 support for highlighted spoken text and flexible voice synthesis for
                 accessibility.
               </li>
-              <li>
-                Enabled robust unit testing for Custom Element component libraries and
-                automated Jest setup for micro-frontend consumers via tailored NPM
-                scripts.
-              </li>
-              <li>
-                Upgraded Node.js versions and modernized NPM dependencies and Webpack
-                builds across multiple projects, enhancing CI/CD stability and
-                maintainability.
-              </li>
             </ul>
           </article>
           <article>
@@ -256,21 +232,6 @@ export default function Resume() {
                 patterns to React Context and hooks, promoting maintainable, scalable
                 architecture in new feature development.
               </li>
-              <li>
-                Built a reusable React component library with Storybook, and created{' '}
-                <a
-                  target="_blank"
-                  href="https://www.npmjs.com/package/storybook-preset-inline-svg"
-                >
-                  storybook-preset-inline-svg
-                </a>{' '}
-                to enable easy inline SVG usage, laying the groundwork for consistent,
-                scalable UI and improved developer velocity.
-              </li>
-              <li>
-                Designed and developed responsive homepage, global navigation, and
-                multi-step registration flow for both mobile and desktop platforms.
-              </li>
             </ul>
           </article>
           <article>
@@ -285,17 +246,6 @@ export default function Resume() {
                 Engineered a scalable integration strategy using dynamic imports to lazy
                 load different micro-frontends into an integrated web app.
               </li>
-              <li>
-                Transitioned an OAuth 2 flow for an SPA away from the browser and into a
-                Node/Express backend-for-frontend based on the{' '}
-                <a
-                  target="_blank"
-                  href="https://tools.ietf.org/html/draft-ietf-oauth-browser-based-apps-07#section-6.2"
-                >
-                  IETF BCP
-                </a>
-                .
-              </li>
             </ul>
           </article>
           <article>
@@ -308,13 +258,8 @@ export default function Resume() {
                 structure.
               </li>
               <li>
-                Grew the monorepo to eleven contributors that spanned two teams and
-                multiple web apps.
-              </li>
-              <li>
-                Deployed the API for a React SPA to AWS using Amazon API Gateway and stage
-                variables for management of different environments. Served static assets
-                for the SPA via S3.
+                Grew the monorepo to eleven contributors across two teams and multiple web
+                apps.
               </li>
             </ul>
           </article>
@@ -328,13 +273,8 @@ export default function Resume() {
                 previously a custom framework on top of jQuery).
               </li>
               <li>
-                Using an in-house framework built with Hapi I developed their first
-                frontend middleware service used for aggregation and mocking of other
-                microservices.
-              </li>
-              <li>
-                Contributed as part of the front end platform teach, providing the
-                modules, framework, and tools to support higher-level feature development.
+                Built an in-house Hapi-based frontend middleware service for aggregation
+                and service mocking.
               </li>
             </ul>
           </article>
