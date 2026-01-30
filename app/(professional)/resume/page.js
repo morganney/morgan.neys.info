@@ -11,7 +11,7 @@ export default function Resume() {
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
               <span>Senior Frontend Engineer</span>
-              <span>Frontend Architecture & Developer Tooling</span>
+              <span>UI/UX, Architecture & Tooling</span>
             </a>
           </h2>
         </header>
@@ -36,6 +36,11 @@ export default function Resume() {
             <li>
               <a target="_blank" href="https://github.com/morganney">
                 github.com/morganney
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/knightedcodemonkey">
+                github.com/knightedcodemonkey
               </a>
             </li>
           </ul>
@@ -70,6 +75,10 @@ export default function Resume() {
                 <strong>Accessibility:</strong> WCAG, WAI-ARIA Authoring Practices,
                 keyboard navigation, focus management, semantic HTML, color contrast,
                 screen readers (JAWS)
+              </li>
+              <li>
+                <strong>Design Systems:</strong> Storybook, Chromatic, Figma, Radix UI,
+                MUI, design tokens, component libraries
               </li>
               <li>
                 <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
@@ -156,9 +165,9 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Developed an interactive canvas using React Flow to visualize and explore
-                complex relationships within warehouse datasets, improving user
-                comprehension and engagement.
+                Engineered an interactive builder canvas using React Flow to model complex
+                relationships within warehouse datasets, improving user comprehension and
+                engagement.
               </li>
               <li>
                 Engineered a flexible combo box component with Downshift.js, supporting
@@ -208,7 +217,7 @@ export default function Resume() {
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
             <ul>
               <li>
-                Developed a responsive React drawing component using the HTML Canvas
+                Developed a high-fidelity React drawing component using the HTML Canvas
                 element, supporting HiDPI displays, erasing, undo/redo, and export as Blob
                 or Data URL.
               </li>
