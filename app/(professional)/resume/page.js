@@ -48,8 +48,8 @@ export default function Resume() {
           bridging high-impact product features with the platforms that enable delivery at
           scale. I specialize in code analysis, AST tooling, and build optimizations to
           turn complex workflows into golden paths. Product-minded, I care equally about
-          polished UI details, scalable component libraries, and robust developer
-          infrastructure.
+          translating Figma designs into polished, intuitive UI/UX, scalable component
+          libraries, and robust developer infrastructure.
         </p>
       </section>
       <section>
@@ -65,6 +65,11 @@ export default function Resume() {
               <li>
                 <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
                 React Query, Zustand, Redux, Styled-Components, Vanilla Extract
+              </li>
+              <li>
+                <strong>Accessibility:</strong> WCAG, WAI-ARIA Authoring Practices,
+                keyboard navigation, focus management, semantic HTML, color contrast,
+                screen readers (JAWS)
               </li>
               <li>
                 <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
@@ -95,7 +100,7 @@ export default function Resume() {
           </dd>
           <dt>AI &amp; Developer Velocity</dt>
           <dd>
-            Agentic workflows (Cursor, Copilot Plan/Agent), AI-driven prototyping and
+            Agentic workflows (Cursor and Copilot Plan/Agent), AI-driven prototyping and
             implementation, LLM-assisted software architecture, automated reviews
             (Copilot, CodeRabbit)
           </dd>
@@ -105,7 +110,7 @@ export default function Resume() {
         <h3>Technical Research &amp; Prototyping</h3>
         <div>
           <article>
-            <h4>AI-Driven Web Tooling</h4>
+            <h4>Recent AI-Driven Web Tooling</h4>
             <h5>December 2025 &ndash; Present</h5>
             <p>
               Architected and implemented a suite of high-performance web primitives:{' '}
