@@ -5,21 +5,20 @@ export default function Resume() {
         <header>
           <h1>
             <a target="_blank" href="https://morgan.neys.info">
-              Morgan
-              <br />
-              Ney
+              Morgan Ney
             </a>
           </h1>
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
-              Frontend Engineer
+              <span>Senior Software Engineer</span>
+              <span>Frontend Architecture & Developer Tooling</span>
             </a>
           </h2>
         </header>
         <div>
           <h3>Morgan Ney</h3>
           <address>
-            <p>432 CR 1236</p>
+            <p>432 County Road 1236</p>
             <p>Quitman, TX 75783</p>
             <p>
               <a href="mailto:morganney@gmail.com">morganney@gmail.com</a>
@@ -43,27 +42,33 @@ export default function Resume() {
         </div>
       </section>
       <section>
+        <h3>Summary</h3>
+        <p>
+          I bridge high-impact product features with the systems that make development
+          better. I specialize in frontend foundations—code analysis, AST tooling, and
+          build optimizations—to turn complex workflows into golden paths. Product-minded,
+          I care equally about polished UI details, scalable component libraries, and
+          robust developer infrastructure.
+        </p>
+      </section>
+      <section>
         <h3>Skills</h3>
         <dl>
           <dt>Frontend</dt>
           <dd>
             <ul>
               <li>
-                <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, React,
-                Next.js
+                <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, HTML,
+                CSS, React, Next.js, Sass, Less, SPA, PWA
               </li>
               <li>
-                <strong>UI:</strong> React Query, Zustand, Redux, Storybook,
-                Styled-Components, Vanilla Extract, Emotion
+                <strong>UI & Visualization:</strong> React Query, Zustand, Redux,
+                Styled-Components, Vanilla Extract, Emotion, D3.js, HTML5 Canvas, SVG,
+                React Flow
               </li>
               <li>
-                <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, SWC, Babel
-              </li>
-              <li>
-                <strong>Web Fundamentals:</strong> HTML, CSS, SPA, PWA,{' '}
-                <a target="_blank" href="https://html-now.github.io/">
-                  Web Platform
-                </a>
+                <strong>Build Tools:</strong> Vite, Webpack, Rollup, ESBuild, Rspack, OXC,
+                SWC, Babel, Storybook
               </li>
             </ul>
           </dd>
@@ -94,11 +99,6 @@ export default function Resume() {
             implementation, LLM-assisted software architecture, automated reviews
             (Copilot, CodeRabbit)
           </dd>
-          <dt>Other Strengths</dt>
-          <dd>
-            Performance Optimization (Core Web Vitals), Design Systems, Responsive UX,
-            Accessibility (a11y), Engineering Mentorship &amp; Vision
-          </dd>
         </dl>
       </section>
       <section>
@@ -108,7 +108,7 @@ export default function Resume() {
             <h4>AI-Driven Web Tooling</h4>
             <h5>December 2025 &ndash; Present</h5>
             <p>
-              Architected and implemented a suite of high-performance web primitives:
+              Architected and implemented a suite of high-performance web primitives:{' '}
               <a target="_blank" href="https://github.com/knightedcodemonkey/css">
                 @knighted/css
               </a>{' '}
@@ -282,8 +282,8 @@ export default function Resume() {
                 Components, Jest, and Testing Library.
               </li>
               <li>
-                Created a React component that made use of dynamic imports to lazy load
-                different micro-frontends into an integrated web app.
+                Engineered a scalable integration strategy using dynamic imports to lazy
+                load different micro-frontends into an integrated web app.
               </li>
               <li>
                 Transitioned an OAuth 2 flow for an SPA away from the browser and into a
@@ -303,12 +303,9 @@ export default function Resume() {
             <h5>July 2018 &ndash; June 2020, Santa Barbara, CA</h5>
             <ul>
               <li>
-                Brought on as the first frontend engineer to oversee development of their
-                new React SPA.
-              </li>
-              <li>
-                Using yarn workspaces and Docker I started a monorepo for development of
-                SPAs, a component library, Storybook, and an Express mock server.
+                Spearheaded the technical vision for a new React SPA in the telehealth
+                space, establishing the architecture, component library, and monorepo
+                structure.
               </li>
               <li>
                 Grew the monorepo to eleven contributors that spanned two teams and
@@ -346,8 +343,8 @@ export default function Resume() {
             <ul>
               <li>
                 <p>
-                  Developed chart-based SPAs to visualize energy usage across a building
-                  portfolio using React, Backbone, D3 and SVG.
+                  Developed chart-based SPAs to visualize high-frequency energy usage
+                  using React, D3, and SVG, optimizing performance for complex data sets.
                 </p>
                 <h5>Lucid, Oakland, CA, 2014 &ndash; 2015</h5>
               </li>
