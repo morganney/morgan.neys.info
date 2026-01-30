@@ -11,7 +11,7 @@ export default function Resume() {
           <h2>
             <a target="_blank" href="https://linkedin.com/in/morganney">
               <span>Senior Frontend Engineer</span>
-              <span>Frontend Architecture & Developer Tooling</span>
+              <span>UI/UX, Architecture & Tooling</span>
             </a>
           </h2>
         </header>
@@ -38,6 +38,11 @@ export default function Resume() {
                 github.com/morganney
               </a>
             </li>
+            <li>
+              <a target="_blank" href="https://github.com/knightedcodemonkey">
+                github.com/knightedcodemonkey
+              </a>
+            </li>
           </ul>
         </div>
       </section>
@@ -48,8 +53,8 @@ export default function Resume() {
           bridging high-impact product features with the platforms that enable delivery at
           scale. I specialize in code analysis, AST tooling, and build optimizations to
           turn complex workflows into golden paths. Product-minded, I care equally about
-          polished UI details, scalable component libraries, and robust developer
-          infrastructure.
+          translating Figma designs into polished, intuitive UI/UX, scalable component
+          libraries, and robust developer infrastructure.
         </p>
       </section>
       <section>
@@ -65,6 +70,15 @@ export default function Resume() {
               <li>
                 <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
                 React Query, Zustand, Redux, Styled-Components, Vanilla Extract
+              </li>
+              <li>
+                <strong>Accessibility:</strong> WCAG, WAI-ARIA Authoring Practices,
+                keyboard navigation, focus management, semantic HTML, color contrast,
+                screen readers (JAWS)
+              </li>
+              <li>
+                <strong>Design Systems:</strong> Storybook, Chromatic, Figma, Radix UI,
+                MUI, design tokens, component libraries
               </li>
               <li>
                 <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
@@ -95,7 +109,7 @@ export default function Resume() {
           </dd>
           <dt>AI &amp; Developer Velocity</dt>
           <dd>
-            Agentic workflows (Cursor, Copilot Plan/Agent), AI-driven prototyping and
+            Agentic workflows (Cursor and Copilot Plan/Agent), AI-driven prototyping and
             implementation, LLM-assisted software architecture, automated reviews
             (Copilot, CodeRabbit)
           </dd>
@@ -105,7 +119,7 @@ export default function Resume() {
         <h3>Technical Research &amp; Prototyping</h3>
         <div>
           <article>
-            <h4>AI-Driven Web Tooling</h4>
+            <h4>Recent AI-Driven Web Tooling</h4>
             <h5>December 2025 &ndash; Present</h5>
             <p>
               Architected and implemented a suite of high-performance web primitives:{' '}
@@ -151,9 +165,9 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Developed an interactive canvas using React Flow to visualize and explore
-                complex relationships within warehouse datasets, improving user
-                comprehension and engagement.
+                Engineered an interactive builder canvas using React Flow to model complex
+                relationships within warehouse datasets, improving user comprehension and
+                engagement.
               </li>
               <li>
                 Engineered a flexible combo box component with Downshift.js, supporting
@@ -203,7 +217,7 @@ export default function Resume() {
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
             <ul>
               <li>
-                Developed a responsive React drawing component using the HTML Canvas
+                Developed a high-fidelity React drawing component using the HTML Canvas
                 element, supporting HiDPI displays, erasing, undo/redo, and export as Blob
                 or Data URL.
               </li>
