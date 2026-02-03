@@ -65,7 +65,7 @@ export default function Resume() {
             <ul>
               <li>
                 <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, HTML,
-                CSS, React, Next.js, SPA, PWA
+                CSS, React, Next.js, GraphQL, SPA, PWA
               </li>
               <li>
                 <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
@@ -87,25 +87,12 @@ export default function Resume() {
             </ul>
           </dd>
           <dt>Backend</dt>
-          <dd>
-            Node.js, Express.js, Next.js, Redis, PostgreSQL, MySQL, Nginx, Apache,
-            REST/JSON APIs
-          </dd>
+          <dd>Node.js, Express.js, Redis, PostgreSQL, MySQL, REST/JSON APIs</dd>
           <dt>DevOps & CI/CD</dt>
-          <dd>
-            AWS (EC2, ECS, ECR, RDS, API Gateway, S3, Lambda, Route 53, CloudWatch,
-            Copilot CLI), Docker, Docker Compose, GitHub Actions, Monorepos,{' '}
-            <a
-              target="_blank"
-              href="https://nodejs.org/api/packages.html#dual-commonjses-module-packages"
-            >
-              Dual Packages
-            </a>
-          </dd>
+          <dd>AWS, Docker, Docker Compose, GitHub Actions, Nginx, Apache</dd>
           <dt>Testing</dt>
           <dd>
-            Jest, Vitest, Node.js Test Runner, Mocha, Cypress, Playwright, Webdriver.io,
-            React Testing Library, jest-dom, Node:assert, Chai, Sinon.js
+            Jest, Vitest, React Testing Library, Playwright, Cypress, Node.js Test Runner
           </dd>
           <dt>AI &amp; Developer Velocity</dt>
           <dd>
@@ -116,43 +103,55 @@ export default function Resume() {
         </dl>
       </section>
       <section>
-        <h3>Technical Research &amp; Prototyping</h3>
+        <h3>OSS &amp; Technical Research</h3>
         <div>
           <article>
-            <h4>Recent AI-Driven Web Tooling</h4>
+            <h4>High-Impact Frontend Systems &amp; Tooling</h4>
+            <h5>2023 &ndash; Present</h5>
+            <p>
+              Built{' '}
+              <a target="_blank" href="https://github.com/morganney/swc-walk">
+                @morganney/swc-walk
+              </a>
+              , a fast AST traversal utility for the SWC ecosystem with strong community
+              adoption. Created{' '}
+              <a target="_blank" href="https://github.com/knightedcodemonkey/duel">
+                @knighted/duel
+              </a>{' '}
+              to automate dual ESM/CJS builds and reduce interoperability friction in
+              Node.js projects. Implemented{' '}
+              <a target="_blank" href="https://github.com/knightedcodemonkey/specifier">
+                @knighted/specifier
+              </a>{' '}
+              to parse module imports/exports for specifier rewrites and AST metadata.
+            </p>
+          </article>
+          <article>
+            <h4>AI-Driven Web Primitives</h4>
             <h5>December 2025 &ndash; Present</h5>
             <p>
-              Architected and implemented a suite of high-performance web primitives:{' '}
+              Architected a suite of high-performance primitives including{' '}
               <a target="_blank" href="https://github.com/knightedcodemonkey/css">
                 @knighted/css
               </a>{' '}
-              (CSS pipeline),{' '}
+              (CSS pipeline) and{' '}
               <a target="_blank" href="https://github.com/knightedcodemonkey/jsx">
                 @knighted/jsx
               </a>{' '}
-              (JSX runtime/loader), and{' '}
+              (JSX runtime/loader), plus{' '}
               <a
                 target="_blank"
                 href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
               >
                 @knighted/jsx-ts-plugin
               </a>{' '}
-              (TypeScript editor diagnostics) using agentic AI workflows; delivered demo
-              apps{' '}
+              (editor diagnostics) using agentic AI workflows. Validated the stack with
+              the{' '}
               <a target="_blank" href="https://github.com/morganney/css-jsx-app">
                 css-jsx-app
-              </a>
-              ,{' '}
-              <a target="_blank" href="https://github.com/morganney/jsx-loader-demo">
-                jsx-loader-demo
-              </a>
-              , and{' '}
-              <a target="_blank" href="https://github.com/morganney/jsx-node-playground">
-                jsx-node-playground
               </a>{' '}
-              to validate integration and DX. Leveraged LLMs for complex refactoring and
-              automated PR auditing, achieving rapid iteration cycles from concept to
-              published NPM packages.
+              demo. Leveraged LLMs for complex AST refactoring and automated PR auditing
+              to accelerate development cycles from concept to published NPM packages.
             </p>
           </article>
         </div>
@@ -279,11 +278,11 @@ export default function Resume() {
           </article>
           <article>
             <h4>Tenable / Sr. Software Engineer</h4>
-            <h5>March 2016 &ndash; July 2018, COLUMBIA, MD</h5>
+            <h5>March 2016 &ndash; July 2018, Columbia, MD</h5>
             <ul>
               <li>
                 Spearheaded development of their next-generation architecture and stack as
-                a mono-repo using Yarn Workspaces, Webpack, Gulp, React, and Redux (was
+                a monorepo using Yarn Workspaces, Webpack, Gulp, React, and Redux (was
                 previously a custom framework on top of jQuery).
               </li>
               <li>
