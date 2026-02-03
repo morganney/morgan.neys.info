@@ -103,6 +103,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 40px;
+  gap: 10px;
 }
 section:last-child {
   margin-bottom: 0;
@@ -129,15 +130,17 @@ section:nth-child(3) article:last-child h5 {
   margin-top: 2px;
 }
 section:nth-child(4) p {
-  margin-top: 10px;
+  margin-top: 4px;
 }
-section:nth-child(5) article ul {
-  margin: 10px 0;
-}
+section:nth-child(4) > div,
+section:nth-child(5) > div,
 section:nth-child(6) > div {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+section:nth-child(5) article ul {
+  margin-top: 8px;
 }
 address {
   display: grid;
@@ -226,12 +229,24 @@ section:nth-child(3) {
 }
 
 @media print {
+  @page {
+    margin: 0.45in;
+  }
   a {
     color: #000;
     text-decoration: none;
   }
+  body {
+    background: #fff;
+    margin: 0;
+  }
   main {
     box-shadow: none;
+    margin: 0;
+    padding: 16px 12px;
+  }
+  section {
+    margin-bottom: 15px;
   }
   section:first-child ul a span:first-child {
     display: none;
