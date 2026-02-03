@@ -82,7 +82,7 @@ export default function Resume() {
               </li>
               <li>
                 <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
-                Babel
+                Babel, Lightning CSS
               </li>
             </ul>
           </dd>
@@ -116,13 +116,12 @@ export default function Resume() {
         </dl>
       </section>
       <section>
-        <h3>Technical Research &amp; Prototyping</h3>
+        <h3>OSS &amp; Technical Research</h3>
         <div>
           <article>
-            <h4>Recent AI-Driven Web Tooling</h4>
-            <h5>December 2025 &ndash; Present</h5>
+            <h4>Ecosystem Infrastructure &amp; Tooling</h4>
             <p>
-              Architected and implemented a suite of high-performance web primitives:{' '}
+              Architected and implemented{' '}
               <a target="_blank" href="https://github.com/knightedcodemonkey/css">
                 @knighted/css
               </a>{' '}
@@ -137,8 +136,14 @@ export default function Resume() {
               >
                 @knighted/jsx-ts-plugin
               </a>{' '}
-              (TypeScript editor diagnostics) using agentic AI workflows; delivered demo
-              apps{' '}
+              (TypeScript editor diagnostics); published as NPM packages with comprehensive
+              documentation and CI/CD integration.
+            </p>
+          </article>
+          <article>
+            <h4>AI-Driven Primitives &amp; Runtimes</h4>
+            <p>
+              Delivered demo apps{' '}
               <a target="_blank" href="https://github.com/morganney/css-jsx-app">
                 css-jsx-app
               </a>
@@ -150,9 +155,9 @@ export default function Resume() {
               <a target="_blank" href="https://github.com/morganney/jsx-node-playground">
                 jsx-node-playground
               </a>{' '}
-              to validate integration and DX. Leveraged LLMs for complex refactoring and
-              automated PR auditing, achieving rapid iteration cycles from concept to
-              published NPM packages.
+              to validate integration and DX using agentic AI workflows. Leveraged LLMs for
+              complex refactoring and automated PR auditing, achieving rapid iteration
+              cycles from concept to production.
             </p>
           </article>
         </div>
@@ -176,8 +181,8 @@ export default function Resume() {
               </li>
               <li>
                 Optimized front-end performance by implementing chunked rendering
-                strategies and efficient network request batching, reducing interaction
-                latency by a factor of sixteen and eliminating UI jank.
+                strategies and efficient network request batching, reducing canvas
+                interaction latency by a factor of sixteen and eliminating UI jank.
               </li>
               <li>
                 Elevated code quality and maintainability by introducing advanced tooling
@@ -249,48 +254,40 @@ export default function Resume() {
             </ul>
           </article>
           <article>
-            <h4>Teladoc Health (acquired InTouch Health) / Sr. Software Engineer</h4>
-            <h5>June 2020 &ndash; July 2021, Purchase, NY</h5>
-            <ul>
-              <li>
-                Developed features for React applications using TypeScript, Redux, Styled
-                Components, Jest, and Testing Library.
-              </li>
-              <li>
-                Engineered a scalable integration strategy using dynamic imports to lazy
-                load different micro-frontends into an integrated web app.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>InTouch Health / Sr. Software Engineer (Web Frontend)</h4>
-            <h5>July 2018 &ndash; June 2020, Santa Barbara, CA</h5>
-            <ul>
-              <li>
-                Spearheaded the technical vision for a new React SPA in the telehealth
-                space, establishing the architecture, component library, and monorepo
-                structure.
-              </li>
-              <li>
-                Grew the monorepo to eleven contributors across two teams and multiple web
-                apps.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>Tenable / Sr. Software Engineer</h4>
-            <h5>March 2016 &ndash; July 2018, COLUMBIA, MD</h5>
-            <ul>
-              <li>
-                Spearheaded development of their next-generation architecture and stack as
-                a mono-repo using Yarn Workspaces, Webpack, Gulp, React, and Redux (was
-                previously a custom framework on top of jQuery).
-              </li>
-              <li>
-                Built an in-house Hapi-based frontend middleware service for aggregation
-                and service mocking.
-              </li>
-            </ul>
+            <h4>Additional Experience</h4>
+            <div>
+              <p>
+                <strong>Teladoc Health / InTouch Health / Sr. Software Engineer</strong>{' '}
+                (June 2018 &ndash; July 2021):
+              </p>
+              <ul>
+                <li>
+                  Spearheaded technical vision for a new React SPA in telehealth,
+                  establishing architecture, component library, and monorepo structure that
+                  grew to eleven contributors across two teams and multiple web apps.
+                </li>
+                <li>
+                  Engineered scalable integration strategy using dynamic imports to lazy
+                  load micro-frontends, while developing features with TypeScript, Redux,
+                  Styled Components, Jest, and Testing Library.
+                </li>
+              </ul>
+              <p>
+                <strong>Tenable / Sr. Software Engineer</strong> (March 2016 &ndash; July
+                2018):
+              </p>
+              <ul>
+                <li>
+                  Spearheaded migration from a legacy jQuery framework to a modern
+                  React/Redux architecture, implementing the next-generation stack as a
+                  mono-repo using Yarn Workspaces, Webpack, and Gulp.
+                </li>
+                <li>
+                  Built an in-house Hapi-based frontend middleware service for aggregation
+                  and service mocking.
+                </li>
+              </ul>
+            </div>
           </article>
           <article>
             <h4>Previous Experience:</h4>
