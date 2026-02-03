@@ -103,6 +103,7 @@ section {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-bottom: 40px;
+  gap: 10px;
 }
 section:last-child {
   margin-bottom: 0;
@@ -228,12 +229,24 @@ section:nth-child(3) {
 }
 
 @media print {
+  @page {
+    margin: 0.35in;
+  }
   a {
     color: #000;
     text-decoration: none;
   }
+  body {
+    background: #fff;
+    margin: 0;
+  }
   main {
     box-shadow: none;
+    margin: 0;
+    padding: 16px 12px;
+  }
+  section {
+    margin-bottom: 15px;
   }
   section:first-child ul a span:first-child {
     display: none;

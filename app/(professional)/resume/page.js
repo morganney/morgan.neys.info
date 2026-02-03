@@ -18,7 +18,6 @@ export default function Resume() {
         <div>
           <h3>Morgan Ney</h3>
           <address>
-            <p>432 County Road 1236</p>
             <p>Quitman, TX 75783</p>
             <p>
               <a href="mailto:morganney@gmail.com">morganney@gmail.com</a>
@@ -51,10 +50,9 @@ export default function Resume() {
         <p>
           Senior frontend engineer focused on developer tooling and frontend systems,
           bridging high-impact product features with the platforms that enable delivery at
-          scale. I specialize in code analysis, AST tooling, and build optimizations to
-          turn complex workflows into golden paths. Product-minded, I care equally about
-          translating Figma designs into polished, intuitive UI/UX, scalable component
-          libraries, and robust developer infrastructure.
+          scale. Product-minded, I care equally about translating Figma designs into
+          polished, intuitive UI/UX, scalable component libraries, and robust developer
+          infrastructure.
         </p>
       </section>
       <section>
@@ -65,16 +63,15 @@ export default function Resume() {
             <ul>
               <li>
                 <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, HTML,
-                CSS, React, Next.js, GraphQL, SPA, PWA
+                CSS, React, Next.js, GraphQL
               </li>
               <li>
                 <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
-                React Query, Zustand, Redux, Styled-Components, Vanilla Extract
+                React Query, Redux
               </li>
               <li>
-                <strong>Accessibility:</strong> WCAG, WAI-ARIA Authoring Practices,
-                keyboard navigation, focus management, semantic HTML, color contrast,
-                screen readers (JAWS)
+                <strong>Accessibility:</strong> WCAG, WAI-ARIA, semantic HTML, keyboard
+                and focus support
               </li>
               <li>
                 <strong>Design Systems:</strong> Storybook, Chromatic, Figma, Radix UI,
@@ -82,24 +79,20 @@ export default function Resume() {
               </li>
               <li>
                 <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
-                Babel
+                LightningCSS, Babel
               </li>
             </ul>
           </dd>
           <dt>Backend</dt>
           <dd>Node.js, Express.js, Redis, PostgreSQL, MySQL, REST/JSON APIs</dd>
           <dt>DevOps & CI/CD</dt>
-          <dd>AWS, Docker, Docker Compose, GitHub Actions, Nginx, Apache</dd>
+          <dd>AWS, Docker, Docker Compose, GitHub Actions</dd>
           <dt>Testing</dt>
           <dd>
             Jest, Vitest, React Testing Library, Playwright, Cypress, Node.js Test Runner
           </dd>
           <dt>AI &amp; Developer Velocity</dt>
-          <dd>
-            Agentic workflows (Cursor and Copilot Plan/Agent), AI-driven prototyping and
-            implementation, LLM-assisted software architecture, automated reviews
-            (Copilot, CodeRabbit)
-          </dd>
+          <dd>Agentic workflows, AI-assisted prototyping, and automated code reviews</dd>
         </dl>
       </section>
       <section>
@@ -169,31 +162,12 @@ export default function Resume() {
                 engagement.
               </li>
               <li>
-                Engineered a flexible combo box component with Downshift.js, supporting
-                both single and multi-select modes, customizable rendering, and
-                asynchronous option loading for enhanced usability.
+                Built a flexible combo box with Downshift.js, supporting single and
+                multi-select modes plus async loading.
               </li>
               <li>
-                Optimized front-end performance by implementing chunked rendering
-                strategies and efficient network request batching, reducing interaction
-                latency by a factor of sixteen and eliminating UI jank.
-              </li>
-              <li>
-                Elevated code quality and maintainability by introducing advanced tooling
-                for linting, testing, and type checking, and by implementing pre-push
-                hooks and{' '}
-                <a
-                  target="_blank"
-                  href="https://github.com/knightedcodemonkey/display-name"
-                >
-                  codemods
-                </a>{' '}
-                to enforce coding standards and streamline developer workflows.
-              </li>
-              <li>
-                Collaborated closely with designers and product managers to deliver highly
-                interactive, user-friendly features, prioritizing accessibility,
-                responsiveness, and pixel-perfect UI.
+                Optimized front-end performance with chunked rendering and request
+                batching, reducing interaction latency by 16x.
               </li>
             </ul>
           </article>
@@ -201,10 +175,6 @@ export default function Resume() {
             <h4>Athena / Software Engineer</h4>
             <h5>July 2024 &ndash; January 2025</h5>
             <ul>
-              <li>
-                Led adoption of best practices for a financial advice platform using
-                Next.js, React, Styled Components, and TypeScript.
-              </li>
               <li>
                 Delivered a responsive investments dashboard featuring performance
                 analytics via data grid and SVG-based time-series charts.
@@ -216,18 +186,12 @@ export default function Resume() {
             <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
             <ul>
               <li>
-                Developed a high-fidelity React drawing component using the HTML Canvas
-                element, supporting HiDPI displays, erasing, undo/redo, and export as Blob
-                or Data URL.
-              </li>
-              <li>
                 Built a{' '}
                 <a target="_blank" href="https://github.com/morganney/tts-react">
                   React text-to-speech component
                 </a>{' '}
-                integrating SpeechSynthesis, HTMLAudioElement APIs, and Amazon Polly, with
-                support for highlighted spoken text and flexible voice synthesis for
-                accessibility.
+                integrating SpeechSynthesis and Amazon Polly with highlighted text and
+                accessible voice controls.
               </li>
             </ul>
           </article>
@@ -236,14 +200,8 @@ export default function Resume() {
             <h5>July 2021 &ndash; June 2022, Sparkill, NY</h5>
             <ul>
               <li>
-                Implemented CI/CD automation with GitHub Actions, streamlining integration
-                and deployment for Scala backend, React/Webpack frontend, and Storybook
-                builds.
-              </li>
-              <li>
-                Modernized front-end state management by migrating legacy Redux class
-                patterns to React Context and hooks, promoting maintainable, scalable
-                architecture in new feature development.
+                Built the responsive K-12 home page + registration, with 50-state
+                customization and modal/standalone flows.
               </li>
             </ul>
           </article>
@@ -251,10 +209,6 @@ export default function Resume() {
             <h4>Teladoc Health (acquired InTouch Health) / Sr. Software Engineer</h4>
             <h5>June 2020 &ndash; July 2021, Purchase, NY</h5>
             <ul>
-              <li>
-                Developed features for React applications using TypeScript, Redux, Styled
-                Components, Jest, and Testing Library.
-              </li>
               <li>
                 Engineered a scalable integration strategy using dynamic imports to lazy
                 load different micro-frontends into an integrated web app.
@@ -266,11 +220,6 @@ export default function Resume() {
             <h5>July 2018 &ndash; June 2020, Santa Barbara, CA</h5>
             <ul>
               <li>
-                Spearheaded the technical vision for a new React SPA in the telehealth
-                space, establishing the architecture, component library, and monorepo
-                structure.
-              </li>
-              <li>
                 Grew the monorepo to eleven contributors across two teams and multiple web
                 apps.
               </li>
@@ -281,33 +230,9 @@ export default function Resume() {
             <h5>March 2016 &ndash; July 2018, Columbia, MD</h5>
             <ul>
               <li>
-                Spearheaded development of their next-generation architecture and stack as
-                a monorepo using Yarn Workspaces, Webpack, Gulp, React, and Redux (was
-                previously a custom framework on top of jQuery).
-              </li>
-              <li>
-                Built an in-house Hapi-based frontend middleware service for aggregation
-                and service mocking.
-              </li>
-            </ul>
-          </article>
-          <article>
-            <h4>Previous Experience:</h4>
-            <ul>
-              <li>
-                <p>
-                  Developed chart-based SPAs to visualize high-frequency energy usage
-                  using React, D3, and SVG, optimizing performance for complex data sets.
-                </p>
-                <h5>Lucid, Oakland, CA, 2014 &ndash; 2015</h5>
-              </li>
-              <li>
-                <p>
-                  Using the Google Maps JavaScript API and HTML5 audio and video elements
-                  I developed a NextStop application allowing bus administrators to
-                  designate geographic locations where a bus would announce the next stop.
-                </p>
-                <h5>NextBus, Emeryville, CA, 2011 &ndash; 2013</h5>
+                Led a monorepo modernization (Yarn Workspaces, Webpack, Gulp, React,
+                Redux) and built a Hapi-based middleware + JSON-schema-driven API mock
+                service.
               </li>
             </ul>
           </article>
@@ -324,29 +249,6 @@ export default function Resume() {
               Berkeley City College.
             </p>
           </article>
-          <article>
-            <h4>Berkeley City College</h4>
-            <h5>August 2004 &ndash; December 2006, Berkeley, CA</h5>
-            <p>
-              Studied general web programming curriculum before transferring credits to
-              SFSU.
-            </p>
-          </article>
-        </div>
-      </section>
-      <section>
-        <h3>Awards</h3>
-        <div>
-          <p>
-            <a target="_blank" href="https://news.ucsc.edu/2002/05/133.html">
-              UCSC 2002 $20K Leadership Opportunity Scholarship
-            </a>
-            .
-          </p>
-          <p>
-            Solicited by Packt Publishing for a technical review on an Amazon web services
-            book.
-          </p>
         </div>
       </section>
     </>
