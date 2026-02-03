@@ -251,6 +251,17 @@ export default function Resume() {
           </article>
         </div>
       </section>
+      <section>
+        <h3>Awards</h3>
+        <div>
+          <p>
+            <a target="_blank" href="https://news.ucsc.edu/2002/05/133.html">
+              UCSC 2002 $20K Leadership Opportunity Scholarship
+            </a>
+            .
+          </p>
+        </div>
+      </section>
     </>
   )
 }
