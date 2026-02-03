@@ -14,6 +14,11 @@ export default function Resume() {
               <span>UI/UX, Architecture & Tooling</span>
             </a>
           </h2>
+          <p>
+            <a target="_blank" href="https://morgan.neys.info/resume">
+              morgan.neys.info/resume
+            </a>
+          </p>
         </header>
         <div>
           <h3>Morgan Ney</h3>
@@ -48,11 +53,10 @@ export default function Resume() {
       <section>
         <h3>Summary</h3>
         <p>
-          Senior frontend engineer focused on developer tooling and frontend systems,
-          bridging high-impact product features with the platforms that enable delivery at
-          scale. Product-minded, I care equally about translating Figma designs into
-          polished, intuitive UI/UX, scalable component libraries, and robust developer
-          infrastructure.
+          Senior frontend engineer who builds user&ndash;focused features and the tooling
+          that helps teams ship reliably at scale. Product&ndash;minded with strong UI/UX
+          instincts, translating Figma into polished interfaces, reusable components, and
+          durable developer infrastructure.
         </p>
       </section>
       <section>
@@ -99,7 +103,7 @@ export default function Resume() {
         <h3>OSS &amp; Technical Research</h3>
         <div>
           <article>
-            <h4>High-Impact Frontend Systems &amp; Tooling</h4>
+            <h4>Frontend Systems &amp; Tooling</h4>
             <h5>2023 &ndash; Present</h5>
             <p>
               Built{' '}

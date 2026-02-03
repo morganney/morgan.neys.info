@@ -230,7 +230,7 @@ section:nth-child(3) {
 
 @media print {
   @page {
-    margin: 0.35in;
+    margin: 0.45in;
   }
   a {
     color: #000;
