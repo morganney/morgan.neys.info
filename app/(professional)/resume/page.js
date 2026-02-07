@@ -66,37 +66,63 @@ export default function Resume() {
           <dd>
             <ul>
               <li>
-                <strong>Languages & Frameworks:</strong> JavaScript, TypeScript, HTML,
-                CSS, React, Next.js, GraphQL
+                <strong>Core:</strong> JavaScript (ES6+), TypeScript, HTML, CSS, React,
+                Next.js
               </li>
               <li>
-                <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow,
-                React Query, Redux
+                <strong>State & Data:</strong> GraphQL, React Query, Zustand, Redux
               </li>
               <li>
-                <strong>Accessibility:</strong> WCAG, WAI-ARIA, semantic HTML, keyboard
-                and focus support
+                <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow
+              </li>
+              <li>
+                <strong>Accessibility:</strong> WCAG, WAI-ARIA, Semantic HTML,
+                Keyboard/Focus Support
               </li>
               <li>
                 <strong>Design Systems:</strong> Storybook, Chromatic, Figma, Radix UI,
-                MUI, design tokens, component libraries
+                MUI, Design Tokens
               </li>
               <li>
-                <strong>Build Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC,
-                LightningCSS, Babel
+                <strong>Tools:</strong> Vite, Webpack, Rollup, Rspack, OXC, SWC, Babel,
+                LightningCSS
               </li>
             </ul>
           </dd>
-          <dt>Backend</dt>
-          <dd>Node.js, Express.js, Redis, PostgreSQL, MySQL, REST/JSON APIs</dd>
-          <dt>DevOps & CI/CD</dt>
-          <dd>AWS, Docker, Docker Compose, GitHub Actions</dd>
-          <dt>Testing</dt>
+          <dt>Backend & Infrastructure</dt>
           <dd>
-            Jest, Vitest, React Testing Library, Playwright, Cypress, Node.js Test Runner
+            <ul>
+              <li>
+                <strong>Core:</strong> Node.js, Express.js, REST/JSON APIs
+              </li>
+              <li>
+                <strong>Databases:</strong> Redis, PostgreSQL, MySQL
+              </li>
+              <li>
+                <strong>DevOps:</strong> AWS, Docker, Docker Compose, GitHub Actions
+              </li>
+            </ul>
           </dd>
-          <dt>AI &amp; Developer Velocity</dt>
-          <dd>Agentic workflows, AI-assisted prototyping, and automated code reviews</dd>
+          <dt>Testing & Quality</dt>
+          <dd>
+            <ul>
+              <li>
+                <strong>Frameworks:</strong> Jest, Vitest, Node.js Test Runner
+              </li>
+              <li>
+                <strong>UI & E2E:</strong> React Testing Library, Playwright, Cypress
+              </li>
+            </ul>
+          </dd>
+          <dt>AI & Velocity</dt>
+          <dd>
+            <ul>
+              <li>
+                <strong>Practices:</strong> Agentic workflows, AI prototyping, automated
+                code review
+              </li>
+            </ul>
+          </dd>
         </dl>
       </section>
       <section>
@@ -161,17 +187,18 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Engineered an interactive builder canvas using React Flow to model complex
-                relationships within warehouse datasets, improving user comprehension and
-                engagement.
+                Architected a non-isolated Vitest infrastructure for 1,600+ tests,
+                slashing CI duration by 93% (15.5m to 63s) via MSW fixtures,
+                custom-element safety patterns, and strategic dependency pre-bundling.
               </li>
               <li>
-                Built a flexible combo box with Downshift.js, supporting single and
-                multi-select modes plus async loading.
+                Engineered an interactive React Flow builder canvas to model complex
+                relationships within warehouse datasets, improving user comprehension.
               </li>
               <li>
-                Optimized front-end performance with chunked rendering and request
-                batching, reducing interaction latency by 16x.
+                Slashed interaction latency by 16x via chunked rendering and request
+                batching; built a flexible, async multi-select combo box with
+                Downshift.js.
               </li>
             </ul>
           </article>
