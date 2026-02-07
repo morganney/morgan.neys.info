@@ -196,7 +196,7 @@ section:nth-child(3) {
     font-weight: 700;
   }
   dd {
-    margin-left: 25px;
+    margin-left: 15px;
     padding-left: 0;
     margin-bottom: 6px;
   }
@@ -230,7 +230,7 @@ section:nth-child(3) {
 
 @media print {
   @page {
-    margin: 0.45in;
+    margin: 0.41in;
   }
   a {
     color: #000;
