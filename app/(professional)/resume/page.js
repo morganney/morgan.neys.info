@@ -224,6 +224,11 @@ export default function Resume() {
                 integrating SpeechSynthesis and Amazon Polly with highlighted text and
                 accessible voice controls.
               </li>
+              <li>
+                Developed a high-performance HiDPI Canvas drawing tool featuring
+                ResizeObserver scaling, fixed-stack undo/redo, and Blob/Data URL
+                serialization.
+              </li>
             </ul>
           </article>
           <article>
