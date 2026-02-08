@@ -53,10 +53,10 @@ export default function Resume() {
       <section>
         <h3>Summary</h3>
         <p>
-          Senior frontend engineer who builds user&ndash;focused features and the tooling
-          that helps teams ship reliably at scale. Product&ndash;minded with strong UI/UX
-          instincts, translating Figma into polished interfaces, reusable components, and
-          durable developer infrastructure.
+          Senior frontend engineer bridging the gap between systems architecture and
+          high-fidelity UI. Specialized in building the interactive primitives—canvas
+          engines, isolated runtime systems, and creative workflows—required to turn
+          unpredictable generative models into fluid, user-controlled experiences.
         </p>
       </section>
       <section>
@@ -150,31 +150,19 @@ export default function Resume() {
             </p>
           </article>
           <article>
-            <h4>AI-Driven Web Primitives</h4>
+            <h4>AI-Driven Design Primitives</h4>
             <h5>December 2025 &ndash; Present</h5>
             <p>
-              Architected a suite of high-performance primitives including{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/css">
-                @knighted/css
-              </a>{' '}
-              (CSS pipeline) and{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/jsx">
-                @knighted/jsx
-              </a>{' '}
-              (JSX runtime/loader), plus{' '}
-              <a
-                target="_blank"
-                href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
-              >
-                @knighted/jsx-ts-plugin
-              </a>{' '}
-              (editor diagnostics) using agentic AI workflows. Validated the stack with
-              the{' '}
-              <a target="_blank" href="https://github.com/morganney/css-jsx-app">
-                css-jsx-app
-              </a>{' '}
-              demo. Leveraged LLMs for complex AST refactoring and automated PR auditing
-              to accelerate development cycles from concept to published NPM packages.
+              Architected high-performance primitives (
+              <a href="https://github.com/knightedcodemonkey/css">@knighted/css</a>,{' '}
+              <a href="https://github.com/knightedcodemonkey/jsx">@knighted/jsx</a>) for
+              agentic workflows, leveraging Shadow DOM and{' '}
+              <a href="https://github.com/morganney/lights-out">lights-out</a> (runtime
+              theming) to ensure design system integrity within dynamic, AI-generated
+              interfaces. Developed{' '}
+              <a href="https://github.com/morganney/swc-walk">@morganney/swc-walk</a> for
+              fast AST traversal to automate PR auditing and complex code refactoring
+              cycles for the NPM ecosystem.
             </p>
           </article>
         </div>
@@ -192,8 +180,9 @@ export default function Resume() {
                 custom-element safety patterns, and strategic dependency pre-bundling.
               </li>
               <li>
-                Engineered an interactive React Flow builder canvas to model complex
-                relationships within warehouse datasets, improving user comprehension.
+                Engineered an interactive React Flow canvas builder to bridge warehouse
+                data with creative workflows, optimizing for low-latency state updates and
+                fluid user interaction across complex node graphs.
               </li>
               <li>
                 Slashed interaction latency by 16x via chunked rendering and request
