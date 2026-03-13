@@ -4,7 +4,7 @@ export default function Resume() {
       <section>
         <header>
           <h1>
-            <a target="_blank" href="https://morgan.neys.info">
+            <a target="_blank" rel="noopener noreferrer" href="https://morgan.neys.info">
               Morgan Ney
             </a>
           </h1>
@@ -33,17 +33,29 @@ export default function Resume() {
           </address>
           <ul>
             <li>
-              <a target="_blank" href="https://morganney.github.io/morganney">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://morganney.github.io/morganney"
+              >
                 morganney.github.io/morganney
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/morganney">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/morganney"
+              >
                 github.com/morganney
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/knightedcodemonkey">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/knightedcodemonkey"
+              >
                 github.com/knightedcodemonkey
               </a>
             </li>
@@ -53,10 +65,12 @@ export default function Resume() {
       <section>
         <h3>Summary</h3>
         <p>
-          Senior frontend engineer who builds user&ndash;focused features and the tooling
-          that helps teams ship reliably at scale. Product&ndash;minded with strong UI/UX
-          instincts, translating Figma into polished interfaces, reusable components, and
-          durable developer infrastructure.
+          Senior systems-focused engineer specializing in UI/UX architecture and developer
+          tooling. Delivered measurable impact by reducing CI duration by over 90%,
+          building containerized test ecosystems, and improving database performance for
+          real-time workloads. Leverages agentic AI workflows pragmatically to accelerate
+          delivery of production-grade solutions across stacks, from AST tooling to
+          real-time data engines.
         </p>
       </section>
       <section>
@@ -76,6 +90,10 @@ export default function Resume() {
                 <strong>UI & Visualization:</strong> SVG, HTML5 Canvas, D3.js, React Flow
               </li>
               <li>
+                <strong>Styling:</strong> Vanilla Extract, Styled Components, Tailwind
+                CSS, Sass
+              </li>
+              <li>
                 <strong>Accessibility:</strong> WCAG, WAI-ARIA, Semantic HTML,
                 Keyboard/Focus Support
               </li>
@@ -93,13 +111,14 @@ export default function Resume() {
           <dd>
             <ul>
               <li>
-                <strong>Core:</strong> Node.js, Express.js, REST/JSON APIs
+                <strong>Core:</strong> Node.js, Express.js, Ruby on Rails, REST/JSON APIs
               </li>
               <li>
                 <strong>Databases:</strong> Redis, PostgreSQL, MySQL
               </li>
               <li>
-                <strong>DevOps:</strong> AWS, Docker, Docker Compose, GitHub Actions
+                <strong>DevOps:</strong> AWS, GCP, Docker Compose, GitHub Actions, GitLab
+                CI/CD
               </li>
             </ul>
           </dd>
@@ -110,7 +129,8 @@ export default function Resume() {
                 <strong>Frameworks:</strong> Jest, Vitest, Node.js Test Runner
               </li>
               <li>
-                <strong>UI & E2E:</strong> React Testing Library, Playwright, Cypress
+                <strong>UI & E2E:</strong> RTL, Playwright, Cypress, MSW, Automated
+                Seeding & Mocking
               </li>
             </ul>
           </dd>
@@ -126,56 +146,85 @@ export default function Resume() {
         </dl>
       </section>
       <section>
-        <h3>OSS &amp; Technical Research</h3>
+        <h3>Open Source &amp; Systems Research</h3>
         <div>
           <article>
-            <h4>Frontend Systems &amp; Tooling</h4>
+            <h4>Frontend Infrastructure &amp; Tooling</h4>
             <h5>2023 &ndash; Present</h5>
-            <p>
-              Built{' '}
-              <a target="_blank" href="https://github.com/morganney/swc-walk">
-                @morganney/swc-walk
-              </a>
-              , a fast AST traversal utility for the SWC ecosystem with strong community
-              adoption. Created{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/duel">
-                @knighted/duel
-              </a>{' '}
-              to automate dual ESM/CJS builds and reduce interoperability friction in
-              Node.js projects. Implemented{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/specifier">
-                @knighted/specifier
-              </a>{' '}
-              to parse module imports/exports for specifier rewrites and AST metadata.
-            </p>
-          </article>
-          <article>
-            <h4>AI-Driven Web Primitives</h4>
-            <h5>December 2025 &ndash; Present</h5>
-            <p>
-              Architected a suite of high-performance primitives including{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/css">
-                @knighted/css
-              </a>{' '}
-              (CSS pipeline) and{' '}
-              <a target="_blank" href="https://github.com/knightedcodemonkey/jsx">
-                @knighted/jsx
-              </a>{' '}
-              (JSX runtime/loader), plus{' '}
-              <a
-                target="_blank"
-                href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
-              >
-                @knighted/jsx-ts-plugin
-              </a>{' '}
-              (editor diagnostics) using agentic AI workflows. Validated the stack with
-              the{' '}
-              <a target="_blank" href="https://github.com/morganney/css-jsx-app">
-                css-jsx-app
-              </a>{' '}
-              demo. Leveraged LLMs for complex AST refactoring and automated PR auditing
-              to accelerate development cycles from concept to published NPM packages.
-            </p>
+            <ul>
+              <li>
+                Built{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/morganney/swc-walk"
+                >
+                  @morganney/swc-walk
+                </a>
+                , a high-performance AST traversal utility for the SWC ecosystem with
+                strong community adoption for compiler-adjacent workflows.
+              </li>
+              <li>
+                Created{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/duel"
+                >
+                  @knighted/duel
+                </a>{' '}
+                and{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/specifier"
+                >
+                  @knighted/specifier
+                </a>{' '}
+                to automate dual ESM/CJS builds and module specifier rewrites, reducing
+                interoperability friction in complex Node.js environments.
+              </li>
+              <li>
+                Architected a suite of high-performance web primitives, including{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/css"
+                >
+                  @knighted/css
+                </a>{' '}
+                and{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/jsx"
+                >
+                  @knighted/jsx
+                </a>{' '}
+                plus{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
+                >
+                  @knighted/jsx-ts-plugin
+                </a>{' '}
+                for JSX runtime and editor tooling.
+              </li>
+              <li>
+                Integrated LLM-augmented refactoring and automated PR auditing into
+                development cycles, accelerating the transition from architectural concept
+                to production-grade NPM packages, validated with the{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/morganney/css-jsx-app"
+                >
+                  css-jsx-app
+                </a>{' '}
+                demo.
+              </li>
+            </ul>
           </article>
         </div>
       </section>
@@ -183,22 +232,26 @@ export default function Resume() {
         <h3>Experience</h3>
         <div>
           <article>
-            <h4>GrowthLoop / Senior Frontend Engineer</h4>
+            <h4>
+              GrowthLoop / Senior Frontend Engineer (Full-Stack & Infrastructure Focus)
+            </h4>
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
                 Architected a non-isolated Vitest infrastructure for 1,600+ tests,
-                slashing CI duration by 93% (15.5m to 63s) via MSW fixtures,
-                custom-element safety patterns, and strategic dependency pre-bundling.
+                slashing CI duration by 93% (15.5m to 63s) via MSW fixtures and strategic
+                dependency pre-bundling.
               </li>
               <li>
-                Engineered an interactive React Flow builder canvas to model complex
-                relationships within warehouse datasets, improving user comprehension.
+                Architected a local-first E2E testing ecosystem using Docker-in-Docker
+                (DinD) and Playwright; developed a modular seeding utility and a
+                transaction-based CI validator to catch schema regressions.
               </li>
               <li>
-                Slashed interaction latency by 16x via chunked rendering and request
-                batching; built a flexible, async multi-select combo box with
-                Downshift.js.
+                Engineered a real-time data-mapping engine using React Flow and
+                PostgreSQL; optimized state-tracking via DISTINCT ON queries and
+                concurrent indexing to deliver live record states without full-table
+                scans.
               </li>
             </ul>
           </article>
