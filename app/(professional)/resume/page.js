@@ -33,17 +33,29 @@ export default function Resume() {
           </address>
           <ul>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://morganney.github.io/morganney">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://morganney.github.io/morganney"
+              >
                 morganney.github.io/morganney
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/morganney">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/morganney"
+              >
                 github.com/morganney
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/knightedcodemonkey">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/knightedcodemonkey"
+              >
                 github.com/knightedcodemonkey
               </a>
             </li>
@@ -142,7 +154,11 @@ export default function Resume() {
             <ul>
               <li>
                 Built{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/morganney/swc-walk">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/morganney/swc-walk"
+                >
                   @morganney/swc-walk
                 </a>
                 , a high-performance AST traversal utility for the SWC ecosystem with
@@ -150,11 +166,19 @@ export default function Resume() {
               </li>
               <li>
                 Created{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/knightedcodemonkey/duel">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/duel"
+                >
                   @knighted/duel
                 </a>{' '}
                 and{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/knightedcodemonkey/specifier">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/specifier"
+                >
                   @knighted/specifier
                 </a>{' '}
                 to automate dual ESM/CJS builds and module specifier rewrites, reducing
@@ -162,11 +186,19 @@ export default function Resume() {
               </li>
               <li>
                 Architected a suite of high-performance web primitives, including{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/knightedcodemonkey/css">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/css"
+                >
                   @knighted/css
                 </a>{' '}
                 and{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/knightedcodemonkey/jsx">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/jsx"
+                >
                   @knighted/jsx
                 </a>{' '}
                 plus{' '}
@@ -183,7 +215,11 @@ export default function Resume() {
                 Integrated LLM-augmented refactoring and automated PR auditing into
                 development cycles, accelerating the transition from architectural concept
                 to production-grade NPM packages, validated with the{' '}
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/morganney/css-jsx-app">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/morganney/css-jsx-app"
+                >
                   css-jsx-app
                 </a>{' '}
                 demo.
