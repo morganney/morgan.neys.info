@@ -68,9 +68,9 @@ export default function Resume() {
           Senior systems-focused engineer specializing in UI/UX architecture and developer
           tooling. Delivered measurable impact by reducing CI duration by over 90%,
           building containerized test ecosystems, and improving database performance for
-          real-time workloads. Leverages agentic AI workflows pragmatically to accelerate
-          delivery of production-grade solutions across stacks, from AST tooling to
-          real-time data engines.
+          real-time workloads. Uses agentic AI workflows pragmatically to accelerate
+          end-to-end delivery of production-grade features, from platform foundations to
+          customer-facing web products.
         </p>
       </section>
       <section>
@@ -153,6 +153,35 @@ export default function Resume() {
             <h5>2023 &ndash; Present</h5>
             <ul>
               <li>
+                Architected{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/develop"
+                >
+                  @knighted/develop
+                </a>
+                , a Compiler-as-a-Service browser IDE that delivers CDN-served JSX and CSS
+                compilation with live previews, integrated type checking, and linting,
+                serving as a high-fidelity demonstration of{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/jsx"
+                >
+                  @knighted/jsx
+                </a>{' '}
+                and{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/css"
+                >
+                  @knighted/css
+                </a>
+                .
+              </li>
+              <li>
                 Built{' '}
                 <a
                   target="_blank"
@@ -183,46 +212,6 @@ export default function Resume() {
                 </a>{' '}
                 to automate dual ESM/CJS builds and module specifier rewrites, reducing
                 interoperability friction in complex Node.js environments.
-              </li>
-              <li>
-                Architected a suite of high-performance web primitives, including{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/css"
-                >
-                  @knighted/css
-                </a>{' '}
-                and{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/jsx"
-                >
-                  @knighted/jsx
-                </a>{' '}
-                plus{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/jsx-ts-plugin"
-                >
-                  @knighted/jsx-ts-plugin
-                </a>{' '}
-                for JSX runtime and editor tooling.
-              </li>
-              <li>
-                Integrated LLM-augmented refactoring and automated PR auditing into
-                development cycles, accelerating the transition from architectural concept
-                to production-grade NPM packages, validated with the{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/morganney/css-jsx-app"
-                >
-                  css-jsx-app
-                </a>{' '}
-                demo.
               </li>
             </ul>
           </article>
