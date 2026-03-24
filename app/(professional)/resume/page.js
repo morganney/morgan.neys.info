@@ -65,11 +65,12 @@ export default function Resume() {
       <section>
         <h3>Summary</h3>
         <p>
-          Senior systems-focused engineer specializing in UI/UX architecture and developer
-          tooling. Delivered measurable impact by reducing CI duration by over 90%,
-          building containerized test ecosystems, and improving database performance for
-          real-time workloads. Uses agentic AI workflows pragmatically to accelerate
-          end-to-end delivery of production-grade features, from platform foundations to
+          Senior frontend engineer with deep full-stack and infrastructure expertise,
+          specializing in UI/UX architecture, developer tooling, and performance-oriented
+          systems design. Delivered measurable impact by reducing CI duration by 93%,
+          building containerized test ecosystems, and improving real-time database
+          workloads. Applies AI-assisted workflows pragmatically to accelerate end-to-end
+          delivery of production-grade features, from platform foundations to
           customer-facing web products.
         </p>
       </section>
@@ -146,78 +147,6 @@ export default function Resume() {
         </dl>
       </section>
       <section>
-        <h3>Open Source &amp; Systems Research</h3>
-        <div>
-          <article>
-            <h4>Frontend Infrastructure &amp; Tooling</h4>
-            <h5>2023 &ndash; Present</h5>
-            <ul>
-              <li>
-                Architected{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/develop"
-                >
-                  @knighted/develop
-                </a>
-                , a Compiler-as-a-Service browser IDE that delivers CDN-served JSX and CSS
-                compilation with live previews, integrated type checking, and linting,
-                serving as a high-fidelity demonstration of{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/jsx"
-                >
-                  @knighted/jsx
-                </a>{' '}
-                and{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/css"
-                >
-                  @knighted/css
-                </a>
-                .
-              </li>
-              <li>
-                Built{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/morganney/swc-walk"
-                >
-                  @morganney/swc-walk
-                </a>
-                , a high-performance AST traversal utility for the SWC ecosystem with
-                strong community adoption for compiler-adjacent workflows.
-              </li>
-              <li>
-                Created{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/duel"
-                >
-                  @knighted/duel
-                </a>{' '}
-                and{' '}
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/knightedcodemonkey/specifier"
-                >
-                  @knighted/specifier
-                </a>{' '}
-                to automate dual ESM/CJS builds and module specifier rewrites, reducing
-                interoperability friction in complex Node.js environments.
-              </li>
-            </ul>
-          </article>
-        </div>
-      </section>
-      <section>
         <h3>Experience</h3>
         <div>
           <article>
@@ -227,9 +156,9 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Architected a non-isolated Vitest infrastructure for 1,600+ tests,
-                slashing CI duration by 93% (15.5m to 63s) via MSW fixtures and strategic
-                dependency pre-bundling.
+                Architected a non-isolated Vitest infrastructure for 1,900+ tests spanning
+                200+ files in a shared runtime, reducing CI duration by 93% (15.5m to 67s)
+                via MSW fixtures and strategic dependency pre-bundling.
               </li>
               <li>
                 Architected a local-first E2E testing ecosystem using Docker-in-Docker
@@ -238,9 +167,9 @@ export default function Resume() {
               </li>
               <li>
                 Engineered a real-time data-mapping engine using React Flow and
-                PostgreSQL; optimized state-tracking via DISTINCT ON queries and
-                concurrent indexing to deliver live record states without full-table
-                scans.
+                PostgreSQL; shifted state tracking to an indexed materialized view with
+                concurrent refreshes and implemented since_token polling to fetch only
+                changed records, reducing server load and UI re-renders.
               </li>
             </ul>
           </article>
@@ -311,6 +240,78 @@ export default function Resume() {
                 Led a monorepo modernization (Yarn Workspaces, Webpack, Gulp, React,
                 Redux) and built a Hapi-based middleware + JSON-schema-driven API mock
                 service.
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section>
+        <h3>Recent OSS Projects</h3>
+        <div>
+          <article>
+            <h4>Frontend Infrastructure &amp; Tooling</h4>
+            <h5>2023 &ndash; Present</h5>
+            <ul>
+              <li>
+                Architected{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/develop"
+                >
+                  @knighted/develop
+                </a>
+                , a Compiler-as-a-Service browser IDE that delivers CDN-served JSX and CSS
+                compilation with live previews, integrated type checking, and linting,
+                serving as a high-fidelity demonstration of{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/jsx"
+                >
+                  @knighted/jsx
+                </a>{' '}
+                and{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/css"
+                >
+                  @knighted/css
+                </a>
+                .
+              </li>
+              <li>
+                Built{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/morganney/swc-walk"
+                >
+                  @morganney/swc-walk
+                </a>
+                , a high-performance AST traversal utility for the SWC ecosystem with
+                strong community adoption for compiler-adjacent workflows.
+              </li>
+              <li>
+                Created{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/duel"
+                >
+                  @knighted/duel
+                </a>{' '}
+                and{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/knightedcodemonkey/specifier"
+                >
+                  @knighted/specifier
+                </a>{' '}
+                to automate dual ESM/CJS builds and module specifier rewrites, reducing
+                interoperability friction in complex Node.js environments.
               </li>
             </ul>
           </article>
