@@ -161,6 +161,12 @@ export default function Resume() {
                 via MSW fixtures and strategic dependency pre-bundling.
               </li>
               <li>
+                Ranked #1 in repository volume (1.3M+ lines of change) over 14 months;
+                maintained a near 1:1 addition-to-deletion ratio (628k++ / 670k--) to
+                drive a shift toward clean architecture backed by robust developer tooling
+                and automated CI gates.
+              </li>
+              <li>
                 Architected a local-first E2E testing ecosystem using Docker-in-Docker
                 (DinD) and Playwright; developed a modular seeding utility and a
                 transaction-based CI validator to catch schema regressions.
