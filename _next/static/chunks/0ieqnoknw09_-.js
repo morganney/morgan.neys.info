@@ -21,4 +21,4 @@
   margin: 0;
   border: none;
 }
-`,o=async()=>{let e=new DOMParser().parseFromString(t,"text/html").querySelector("template"),a=document.createElement("style");return a.textContent=r,e.content.prepend(a),class extends HTMLElement{constructor(){super(),this.attachShadow({mode:"open"}).appendChild(e.content.cloneNode(!0))}connectedCallback(){let e=this.shadowRoot;e&&e.querySelector("iframe").setAttribute("src",`https://www.youtube.com/embed/${this.dataset.id}`)}}},c=await o();e.s(["YouTube",()=>c]),a()}catch(e){a(e)}},!0)]);
+`,o=async()=>{let e=new DOMParser().parseFromString(t,"text/html").querySelector("template"),a=document.createElement("style");return a.textContent=r,e.content.prepend(a),class extends HTMLElement{constructor(){super(),this.attachShadow({mode:"open"}).appendChild(e.content.cloneNode(!0))}connectedCallback(){let e=this.shadowRoot;e&&e.querySelector("iframe").setAttribute("src",`https://www.youtube.com/embed/${this.dataset.id}`)}}},c=await o();e.s(["YouTube",0,c]),a()}catch(e){a(e)}},!0)]);
