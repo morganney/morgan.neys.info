@@ -267,9 +267,9 @@ export default function Resume() {
                 >
                   @knighted/develop
                 </a>
-                , a Compiler-as-a-Service browser IDE that delivers CDN-served JSX and CSS
-                compilation with live previews, integrated type checking, and linting,
-                serving as a high-fidelity demonstration of{' '}
+                , a UI component workbench with compiler-as-a-service that delivers
+                CDN-served JSX and CSS compilation, live previews, integrated type
+                checking, and linting, serving as a high-fidelity demonstration of{' '}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
