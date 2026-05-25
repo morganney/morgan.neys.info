@@ -41,6 +41,7 @@ export default function Family() {
                   src={carnival}
                   srcSet="/carnival-sm.webp, /carnival-sm.jpeg"
                   alt="Picture of Hannah"
+                  loading="eager"
                   priority
                 />
               </picture>
@@ -77,6 +78,7 @@ export default function Family() {
                   srcSet="/carnival-sm.webp, /carnival-sm.jpeg"
                   className={styles.emma}
                   alt="Picture of Emma"
+                  loading="eager"
                 />
               </picture>
             </figure>
@@ -112,6 +114,7 @@ export default function Family() {
                   srcSet="/carnival-sm.webp, /carnival-sm.jpeg"
                   className={styles.rebecca}
                   alt="Picture of Rebecca"
+                  loading="eager"
                 />
               </picture>
             </figure>
