@@ -66,12 +66,11 @@ export default function Resume() {
         <h3>Summary</h3>
         <p>
           Senior frontend engineer with deep full-stack and infrastructure expertise,
-          specializing in UI/UX architecture, developer tooling, and performance-oriented
-          systems design. Delivered measurable impact by reducing CI duration by 93%,
-          building containerized test ecosystems, and improving real-time database
-          workloads. Applies AI-assisted workflows pragmatically to accelerate end-to-end
-          delivery of production-grade features, from platform foundations to
-          customer-facing web products.
+          specializing in UI/UX architecture, developer tooling, performance-oriented
+          systems design, and dashboard development across security, healthcare, fintech,
+          and transit domains. Delivers production-grade web products end-to-end, from
+          platform foundations to customer-facing experiences, using AI-assisted workflows
+          to accelerate execution.
         </p>
       </section>
       <section>
@@ -161,12 +160,6 @@ export default function Resume() {
                 via MSW fixtures and strategic dependency pre-bundling.
               </li>
               <li>
-                Ranked #1 in repository volume (1.3M+ lines of change) over 14 months;
-                maintained a near 1:1 addition-to-deletion ratio (628k++ / 670k--) to
-                drive a shift toward clean architecture backed by robust developer tooling
-                and automated CI gates.
-              </li>
-              <li>
                 Architected a local-first E2E testing ecosystem using Docker-in-Docker
                 (DinD) and Playwright; developed a modular seeding utility and a
                 transaction-based CI validator to catch schema regressions.
@@ -180,12 +173,29 @@ export default function Resume() {
             </ul>
           </article>
           <article>
-            <h4>Athena / Software Engineer</h4>
+            <h4>Family Sabbatical + OSS Development</h4>
             <h5>July 2024 &ndash; January 2025</h5>
             <ul>
               <li>
-                Delivered a responsive investments dashboard featuring performance
-                analytics via data grid and SVG-based time-series charts.
+                Took a planned family sabbatical focused on childcare while maintaining
+                active OSS development and technical depth.
+              </li>
+              <li>
+                Built and maintained OSS tooling projects during sabbatical, including
+                babel-dual-package, @knighted/specifier, @knighted/duel, and
+                @knighted/module.
+              </li>
+              <li>
+                Developed{' '}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://try.busmap.online"
+                >
+                  try.busmap.online
+                </a>{' '}
+                during sabbatical, a full-stack transit web app with map-based UX and
+                real-time arrivals using React, Express, PostgreSQL, Redis, and Docker.
               </li>
             </ul>
           </article>
@@ -223,6 +233,10 @@ export default function Resume() {
             <h5>June 2020 &ndash; July 2021, Purchase, NY</h5>
             <ul>
               <li>
+                Built hospital administrator dashboard experiences for operational
+                monitoring and workflow oversight in an integrated web application.
+              </li>
+              <li>
                 Engineered a scalable integration strategy using dynamic imports to lazy
                 load different micro-frontends into an integrated web app.
               </li>
@@ -242,6 +256,10 @@ export default function Resume() {
             <h4>Tenable / Sr. Software Engineer</h4>
             <h5>March 2016 &ndash; July 2018, Columbia, MD</h5>
             <ul>
+              <li>
+                Developed security vulnerability dashboard experiences that improved
+                visibility into risk and remediation status for engineering teams.
+              </li>
               <li>
                 Led a monorepo modernization (Yarn Workspaces, Webpack, Gulp, React,
                 Redux) and built a Hapi-based middleware + JSON-schema-driven API mock
