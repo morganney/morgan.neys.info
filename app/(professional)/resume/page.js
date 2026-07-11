@@ -155,36 +155,53 @@ export default function Resume() {
             <h5>February 2025 &ndash; Present</h5>
             <ul>
               <li>
-                Architected a non-isolated Vitest infrastructure for 1,900+ tests spanning
-                200+ files in a shared runtime, reducing CI duration by 93% (15.5m to 67s)
-                via MSW fixtures and strategic dependency pre-bundling.
+                Led development of GrowthLoop&apos;s React component library (Hylo),
+                establishing typed token contracts, theme/cascade-layer styling
+                architecture, WCAG-conscious primitives, and a shared Vite/Storybook
+                pipeline for consistent UI across product lines.
               </li>
               <li>
-                Architected a local-first E2E testing ecosystem using Docker-in-Docker
-                (DinD) and Playwright; developed a modular seeding utility and a
-                transaction-based CI validator to catch schema regressions.
+                Architected a non-isolated Vitest infrastructure that cut CI runtime by
+                93% (15.5m to 67s) for 1,900+ tests across 200+ files, and now scales to
+                3,000+ tests across 327+ files (~32s local, ~158s on GitHub Actions
+                ubuntu-latest).
               </li>
               <li>
-                Engineered a real-time data-mapping engine using React Flow and
-                PostgreSQL; shifted state tracking to an indexed materialized view with
-                concurrent refreshes and implemented since_token polling to fetch only
-                changed records, reducing server load and UI re-renders.
+                Architected and evolved a local-first Playwright E2E ecosystem across
+                GitLab and GitHub Actions using Docker, with modular test-data seeding and
+                transaction-based validation to catch schema regressions early.
+              </li>
+              <li>
+                Engineered a real-time data-mapping engine with React Flow and PostgreSQL,
+                using an indexed materialized view plus since_token polling to reduce
+                server load and UI re-renders.
               </li>
             </ul>
           </article>
           <article>
-            <h4>Family Sabbatical + OSS Development</h4>
-            <h5>July 2024 &ndash; January 2025</h5>
+            <h4>Athena Advisory (Contract) / Senior Frontend Engineer</h4>
+            <h5>August 2024 &ndash; January 2025</h5>
             <ul>
               <li>
-                Took a planned family sabbatical focused on childcare while maintaining
-                active OSS development and technical depth.
+                Built a responsive investments dashboard for accounts, holdings, and
+                performance using a data-grid and SVG time-series charts with selectable
+                date ranges.
               </li>
               <li>
-                Built and maintained OSS tooling projects during sabbatical, including
-                babel-dual-package, @knighted/specifier, @knighted/duel, and
-                @knighted/module.
+                Transitioned to GrowthLoop via an accelerated offer from an earlier
+                interview process.
               </li>
+            </ul>
+          </article>
+          <article>
+            <h4>Planned Career Break + OSS Development</h4>
+            <h5>June 2023 &ndash; July 2024</h5>
+            <ul>
+              <li>
+                Took a planned personal sabbatical focused on childcare while maintaining
+                active OSS development and technical depth.
+              </li>
+              <li>Built and maintained OSS tooling projects during this period.</li>
               <li>
                 Developed{' '}
                 <a
@@ -194,14 +211,14 @@ export default function Resume() {
                 >
                   try.busmap.online
                 </a>{' '}
-                during sabbatical, a full-stack transit web app with map-based UX and
-                real-time arrivals using React, Express, PostgreSQL, Redis, and Docker.
+                as a full-stack transit web app with map-based UX and real-time arrivals
+                using React, Express, PostgreSQL, Redis, and Docker.
               </li>
             </ul>
           </article>
           <article>
-            <h4>PowerSchool (acquired Headed2) / Sr. Software Engineer II</h4>
-            <h5>June 2022 &ndash; June 2023, Folsom, CA</h5>
+            <h4>PowerSchool (acquired Headed2) / Sr. Software Engineer</h4>
+            <h5>July 2021 &ndash; June 2023, Sparkill, NY &amp; Folsom, CA</h5>
             <ul>
               <li>
                 Built a{' '}
@@ -216,12 +233,6 @@ export default function Resume() {
                 ResizeObserver scaling, fixed-stack undo/redo, and Blob/Data URL
                 serialization.
               </li>
-            </ul>
-          </article>
-          <article>
-            <h4>Headed2 / Sr. Software Engineer</h4>
-            <h5>July 2021 &ndash; June 2022, Sparkill, NY</h5>
-            <ul>
               <li>
                 Built the responsive K-12 home page + registration, with 50-state
                 customization and modal/standalone flows.
@@ -230,7 +241,7 @@ export default function Resume() {
           </article>
           <article>
             <h4>Teladoc Health (acquired InTouch Health) / Sr. Software Engineer</h4>
-            <h5>June 2020 &ndash; July 2021, Purchase, NY</h5>
+            <h5>July 2018 &ndash; July 2021, Santa Barbara, CA &amp; Purchase, NY</h5>
             <ul>
               <li>
                 Built hospital administrator dashboard experiences for operational
@@ -243,16 +254,6 @@ export default function Resume() {
             </ul>
           </article>
           <article>
-            <h4>InTouch Health / Sr. Software Engineer (Web Frontend)</h4>
-            <h5>July 2018 &ndash; June 2020, Santa Barbara, CA</h5>
-            <ul>
-              <li>
-                Grew the monorepo to eleven contributors across two teams and multiple web
-                apps.
-              </li>
-            </ul>
-          </article>
-          <article>
             <h4>Tenable / Sr. Software Engineer</h4>
             <h5>March 2016 &ndash; July 2018, Columbia, MD</h5>
             <ul>
@@ -261,9 +262,8 @@ export default function Resume() {
                 visibility into risk and remediation status for engineering teams.
               </li>
               <li>
-                Led a monorepo modernization (Yarn Workspaces, Webpack, Gulp, React,
-                Redux) and built a Hapi-based middleware + JSON-schema-driven API mock
-                service.
+                Led monorepo modernization (Yarn Workspaces, Webpack, React/Redux) and
+                built a Hapi middleware plus JSON-schema-driven API mock service.
               </li>
             </ul>
           </article>
