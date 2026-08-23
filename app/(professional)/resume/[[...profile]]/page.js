@@ -43,7 +43,7 @@ function resolveProfileSlug(profileSegments) {
 }
 
 function buildDynamicResumeUrl(profileSlug) {
-  return `/resume/${profileSlug}`
+  return profileSlug === defaultProfileSlug ? '/resume' : `/resume/${profileSlug}`
 }
 
 function RichBullet({ bullet }) {
