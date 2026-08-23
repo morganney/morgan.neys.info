@@ -172,6 +172,11 @@ export default function Resume() {
                 transaction-based validation to catch schema regressions early.
               </li>
               <li>
+                Partnered with DevOps to move frontend bundles and static assets to a
+                global CDN, improving browser caching and page-load reliability, and
+                making rollbacks safer through uniquely versioned asset URLs.
+              </li>
+              <li>
                 Engineered a real-time data-mapping engine with React Flow and PostgreSQL,
                 using an indexed materialized view plus since_token polling to reduce
                 server load and UI re-renders.
