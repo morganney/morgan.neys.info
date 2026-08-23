@@ -15,7 +15,3 @@ export const PROFILE_IDENTITY = {
     'https://github.com/knightedcodemonkey',
   ],
 }
-
-export function isValidProfileKey(key, profileMap) {
-  return typeof key === 'string' && key in profileMap
-}

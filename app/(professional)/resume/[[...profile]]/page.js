@@ -178,13 +178,13 @@ export default async function ResumePage({ params }) {
             </a>
           </h1>
           <h2>
-            <a target="_blank" href={PROFILE_IDENTITY.linkedin}>
+            <a target="_blank" rel="noopener noreferrer" href={PROFILE_IDENTITY.linkedin}>
               <span>{profile.title}</span>
               <span>{profile.tagline}</span>
             </a>
           </h2>
           <p>
-            <a target="_blank" href={dynamicResumeUrl}>
+            <a target="_blank" rel="noopener noreferrer" href={dynamicResumeUrl}>
               morgan.neys.info/resume
             </a>
           </p>
