@@ -50,8 +50,7 @@ export const browserProfile = {
         items: [
           {
             label: 'Build & Test',
-            value:
-              'Vite, PostCSS, Sass, Vanilla Extract, Vitest (browser mode), Playwright',
+            value: 'Vite, PostCSS, Sass, Vanilla Extract, Vitest, Jest, Playwright',
           },
           {
             label: 'Workflow',
@@ -101,6 +100,15 @@ export const browserProfile = {
             },
             after:
               ' leveraging the native SpeechSynthesis Web API with synchronized text highlighting, keyboard-accessible voice controls, and inclusive reading flow design.',
+          },
+          {
+            before: 'Developed the ',
+            link: {
+              href: 'https://tx.headed2.com/',
+              label: 'Headed2 home page and registration experience',
+            },
+            after:
+              ' with fully responsive layouts, state-specific homepage variants across all 50 states, and dual registration delivery as either a modal flow or standalone page.',
           },
           'Implemented a HiDPI Canvas drawing tool using native ResizeObserver APIs for pixel-accurate scaling, a fixed-stack undo/redo model, and Blob/Data URL serialization for durable state across sessions.',
         ],
