@@ -89,7 +89,7 @@ export const browserProfile = {
         ],
       },
       {
-        title: 'PowerSchool / Web Developer',
+        title: 'PowerSchool / Frontend Developer',
         date: 'July 2021 - June 2023, Sparkill, NY & Folsom, CA',
         bullets: [
           {
@@ -114,14 +114,14 @@ export const browserProfile = {
         ],
       },
       {
-        title: 'Teladoc Health / Web Developer',
+        title: 'Teladoc Health / Frontend Developer',
         date: 'July 2018 - July 2021, Santa Barbara, CA & Purchase, NY',
         bullets: [
           'Built accessible hospital administrator dashboards and implemented dynamic import boundaries for safe composition of independent frontend modules within a single browser runtime.',
         ],
       },
       {
-        title: 'Tenable / Web Developer',
+        title: 'Tenable / Frontend Developer',
         date: 'March 2016 - July 2018, Columbia, MD',
         bullets: [
           'Delivered accessible security vulnerability interfaces with clear visual hierarchy and introduced schema-driven API mocks to eliminate local development friction.',
