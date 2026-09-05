@@ -6,7 +6,7 @@ export const saasProfile = {
   sectionOrder: ['summary', 'skills', 'experience', 'oss', 'education', 'awards'],
   sections: {
     summary:
-      'Senior frontend engineer with deep full-stack and infrastructure expertise, specializing in UI/UX architecture, developer tooling, performance-oriented systems design, and dashboard development across security, healthcare, fintech, and transit domains. Delivers production-grade web products end-to-end, from platform foundations to customer-facing experiences, using AI-assisted workflows to accelerate execution.',
+      'Senior frontend engineer who builds and maintains complex web applications, from customer-facing interfaces to the tooling and services behind them. Experienced with React, TypeScript, Node.js, databases, automated testing, and delivery pipelines across healthcare, security, financial, and transit products. Uses AI-assisted development thoughtfully to move work forward while keeping code reliable and maintainable.',
     skills: [
       {
         title: 'Frontend',
@@ -158,7 +158,27 @@ export const saasProfile = {
             after:
               ', a high-performance AST traversal utility for the SWC ecosystem with strong community adoption for compiler-adjacent workflows.',
           },
-          'Created @knighted/duel and @knighted/specifier to automate dual ESM/CJS builds and module specifier rewrites, reducing interoperability friction in complex Node.js environments.',
+          {
+            segments: [
+              { text: 'Created ' },
+              {
+                link: {
+                  href: 'https://github.com/knightedcodemonkey/duel',
+                  label: '@knighted/duel',
+                },
+              },
+              { text: ' and ' },
+              {
+                link: {
+                  href: 'https://github.com/knightedcodemonkey/specifier',
+                  label: '@knighted/specifier',
+                },
+              },
+              {
+                text: ' to automate dual ESM/CJS builds and module specifier rewrites, reducing interoperability friction in complex Node.js environments.',
+              },
+            ],
+          },
         ],
       },
     ],

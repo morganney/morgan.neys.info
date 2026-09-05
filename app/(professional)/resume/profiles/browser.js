@@ -2,27 +2,28 @@ export const browserProfile = {
   key: 'browser',
   label: 'Browser',
   title: 'Frontend Developer',
-  tagline: 'Web Standards, Core Production',
+  tagline: 'Web Standards, Browser Platform',
   sectionOrder: ['summary', 'skills', 'oss', 'experience', 'education', 'awards'],
   sections: {
     summary:
-      'Veteran web craftsman specializing in the browser as a platform — semantic markup, CSS layout systems, native DOM APIs, and runtime performance. Builds accessible, fast, and layout-resilient interfaces using standards-based code, with an emphasis on WCAG accessibility and durable delivery over scaling metrics.',
+      'Veteran web craftsman specializing in the browser as a platform — semantic markup, CSS layout systems, native DOM APIs, and runtime performance. Builds fast, layout-resilient interfaces using standards-based code, with careful attention to WCAG accessibility, maintainability, and user experience.',
     skills: [
       {
         title: 'Platform Fundamentals',
         items: [
           {
             label: 'HTML',
-            value: 'HTML5 — semantic structure, ARIA, SEO, WCAG-aligned markup',
+            value: 'Semantic HTML — accessible structure, forms, ARIA, metadata, SEO',
           },
           {
-            label: 'CSS Layout',
-            value: 'CSS3 — Grid, Flexbox, Custom Properties, cascade, layout composition',
-          },
-          {
-            label: 'JS / TS',
+            label: 'CSS',
             value:
-              'Vanilla JavaScript (ES6+), TypeScript — strict types, native DOM/Web APIs',
+              'Modern CSS — Grid, Flexbox, Custom Properties, cascade, layout composition',
+          },
+          {
+            label: 'JS',
+            value:
+              'JavaScript (ES6+) — TypeScript, DOM/Web APIs, async programming, browser event model, ES modules',
           },
           {
             label: 'Components',
@@ -49,12 +50,16 @@ export const browserProfile = {
         title: 'Core Tooling',
         items: [
           {
+            label: 'Libraries',
+            value: 'React, React Query, Base UI, Material UI, React Flow, Zustand',
+          },
+          {
             label: 'Build & Test',
-            value: 'Vite, PostCSS, Sass, Vanilla Extract, Vitest, Jest, Playwright',
+            value: 'Vite, Webpack, Sass, Vanilla Extract, Vitest, Jest, Playwright',
           },
           {
             label: 'Workflow',
-            value: 'Agentic coding workflows, AI-assisted implementation',
+            value: 'AI-assisted development, code review, testing, and debugging',
           },
         ],
       },
@@ -161,13 +166,13 @@ export const browserProfile = {
               ', a minimal reference for CDN-consumable custom elements with strict HTML/CSS/JS separation, Declarative Shadow DOM, and side-effect-free registration patterns.',
           },
           {
-            before: 'Built ',
+            before: 'Published ',
             link: {
-              href: 'https://github.com/morganney/swc-walk',
-              label: '@morganney/swc-walk',
+              href: 'https://github.com/morganney/react-stock-ticker',
+              label: 'react-stock-ticker',
             },
             after:
-              ', a traversal utility adopted in compiler-adjacent workflows where runtime correctness and low overhead both matter.',
+              ', a TypeScript React component for animating live price changes, available on npm with a CDN-ready demo and cross-browser Intl formatting support.',
           },
         ],
       },
