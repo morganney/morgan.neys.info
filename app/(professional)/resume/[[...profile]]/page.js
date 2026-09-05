@@ -51,6 +51,27 @@ function RichBullet({ bullet }) {
     return <>{bullet}</>
   }
 
+  if (bullet.segments) {
+    return (
+      <>
+        {bullet.segments.map((segment, index) =>
+          segment.link ? (
+            <a
+              key={segment.link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={segment.link.href}
+            >
+              {segment.link.label}
+            </a>
+          ) : (
+            <span key={index}>{segment.text}</span>
+          )
+        )}
+      </>
+    )
+  }
+
   const before = bullet.before ?? ''
   const after = bullet.after ?? ''
 
