@@ -1,11 +1,13 @@
 import { browserProfile } from '../profiles/browser'
 import { saasProfile } from '../profiles/saas'
+import { marketingProfile } from '../profiles/marketing'
 import { PROFILE_DEFAULT_KEY, PROFILE_IDENTITY } from '../profiles/shared'
 import DevProfileSwitcher from './switcher'
 
 const PROFILE_ROUTES = [
   { slug: '9f3a7c1e', profile: saasProfile },
   { slug: '2b8d4e6a', profile: browserProfile },
+  { slug: 'c47f91d5', profile: marketingProfile },
 ]
 
 const profileMap = Object.fromEntries(
