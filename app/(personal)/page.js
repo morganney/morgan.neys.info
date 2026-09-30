@@ -23,7 +23,7 @@ export default function Home() {
             When I&apos;m not spending time with my <Link href="/family">family</Link>, I
             enjoy working on my <a href="https://github.com/morganney">GitHub</a>{' '}
             projects, or listening to <Link href="/music">music</Link>
-            {' while I exercise.'}
+            {' while I exercise. '}
             At times I&apos;ve been compelled to do some{' '}
             <a href="https://github.com/knightedcodemonkey/metrics">writing</a>. I&apos;m
             a realist who hopes for{' '}
