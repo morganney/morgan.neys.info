@@ -15,7 +15,10 @@ export const saasProfile = {
             label: 'Core',
             value: 'JavaScript (ES6+), TypeScript, HTML, CSS, React, Next.js',
           },
-          { label: 'State & Data', value: 'GraphQL, React Query, Zustand, Redux' },
+          {
+            label: 'State & Data',
+            value: 'GraphQL, React Query, Zustand, Redux, React Hook Form, Zod',
+          },
           { label: 'UI & Visualization', value: 'SVG, HTML5 Canvas, D3.js, React Flow' },
           {
             label: 'Styling',
@@ -68,8 +71,7 @@ export const saasProfile = {
     ],
     experience: [
       {
-        title:
-          'GrowthLoop / Senior Frontend Engineer (Full-Stack & Infrastructure Focus)',
+        title: 'GrowthLoop / Senior Frontend Engineer',
         date: 'February 2025 - Present',
         bullets: [
           "Led development of GrowthLoop's React component library (Hylo), establishing typed token contracts, theme/cascade-layer styling architecture, WCAG-conscious primitives, and a shared Vite/Storybook pipeline for consistent UI across product lines.",
