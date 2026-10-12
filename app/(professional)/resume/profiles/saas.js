@@ -6,7 +6,7 @@ export const saasProfile = {
   sectionOrder: ['summary', 'skills', 'experience', 'oss', 'education', 'awards'],
   sections: {
     summary:
-      'Senior frontend engineer who builds and maintains complex web applications, from customer-facing interfaces to the tooling and services behind them. Experienced with React, TypeScript, Node.js, databases, automated testing, and delivery pipelines across healthcare, security, financial, and transit products. Uses AI-assisted development thoughtfully to move work forward while keeping code reliable and maintainable.',
+      "I build frontend systems end-to-end — not just the screens people see, but the testing infrastructure and delivery pipelines behind them. Over 10+ years I've done that across healthcare, security, financial, and transit products, mostly in React and TypeScript. AI tools are part of my daily workflow now, but I still read and own everything before it ships.",
     skills: [
       {
         title: 'Frontend',
