@@ -6,7 +6,7 @@ export const saasProfile = {
   sectionOrder: ['summary', 'skills', 'experience', 'oss', 'education', 'awards'],
   sections: {
     summary:
-      "I build frontend systems end-to-end — not just the screens people see, but the testing infrastructure and delivery pipelines behind them. Over 10+ years I've done that across healthcare, security, financial, and transit products, mostly in React and TypeScript. AI tools are part of my daily workflow now, but I still read and own everything before it ships.",
+      "I build frontend systems end-to-end — not just the screens people see, but the testing infrastructure and delivery pipelines behind them. For over 10 years, I've done that across healthcare, security, financial, and transit products, mostly in React and TypeScript. AI tools are part of my daily workflow now, but I still read and own everything before it ships.",
     skills: [
       {
         title: 'Frontend',
