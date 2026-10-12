@@ -6,7 +6,7 @@ export const saasProfile = {
   sectionOrder: ['summary', 'skills', 'experience', 'oss', 'education', 'awards'],
   sections: {
     summary:
-      'Senior frontend engineer who builds and maintains complex web applications, from customer-facing interfaces to the tooling and services behind them. Experienced with React, TypeScript, Node.js, databases, automated testing, and delivery pipelines across healthcare, security, financial, and transit products. Uses AI-assisted development thoughtfully to move work forward while keeping code reliable and maintainable.',
+      "I build frontend systems end-to-end — not just the screens people see, but the testing infrastructure and delivery pipelines behind them. For over 10 years, I've done that across healthcare, security, financial, and transit products, mostly in React and TypeScript. AI tools are part of my daily workflow now, but I still read and own everything before it ships.",
     skills: [
       {
         title: 'Frontend',
@@ -15,7 +15,10 @@ export const saasProfile = {
             label: 'Core',
             value: 'JavaScript (ES6+), TypeScript, HTML, CSS, React, Next.js',
           },
-          { label: 'State & Data', value: 'GraphQL, React Query, Zustand, Redux' },
+          {
+            label: 'State & Data',
+            value: 'GraphQL, React Query, Zustand, Redux, React Hook Form, Zod',
+          },
           { label: 'UI & Visualization', value: 'SVG, HTML5 Canvas, D3.js, React Flow' },
           {
             label: 'Styling',
@@ -68,8 +71,7 @@ export const saasProfile = {
     ],
     experience: [
       {
-        title:
-          'GrowthLoop / Senior Frontend Engineer (Full-Stack & Infrastructure Focus)',
+        title: 'GrowthLoop / Senior Frontend Engineer',
         date: 'February 2025 - Present',
         bullets: [
           "Led development of GrowthLoop's React component library (Hylo), establishing typed token contracts, theme/cascade-layer styling architecture, WCAG-conscious primitives, and a shared Vite/Storybook pipeline for consistent UI across product lines.",
